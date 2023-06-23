@@ -1,0 +1,3 @@
+
+Useful info:
+https://randomnerdtutorials.com/esp32-pinout-reference-gpios/
