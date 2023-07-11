@@ -2140,6 +2140,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 9aa3cf2f-9c1b-4701-8345-a33ba3e266fc)
   )
+  (text "CHECK THIS DIODE: WAS INSTALLED BACKWARDS" (at 63.5 163.83 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid a99cd5b1-386c-4218-a318-53bcb101b803)
+  )
   (text "This configuration is designed to take either\nan IR phototransistor or an IR\nreciever with integrated logic,\nlike the kind used on remotes.\nRemove the resistor and change jumpers\nto use this config."
     (at 232.41 83.82 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
