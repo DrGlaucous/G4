@@ -1,3 +1,7 @@
 
 Useful info:
 https://randomnerdtutorials.com/esp32-pinout-reference-gpios/
+
+how to wire and use a 2 pin IR photodiode:
+https://youtu.be/_mOF1JXo1DU
+https://forum.arduino.cc/t/2-pin-infrared-receiver-closed/304086/3

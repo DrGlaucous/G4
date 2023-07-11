@@ -1,0 +1,40 @@
+The root ini file sets up the default config.
+this config is called [platformio]
+
+it specifies:
+src_dir -- source directory
+boards_dir -- board directory (holds upload settings for each board)
+default_envs -- what boiard to choose by default
+include_dir -- include a subdirectory to build off (mainly good for marlin, which is massive)
+extra_configs -- specifies some ini files where parts of the sources should be added or removed based on what type of board thei firmware is being uploaded to
+
+default_src_filter -- specifies what files and directories should be added or removed from the build list by default
+this list is changed in the subdirectories
+
+each subdirectory is divided by processor, and further by individual board according to their features
+
+
+
+
+
+
+
+the ESP32's memory can be partitioned accoridng to an partition table loaded from a CSV
+
+
+
+
+
+
+
+
+
+
+
+
+the marlin directroy has an config.ini file,
+this file specifies printer settings in a slightly less user-friendly way than configuration.h
+this is probably used for re-configuring files on the fly after the firmware has been uploaded...
+
+
+
