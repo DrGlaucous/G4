@@ -5,3 +5,94 @@ https://randomnerdtutorials.com/esp32-pinout-reference-gpios/
 how to wire and use a 2 pin IR photodiode:
 https://youtu.be/_mOF1JXo1DU
 https://forum.arduino.cc/t/2-pin-infrared-receiver-closed/304086/3
+
+
+
+how u8g2 pages work:
+with a 128x64 pixel display, the program will
+split the bitmap into 8 horizontal slivers to be pushed
+to the display, each 8 pixels tall.
+Likely, this uses page rows that are a multiple of 8, so taller LCDs will have more pages
+
+API refrence:
+https://github.com/olikraus/u8g2/wiki/u8g2reference#drawbox
+https://github.com/olikraus/u8g2/wiki/fntlist12
+
+
+
+
+left ESC is D23
+right ESC is D18
+
+
+
+Resources for RMT:
+https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/peripherals/rmt.html
+https://github.com/espressif/esp-idf/issues/11768
+https://github.com/espressif/esp-idf/blob/master/components/driver/test_apps/rmt/main/test_rmt_rx.c#L43
+https://esp32.com/viewtopic.php?t=3772
+https://stackoverflow.com/questions/56127996/how-to-receive-long-data-frame-by-esp32-rmt-ringbuffer
+
+
+rmt_tx_channel_config_t::with_dma //what does this do? appearently, it takes work away from the CPU...
+
+rmt_tx_channel_config_t::io_od_mode //open drain mode
+rmt_tx_channel_config_t::io_loop_back //use with this
+rmt_rx_channel_config_t::io_loop_back
+
+
+how I think the dshot send flow works:
+
+every time sendThrottleValue is sent, a dhsot packet is transmitted over RMT
+they do not need to happen back-to-back, but we need to keep sending at least some in order
+to keep the ESC alive
+
+how I want it to work (if data needs to be sent uber frequently):
+send initial data:
+attach callback to RMT loopback pin, set it to call when it gets 32 bits (the 16 we send and the 16 we get back)
+ship this data out and send the next RMT packet...
+
+
+
+or...
+
+send a packet and quick enable a callback to the RMT RX channel
+callback set for 16 bits (because it will be started after we send the first packet)
+
+on callback, we cache the data and disable the callback
+
+
+receiver callback gets signals between an min and max timescale
+signals larger than these are considered stop bits
+when a stop bit is hit, rmt_receive() must be called a second time
+
+
+
+so...
+send MY data, call rmt_receive() to prepare for data coming back
+when callback triggers, relocate data to buffer to get gotten later, 
+
+repeat as needed (still don't know if the user tells the RMT each time they want to send, or
+if it does it automatically on a timer)
+
+if it is the former, we put the RX prep at the end of the function.
+if it is the latter, we set up an TX callback when it finishes transmission.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
