@@ -1,0 +1,175 @@
+<mxfile host="app.diagrams.net" modified="2023-08-06T01:22:44.589Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="wqdnQ442AhUS8dRFf-wg" version="21.6.6" type="device" pages="4">
+  <diagram name="Main" id="S1vQzTJ0WQg2u6IEPUsZ">
+    <mxGraphModel dx="1238" dy="815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="q971Q7M62E0JYWFewIVm-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="q971Q7M62E0JYWFewIVm-6" target="q971Q7M62E0JYWFewIVm-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q971Q7M62E0JYWFewIVm-6" value="Start" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" parent="1" vertex="1">
+          <mxGeometry x="80" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q971Q7M62E0JYWFewIVm-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="q971Q7M62E0JYWFewIVm-8" target="q971Q7M62E0JYWFewIVm-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q971Q7M62E0JYWFewIVm-8" value="Read config, init pins" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q971Q7M62E0JYWFewIVm-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="q971Q7M62E0JYWFewIVm-10" target="q971Q7M62E0JYWFewIVm-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q971Q7M62E0JYWFewIVm-10" value="Enter loop" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q971Q7M62E0JYWFewIVm-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="q971Q7M62E0JYWFewIVm-13" target="q971Q7M62E0JYWFewIVm-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q971Q7M62E0JYWFewIVm-13" value="Get input" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q971Q7M62E0JYWFewIVm-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="q971Q7M62E0JYWFewIVm-15" target="q971Q7M62E0JYWFewIVm-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q971Q7M62E0JYWFewIVm-15" value="Process flywheels" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q971Q7M62E0JYWFewIVm-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="q971Q7M62E0JYWFewIVm-17" target="q971Q7M62E0JYWFewIVm-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q971Q7M62E0JYWFewIVm-17" value="Process pusher" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q971Q7M62E0JYWFewIVm-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="q971Q7M62E0JYWFewIVm-18" target="q971Q7M62E0JYWFewIVm-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="270" y="630" />
+              <mxPoint x="270" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q971Q7M62E0JYWFewIVm-18" value="Update Screen" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q971Q7M62E0JYWFewIVm-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="q971Q7M62E0JYWFewIVm-21" target="q971Q7M62E0JYWFewIVm-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q971Q7M62E0JYWFewIVm-21" value="Run Background Processes (timer, beeper, etc)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ufhu8UNwI29cVYtVg4LL-1" value="Needed classes:&lt;br&gt;Flywheel&lt;br&gt;Pusher&lt;br&gt;Menu&lt;br&gt;Settings" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="360" y="80" width="250" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="DsU-bntBNaJ-lSvKhOVX-2" value="&lt;h1&gt;Feature List&lt;/h1&gt;&lt;p&gt;SIngle fire:&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="260" width="310" height="210" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="bsquM2K0iheDTah16RhR" name="BKProcess">
+    <mxGraphModel dx="961" dy="633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mD_ZFdqCyU3dgWbyYu75-1" value="&lt;h1&gt;Background Process handler&lt;/h1&gt;&lt;p&gt;Some things like ESC pulses (if D-SHOT) and countdown timers (like the global tick counter) or the buzzer need to be run every cycle. That happens here each box here will represent its own globally available class&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="10" y="10" width="410" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="mD_ZFdqCyU3dgWbyYu75-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.494;entryY=-0.065;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="mD_ZFdqCyU3dgWbyYu75-3" target="mD_ZFdqCyU3dgWbyYu75-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mD_ZFdqCyU3dgWbyYu75-3" value="Enter" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" parent="1" vertex="1">
+          <mxGeometry x="80" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WmsKazbBQj7d4qPn1dMW-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="mD_ZFdqCyU3dgWbyYu75-5" target="mD_ZFdqCyU3dgWbyYu75-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mD_ZFdqCyU3dgWbyYu75-5" value="GetTicks()" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mD_ZFdqCyU3dgWbyYu75-6" value="Return" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" parent="1" vertex="1">
+          <mxGeometry x="80" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WmsKazbBQj7d4qPn1dMW-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="mD_ZFdqCyU3dgWbyYu75-8" target="mD_ZFdqCyU3dgWbyYu75-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mD_ZFdqCyU3dgWbyYu75-8" value="Buzzer()" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mD_ZFdqCyU3dgWbyYu75-9" value="Everything in the arduino core should have millis(), but this makes it one step more general" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="220" y="190" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WmsKazbBQj7d4qPn1dMW-1" value="The buzzer will count down with this class, it can be enabled from anywhere, but it&#39;s time-of-life will be determined here" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="230" y="270" width="240" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="3Bh--NBAPYmBV9mKjsxZ" name="Input">
+    <mxGraphModel dx="961" dy="633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MHEMHQJvOe5p6df1pw86-2" value="&lt;h1&gt;Input abstraction Layer&lt;/h1&gt;&lt;p&gt;Input pins are mapped to variables that can be used by all platforms and configurations. This will allow things that may not be connected to be processed without much difference.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="10" y="10" width="330" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="MHEMHQJvOe5p6df1pw86-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.494;entryY=-0.065;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="MHEMHQJvOe5p6df1pw86-3" target="MHEMHQJvOe5p6df1pw86-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MHEMHQJvOe5p6df1pw86-3" value="Enter" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" parent="1" vertex="1">
+          <mxGeometry x="80" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MHEMHQJvOe5p6df1pw86-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="MHEMHQJvOe5p6df1pw86-4" target="MHEMHQJvOe5p6df1pw86-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MHEMHQJvOe5p6df1pw86-4" value="Map inputs" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MHEMHQJvOe5p6df1pw86-6" value="Return" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" parent="1" vertex="1">
+          <mxGeometry x="80" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MHEMHQJvOe5p6df1pw86-9" value="This will be an input class with readonly members (see: https://stackoverflow.com/questions/5424042/class-variables-public-access-read-only-but-private-access-read-write)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="210" y="190" width="330" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="68GvKNVA1mP3gbJ24CfT" name="Flywheel Process">
+    <mxGraphModel dx="1238" dy="815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2d1kuuoPiERxN79Q7k8u-1" value="&lt;h1&gt;Flywheel process&lt;/h1&gt;&lt;p&gt;Will have its own ticker function because some types of motors (namely DShot) need to be sent manually each frame. Also (Namely DShot) telemetry must be collected every frame&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="10" y="10" width="330" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="2d1kuuoPiERxN79Q7k8u-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.494;entryY=-0.065;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="2d1kuuoPiERxN79Q7k8u-3" target="2d1kuuoPiERxN79Q7k8u-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2d1kuuoPiERxN79Q7k8u-3" value="Enter" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" parent="1" vertex="1">
+          <mxGeometry x="80" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2d1kuuoPiERxN79Q7k8u-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="2d1kuuoPiERxN79Q7k8u-5" target="2d1kuuoPiERxN79Q7k8u-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2d1kuuoPiERxN79Q7k8u-5" value="Drive Motor" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2d1kuuoPiERxN79Q7k8u-6" value="Return" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" parent="1" vertex="1">
+          <mxGeometry x="80" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2d1kuuoPiERxN79Q7k8u-7" value="Set the motor output with the latest throttle value" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="210" y="190" width="330" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2d1kuuoPiERxN79Q7k8u-8" value="Process speed" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2d1kuuoPiERxN79Q7k8u-10" value="The motor class with have a HasReachedSpeed() boolean. With closed loop motors, this will look at real throttle values and determine if this has happened, but with dumber motor types, this will be timer based, with the correct delays set in the config file" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="225" y="270" width="400" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="2d1kuuoPiERxN79Q7k8u-11" value="Note: for closed loop motors, we need to relate throttle value to RPM. we need a calibration function for that, and the ability to save the resulting values into ROM. (Also a default function)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="410" y="40" width="240" height="130" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

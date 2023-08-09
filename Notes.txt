@@ -79,20 +79,3 @@ if it is the former, we put the RX prep at the end of the function.
 if it is the latter, we set up an TX callback when it finishes transmission.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

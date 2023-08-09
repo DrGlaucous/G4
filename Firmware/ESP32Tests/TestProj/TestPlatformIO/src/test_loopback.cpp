@@ -16,6 +16,7 @@ typedef struct {
 static bool test_rmt_rx_done_callback(rmt_channel_handle_t channel, const rmt_rx_done_event_data_t *edata, void *user_data)
 {
     Serial.println("Callback gotten");
+    return false;
 }
 
 
