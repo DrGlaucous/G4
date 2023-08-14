@@ -2158,6 +2158,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid dc7d0823-56b4-40d7-b1d9-51cc9f1ccc51)
   )
+  (text "17 = TX2\n16 = RX2" (at 201.93 62.23 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid f2637a51-fcc7-44ad-8c95-f6154ac342cd)
+  )
 
   (label "RevTrg" (at 191.77 62.23 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))

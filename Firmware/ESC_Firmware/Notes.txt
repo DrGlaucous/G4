@@ -1,0 +1,7 @@
+
+FC firmware version:
+# version
+# Betaflight/OMNIBUS 3.1.0 Dec  2 2016 / 16:47:34 (01968ff)
+
+
+STM32F303
