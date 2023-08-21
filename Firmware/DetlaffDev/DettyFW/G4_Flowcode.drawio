@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-06T01:22:44.589Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="wqdnQ442AhUS8dRFf-wg" version="21.6.6" type="device" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-08-18T05:28:52.369Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="bJfc6RJiWIL18IpDF0ng" version="21.6.6" type="device" pages="6">
   <diagram name="Main" id="S1vQzTJ0WQg2u6IEPUsZ">
-    <mxGraphModel dx="1238" dy="815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -61,7 +61,7 @@
         <mxCell id="Ufhu8UNwI29cVYtVg4LL-1" value="Needed classes:&lt;br&gt;Flywheel&lt;br&gt;Pusher&lt;br&gt;Menu&lt;br&gt;Settings" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="360" y="80" width="250" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="DsU-bntBNaJ-lSvKhOVX-2" value="&lt;h1&gt;Feature List&lt;/h1&gt;&lt;p&gt;SIngle fire:&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="DsU-bntBNaJ-lSvKhOVX-2" value="&lt;h1&gt;Feature List&lt;/h1&gt;&lt;p&gt;SIngle fire:&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="470" y="260" width="310" height="210" as="geometry" />
         </mxCell>
       </root>
@@ -135,7 +135,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="68GvKNVA1mP3gbJ24CfT" name="Flywheel Process">
-    <mxGraphModel dx="1238" dy="815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -168,6 +168,28 @@
         </mxCell>
         <mxCell id="2d1kuuoPiERxN79Q7k8u-11" value="Note: for closed loop motors, we need to relate throttle value to RPM. we need a calibration function for that, and the ability to save the resulting values into ROM. (Also a default function)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="410" y="40" width="240" height="130" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="GrL_Apm6GFU2-oQZu7ur" name="PusherProcess">
+    <mxGraphModel dx="1434" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Z2W0BY5XMFeomVGp_JNg-1" value="&lt;h1&gt;Handler&lt;/h1&gt;&lt;p&gt;For all types of backends, we can pass back several push types:&lt;/p&gt;&lt;p&gt;sending a trigger event will initialize one of these modes, and it will run until otherwise specified&lt;/p&gt;&lt;p&gt;full-auto:&lt;/p&gt;&lt;p&gt;speed (speed is unitless, and is mapped from max to the max speed as configured by delay)&lt;/p&gt;&lt;p&gt;burst:&lt;/p&gt;&lt;p&gt;speed + count&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="350" width="390" height="370" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="kuhQbk82_P6Rk2dcyBhM" name="MenuLayout">
+    <mxGraphModel dx="1434" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vCmEoQ4axBjhFHnykl6A-1" value="&lt;h1&gt;Connectome and Menu&lt;/h1&gt;&lt;p&gt;There will be a struct/class that contains all the live settings for the blaster.&lt;/p&gt;&lt;p&gt;The connectome will take input and behave blindly according to these settings.&lt;/p&gt;&lt;p&gt;The menu object will edit these settings. This way, we can have multiple sources of edits (web over http or on the on-board screen) and they will not affect how the connectome functions&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="550" width="410" height="260" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

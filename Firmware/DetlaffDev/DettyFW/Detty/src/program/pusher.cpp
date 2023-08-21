@@ -1,0 +1,237 @@
+
+#include <Arduino.h>
+
+#include "main.h"
+#include "configuration.h"
+#include "pusher.h"
+
+
+//the range of input (full speed = PUSHER_SPEED_MAX)
+#define PUSHER_SPEED_MAX 1024
+#define PUSHER_SPEED_MIN 0
+
+
+
+/// SOLENOID CLASS
+
+solenoidHandler::solenoidHandler(int pinFet, int minExtendTime, int minRetractTime, int maxExtendTime)
+{
+    pin_fet = pinFet;
+    min_extend_time = minExtendTime;
+    max_extend_time = maxExtendTime;
+
+    min_retract_time = minRetractTime;
+    max_retract_time = (max_extend_time / min_extend_time) * min_retract_time;
+
+}
+
+void solenoidHandler::start()
+{
+    pinMode(pin_fet, OUTPUT);
+}
+
+void solenoidHandler::pushFullAuto(int speed)
+{
+    if(speed > PUSHER_SPEED_MAX)
+        speed = PUSHER_SPEED_MAX;
+    else if(speed < PUSHER_SPEED_MIN)
+        speed = PUSHER_SPEED_MIN;
+
+    //find how quickly we need to cycle the solenoid
+    //currently, the code performs a 50/50 duty cycle instead of doing short bursts at a dynamic space
+    //both ON state and OFF state change with speed
+    curr_extend_time = map(speed, PUSHER_SPEED_MIN, PUSHER_SPEED_MAX, min_extend_time, max_extend_time);
+    curr_retract_time = map(speed, PUSHER_SPEED_MIN, PUSHER_SPEED_MAX, min_retract_time, max_retract_time);
+
+    //check for already running operations and stop them
+    if(burst_count > 0)
+        halt();
+
+    begin = true;
+
+}
+
+void solenoidHandler::pushBurst(int speed, unsigned int count)
+{
+    pushFullAuto(speed);
+    burst_count = count;
+}
+
+void solenoidHandler::update()
+{
+
+    unsigned long deltaMillis = millis() - last_millis;
+    last_millis = millis();
+    //don't waste cycles if the time is the same
+    if(deltaMillis == 0)
+        return;
+
+
+    bool fullAuto = false;
+    //started new command or in full-auto mode
+    if(begin == true)
+    {
+        if(burst_count > 0) //we're entering a burst round
+        {
+            begin = false;
+        }
+    }
+
+    //do the pushing
+    if(begin || burst_count > 0)
+    {
+        //time to change states
+        if(countdown_millis -= deltaMillis <= 0)
+        {
+            //if the solenoid is currently OUT
+            if(solenoid_state == true)
+            {
+                --burst_count; //we shot a dart, decrement cycler
+                countdown_millis = curr_retract_time; //setup wait for the retract part
+            }
+            else
+                countdown_millis = curr_extend_time; //setup wait for the extend part
+            //flip-flop the solenoid state
+            solenoid_state = !solenoid_state;
+ 
+        }
+    }
+    else
+        solenoid_state = false; //ensure the solenoid is OFF when nothing is happening
+
+    digitalWrite(pin_fet, solenoid_state);
+
+
+}
+
+void solenoidHandler::halt()
+{
+    begin = false; //stop any potential full-auto or new starts
+    burst_count = 0; //zero out remaining burst time
+}
+
+
+///TODO: the other classes
+
+
+
+//pusher wrapper
+pusherHandler::pusherHandler()
+{
+
+    //initialize the proper backend object
+    switch(PUSHER_TYPE)
+    {
+        case PUSHER_TYPE_BRUSHED:
+            hbHandler = new brushedHBridgeHandler();
+            break;
+        case PUSHER_TYPE_STEPPER:
+            stpHandler = new stepperHandler();
+            break;
+        case PUSHER_TYPE_SOLENOID:
+            solHandler = new solenoidHandler(SO_PIN_FET, SO_MIN_EXT_TIME, SO_MIN_RET_TIME, SO_MAX_EXT_TIME);
+            solHandler->start();
+            break;
+        default:
+        case PUSHER_TYPE_NULL:
+            break;
+    }
+
+}
+
+void pusherHandler::update()
+{
+    //update the correct backend
+    switch(PUSHER_TYPE)
+    {
+        case PUSHER_TYPE_BRUSHED:
+            //hbHandler->update();
+            break;
+        case PUSHER_TYPE_STEPPER:
+            //stpHandler->update();
+            break;
+        case PUSHER_TYPE_SOLENOID:
+            solHandler->update();
+            break;
+        default:
+        case PUSHER_TYPE_NULL:
+            break;
+    }
+
+
+
+}
+
+void pusherHandler::halt()
+{
+    //update the correct backend
+    switch(PUSHER_TYPE)
+    {
+        case PUSHER_TYPE_BRUSHED:
+            //hbHandler->update();
+            break;
+        case PUSHER_TYPE_STEPPER:
+            //stpHandler->update();
+            break;
+        case PUSHER_TYPE_SOLENOID:
+            solHandler->halt();
+            break;
+        default:
+        case PUSHER_TYPE_NULL:
+            break;
+    }
+
+
+
+}
+
+void pusherHandler::pushFullAuto(int speed)
+{
+    //update the correct backend
+    switch(PUSHER_TYPE)
+    {
+        case PUSHER_TYPE_BRUSHED:
+            //hbHandler->pushFullAuto(speed);
+            break;
+        case PUSHER_TYPE_STEPPER:
+            //stpHandler->pushFullAuto(speed);
+            break;
+        case PUSHER_TYPE_SOLENOID:
+            solHandler->pushFullAuto(speed);
+            break;
+        default:
+        case PUSHER_TYPE_NULL:
+            break;
+    }
+
+
+
+}
+
+void pusherHandler::pushBurst(int speed, unsigned int count)
+{
+    //update the correct backend
+    switch(PUSHER_TYPE)
+    {
+        case PUSHER_TYPE_BRUSHED:
+            //hbHandler->pushBurst(speed, count);
+            break;
+        case PUSHER_TYPE_STEPPER:
+            //stpHandler->pushBurst(speed, count);
+            break;
+        case PUSHER_TYPE_SOLENOID:
+            solHandler->pushBurst(speed, count);
+            break;
+        default:
+        case PUSHER_TYPE_NULL:
+            break;
+    }
+
+
+
+}
+
+
+
+
+

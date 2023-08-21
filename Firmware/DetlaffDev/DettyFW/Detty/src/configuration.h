@@ -4,20 +4,16 @@
 
 #include <DShotRMT.h>
 
-//ammo counter
-//voltage+ pin for the reciever diode (not absolutely needed, but saves power as it is only set ON when it is time to read)
-#define IR_REC_POWER 32
-//other side of the diode, measures IR light level
-#define IR_REC_READBACK 35
-//IR emitter LED, not absolutely needed, but it saves wear on the LED and battery if used
-#define IR_EMITTER 33
 
 
-//outputs
+//-------------------------------//
+//------------outputs------------//
+//-------------------------------//
+
 #define SOLENOID 25 // (HIGH=ON)
 #define BUZZER 4 // (HIGH=ON)
 
-//ESCS
+//////////////FLYWHEELS//////////////
 
 #define ESC_TYPE_BRUSHED 1
 #define ESC_TYPE_PWM 2
@@ -30,10 +26,29 @@
 //if ESC_DSHOT_BIDIR is set to true, then this value is ignored
 #define ESC_REV_DELAY 0
 
-//only have the option for this if we have the dshot type
+//MIN and MAX values for each type of motor output
+//for brushed motors, this is the duty cycle of the driver (0-255)
+//for PWM escs, this is the angle of the servo (37-180)
+//for DSHOT, this is the digital values (default: 48-2047)
+#define ESC_OUTPUT_MIN 48
+#define ESC_OUTPUT_MAX 2047
+
+//the RPM the program expects to get from the motor
+//to find most accurate real values for this, motors with telemetry will need to be calibrated
+//(can be closely estimated by multiplying kv by voltage)
+//for motors without telemetry, these value can be set to anything with decent resolution
+#define ESC_RPM_MIN 0
+#define ESC_RPM_MAX 27600
+
+
+//only have the option for this if we have the dshot type,
 #if ESC_TYPE == ESC_TYPE_DSHOT
+    //dshot mode
     #define ESC_DSHOT_MODE DSHOT300
+    //enables eRPM telemetry
     #define ESC_DSHOT_BIDIR false
+    //number of magnet poles the motor has, important for getting real RPM from eRPM
+    #define ESC_DSHOT_MOTOR_POLES 14
 #endif
 
 
@@ -47,9 +62,48 @@
     #define ESC_4
 #endif
 
+//////////////PUSHER//////////////
 
 
-//buttons
+#define PUSHER_TYPE_BRUSHED 0 //not implemented
+#define PUSHER_TYPE_STEPPER 1 //not implemented
+#define PUSHER_TYPE_SOLENOID 2
+#define PUSHER_TYPE_NULL 3
+
+//set the pusher type here
+#define PUSHER_TYPE PUSHER_TYPE_SOLENOID
+
+//set the corresponding defines here. you only need to touch the ones that correspond with PUSHER_TYPE
+//PUSHER_TYPE_BRUSHED
+//the two pins on the h bridge driver
+#define H_PIN_A -1
+#define H_PIN_B -1
+
+//PUSHER_TYPE_STEPPER
+//the pins that control the stepper driver
+#define S_PIN_STEP -1
+#define S_PIN_ENABLE -1
+#define S_PIN_DIRECTION -1
+
+
+//PUSHER_TYPE_SOLENOID
+//the pin that controls the solenoid FET
+#define SO_PIN_FET 25
+//time in ms it takes the solenoid to extend
+#define SO_MIN_EXT_TIME 100
+//time in ms it takes the solenoid to retract
+#define SO_MIN_RET_TIME 100
+//max time the solenoid is allowed to be ON
+#define SO_MAX_EXT_TIME 1000
+
+
+
+//------------------------------//
+//------------inputs------------//
+//------------------------------//
+
+
+//////////////buttons//////////////
 //all buttons will use internal pullup resistors by default
 
 //debounce time in ms
@@ -89,7 +143,18 @@
 #define ENCODER_BUTTON_NC false
 
 
-//display
+//////////////ammo counter//////////////
+//voltage+ pin for the reciever diode (not absolutely needed, but saves power as it is only set ON when it is time to read)
+#define IR_REC_POWER 32
+//other side of the diode, measures IR light level
+#define IR_REC_READBACK 35
+//IR emitter LED, not absolutely needed, but it saves wear on the LED and battery if used
+#define IR_EMITTER 33
+
+
+//-------------------------------//
+//------------display------------//
+//-------------------------------//
 #define I2C_SDA 19
 #define I2C_SCL 22 //for the lolin32, this is also the external LED (LOW = ON with this)
 #define DISPLAY_WIDTH 128

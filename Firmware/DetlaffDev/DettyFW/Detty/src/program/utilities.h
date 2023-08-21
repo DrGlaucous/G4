@@ -23,7 +23,7 @@ class serialHandler
 
 
 //buzzer handler: let's make some noize!
-//currently only supports active buzzers (beep when a signal is applied)
+//currently only supports active buzzers (beep when a voltage is applied, no PWM)
 class buzzerHandler
 {
     public:
