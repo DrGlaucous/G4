@@ -9,6 +9,7 @@ Handles generic user-acutated inputs (things like buttons and such...)
 #include "input.h"
 #include "configuration.h"
 
+#include <Encoder.h>
 
 
 
@@ -50,25 +51,20 @@ inputHandler::inputHandler(void)
         presetC.setPressedState(TRIGGER_NC);
 
 
-        encoderA.attach(ENCODER_A, INPUT_PULLUP);
-        encoderA.interval(DEBOUNCE_TIME);
-        encoderA.setPressedState(TRIGGER_NC);
+        //encoderA.attach(ENCODER_A, INPUT_PULLUP);
+        //encoderA.interval(DEBOUNCE_TIME);
+        //encoderA.setPressedState(TRIGGER_NC);
 
-        encoderB.attach(ENCODER_B, INPUT_PULLUP);
-        encoderB.interval(DEBOUNCE_TIME);
-        encoderB.setPressedState(TRIGGER_NC);
+        //encoderB.attach(ENCODER_B, INPUT_PULLUP);
+        //encoderB.interval(DEBOUNCE_TIME);
+        //encoderB.setPressedState(TRIGGER_NC);
 
         encoderSwitch.attach(ENCODER_BUTTON, INPUT_PULLUP);
         encoderSwitch.interval(DEBOUNCE_TIME);
         encoderSwitch.setPressedState(TRIGGER_NC);
     }
 
-
-
-
-
-
-
+    //nothing to do here for the encoder: everything's been constructed already
 
 }
 
@@ -84,8 +80,8 @@ inputHandler::~inputHandler()
         delete(&presetA);
         delete(&presetB);
         delete(&presetC);
-        delete(&encoderA);
-        delete(&encoderB);
+        //delete(&encoderA);
+        //delete(&encoderB);
         delete(&encoderSwitch);
 
     }
@@ -106,11 +102,16 @@ void inputHandler::update(void)
         presetA.update();
         presetB.update();
         presetC.update();
-        encoderA.update();
-        encoderB.update();
+        //encoderA.update();
+        //encoderB.update();
         encoderSwitch.update();
 
     }
+
+    //update the encoder
+    //last_encoder_val = encoder_val; //not needed if we read and reset, but needed if we don't
+    encoder_val = rotaryEncoder.readAndReset();
+
 
 }
 

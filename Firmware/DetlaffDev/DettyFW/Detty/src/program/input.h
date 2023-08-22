@@ -4,6 +4,11 @@
 #include <Arduino.h>
 #include <Bounce2.h>
 
+//setup encoder stuff here (must be before library)
+#define ENCODER_DO_NOT_USE_INTERRUPTS
+#include <Encoder.h>
+
+#include "configuration.h"
 
 //unused abstraction layer class: if, for some reason, we can't use the bounce2 library,
 //this would make it possible to link any backend into the code, but bounce2 should do everything we need
@@ -60,13 +65,20 @@ class inputHandler
         Bounce2::Button presetA = Bounce2::Button();
         Bounce2::Button presetB = Bounce2::Button();
         Bounce2::Button presetC = Bounce2::Button();
-        Bounce2::Button encoderA = Bounce2::Button();
-        Bounce2::Button encoderB = Bounce2::Button();
+        //Bounce2::Button encoderA = Bounce2::Button();
+        //Bounce2::Button encoderB = Bounce2::Button();
         Bounce2::Button encoderSwitch = Bounce2::Button();
 
+        //rotary encoder values
+        int encoder_val = 0;
+        //int last_encoder_val = 0;
 
     private:
         bool hasBeenInitialzed = false; //prevent more than one initialization
+
+
+        Encoder rotaryEncoder = Encoder(ENCODER_A, ENCODER_B);
+
 
 
 
