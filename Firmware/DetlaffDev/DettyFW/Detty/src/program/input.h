@@ -5,7 +5,7 @@
 #include <Bounce2.h>
 
 //setup encoder stuff here (must be before library)
-#define ENCODER_DO_NOT_USE_INTERRUPTS
+#define ENCODER_DO_NOT_USE_INTERRUPTS //not supported by the ESP32
 #include <Encoder.h>
 
 #include "configuration.h"

@@ -16,6 +16,14 @@ serialHandler gInfo(DEBUG_BAUD_RATE);
 buzzerHandler gBuzzer(BUZZER);
 menuHandler gMenu;
 
+//timer inturrupts to handle input buttons
+hw_timer_t *timer = NULL;
+void IRAM_ATTR handleLoop()
+{
+    gPins.update();
+}
+
+
 void setup() {
     // put your setup code here, to run once:
 
@@ -23,6 +31,12 @@ void setup() {
     gBuzzer.beep_multiple(10, 30, 10);
     //setup2();
     gMenu.start();
+
+    //create inturrupt
+    timer = timerBegin(0, 80, true);
+    timerAttachInterrupt(timer, &handleLoop, true);
+    timerAlarmWrite(timer, 1000, true); // every 0.01 seconds
+    timerAlarmEnable(timer);
 }
 
 void loop() {
@@ -30,7 +44,7 @@ void loop() {
 	//loop2();
     gMenu.update();
 
-    gPins.update();
+    //gPins.update();
     //gMenu.update();
 
     gBuzzer.update();

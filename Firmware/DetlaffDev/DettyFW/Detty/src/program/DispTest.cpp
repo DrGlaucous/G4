@@ -110,11 +110,8 @@ menuHandler::menuHandler(): u8g2(U8G2_R0, U8X8_PIN_NONE , I2C_SCL, I2C_SDA){ }
 
 void menuHandler::start()
 {
-    gInfo.send_message_line("init");
     InitTrigTbl();
-    gInfo.send_message_line("ln2");
     u8g2.begin();
-    gInfo.send_message_line("ln3");
 }
 
 void menuHandler::update()
@@ -122,17 +119,38 @@ void menuHandler::update()
     static int value = 47;
     static int lastValue = 0;
 
-    value += gPins.encoder_val;
-    if(lastValue == value)
-        return;
-    lastValue = value;
 
-    u8g2.firstPage();
-	do
-	{
-		//u8g2.setFont(u8g2_font_helvB12_tr);
-		//u8g2.drawStr(0,24,"Hello World!");
-		drawDialGauge(&u8g2, DISPLAY_HEIGHT/2, DISPLAY_HEIGHT/2, 24, 0, 100, value);
-		drawBarGauge(&u8g2, false, DISPLAY_WIDTH - 32, 4, 16, DISPLAY_HEIGHT - 8, 0, 100, value);
-	} while (u8g2.nextPage());
+    value += gPins.encoder_val;
+    if(lastValue != value)
+    {
+        lastValue = value;
+        drawing_screen = true;
+        first_page = true;
+        Serial.println(value);
+    }
+
+    if(drawing_screen == false)
+        return;
+
+
+
+    if(first_page)
+    {
+        first_page = false;
+        u8g2.firstPage();
+        screenDrawLoop(value);
+    }
+    else if(u8g2.nextPage())
+        screenDrawLoop(value);
+    else
+        drawing_screen = false;
+
+
+}
+
+//do all of the actual screen drawing stuff in here
+void menuHandler::screenDrawLoop(int value)
+{
+    drawDialGauge(&u8g2, DISPLAY_HEIGHT/2, DISPLAY_HEIGHT/2, 24, 0, 100, value/4);
+	drawBarGauge(&u8g2, false, DISPLAY_WIDTH - 32, 4, 16, DISPLAY_HEIGHT - 8, 0, 100, value/4);
 }
