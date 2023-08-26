@@ -20,8 +20,6 @@ class serialHandler
 };
 
 
-
-
 //buzzer handler: let's make some noize!
 //currently only supports active buzzers (beep when a voltage is applied, no PWM)
 class buzzerHandler
@@ -54,5 +52,23 @@ class buzzerHandler
 };
 
 
+//contains lightweight implementations of sin() and cos() via lookup table
+//unit circle represented with 256 degrees and a radius of +-512
+class trigHandler
+{
+    //guess what? TWO_PI is already defined in Arduino.h!
+    //#define TWO_PI 6.2831998
+
+    public:
+    trigHandler();
+    short GetSin(unsigned char deg);
+    short GetCos(unsigned char deg);
+
+    private:
+    short sinTbl[0x100];
+    
+
+
+};
 
 

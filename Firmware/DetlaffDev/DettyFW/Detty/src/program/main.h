@@ -14,7 +14,7 @@ extern flywheelHandler gFlywheel;
 extern pusherHandler gPusher;
 extern serialHandler gInfo;
 extern buzzerHandler gBuzzer;
-
+extern trigHandler gTrig;
 
 
 

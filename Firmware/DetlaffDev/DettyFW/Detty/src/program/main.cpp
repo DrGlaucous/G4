@@ -6,7 +6,7 @@
 #include "utilities.h"
 #include "flywheels.h"
 #include "pusher.h"
-//#include "display.h"
+#include "display.h"
 #include "DispTest.h"
 
 inputHandler gPins;
@@ -15,21 +15,18 @@ pusherHandler gPusher;
 serialHandler gInfo(DEBUG_BAUD_RATE);
 buzzerHandler gBuzzer(BUZZER);
 menuHandler gMenu;
+trigHandler gTrig; //trigonometry
 
-//timer inturrupts to handle input buttons
+//timer inturrupts to handle input buttons (actually just the encoder)
 hw_timer_t *timer = NULL;
 void IRAM_ATTR handleLoop()
 {
-    gPins.update();
+    gPins.update_encoder();
 }
 
 
 void setup() {
     // put your setup code here, to run once:
-
-    gInfo.send_message("weee");
-    gBuzzer.beep_multiple(10, 30, 10);
-    //setup2();
     gMenu.start();
 
     //create inturrupt
@@ -37,15 +34,17 @@ void setup() {
     timerAttachInterrupt(timer, &handleLoop, true);
     timerAlarmWrite(timer, 1000, true); // every 0.01 seconds
     timerAlarmEnable(timer);
+
+    gInfo.send_message("weee");
+    gBuzzer.beep_multiple(10, 30, 10);
+
 }
 
 void loop() {
     // put your main code here, to run repeatedly:
 	//loop2();
+    gPins.update();
     gMenu.update();
-
-    //gPins.update();
-    //gMenu.update();
 
     gBuzzer.update();
 	gFlywheel.update();

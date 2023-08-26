@@ -55,6 +55,9 @@ class inputHandler
         //check the state of all input pins
         void update();
 
+        //call this one as fast as possible, needed to catch all encoder signals
+        void update_encoder();
+
 
         Bounce2::Button triggerSwitch = Bounce2::Button();
         Bounce2::Button magReleaseSwitch = Bounce2::Button();
@@ -71,7 +74,8 @@ class inputHandler
 
         //rotary encoder values
         int encoder_val = 0;
-        //int last_encoder_val = 0;
+        int last_encoder_val = 0;
+        int delta_encoder_val = 0;
 
     private:
         bool hasBeenInitialzed = false; //prevent more than one initialization

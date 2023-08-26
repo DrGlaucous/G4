@@ -25,6 +25,7 @@ void serialHandler::send_message_line(const char* message)
 }
 
 
+//buzzer functions:
 
 buzzerHandler::buzzerHandler(int pinNo)
 {
@@ -36,7 +37,6 @@ buzzerHandler::buzzerHandler(int pinNo)
     pinMode(pinNo, OUTPUT);
     digitalWrite(pinNo, LOW);
 }
-
 void buzzerHandler::update()
 {
 
@@ -71,40 +71,37 @@ void buzzerHandler::update()
     last_millis = millis();
 
 }
-
 void buzzerHandler::beep_single(unsigned int millisOn)
 {
     millis_on = millisOn;
     millis_off = 0;
     count_times = 1;
     current_millis = millis();
+    start_millis = current_millis;
     loop = false;
 }
-
 void buzzerHandler::beep_multiple(unsigned int millisOn, unsigned int millisOff, unsigned int countTimes)
 {
     millis_on = millisOn;
     millis_off = millisOff;
     count_times = countTimes;
     current_millis = millis();
+    start_millis = current_millis;
     loop = false;
 }
-
 void buzzerHandler::beep_multiple_continuous(unsigned int millisOn, unsigned int millisOff)
 {
     millis_on = millisOn;
     millis_off = millisOff;
     current_millis = millis();
+    start_millis = current_millis;
     loop = true;
 }
-
 void buzzerHandler::set_beep(bool on)
 {
     set_pin(pin_no, on);
     loop = true;
 }
-
-
 //handle -1 pins
 inline void buzzerHandler::set_pin(int pinNo, bool value)
 {
@@ -114,8 +111,22 @@ inline void buzzerHandler::set_pin(int pinNo, bool value)
 }
 
 
+//trig functions
+trigHandler::trigHandler()
+{
+    for (int i = 0; i < 0x100; ++i)
+            sinTbl[i] = (short)(sin(i * TWO_PI / 256.0) * 512.0);
+}
 
+short trigHandler::GetSin(unsigned char deg)
+{
+	return sinTbl[deg];
+}
 
-
+short trigHandler::GetCos(unsigned char deg)
+{
+	deg += 0x40;//90 degree offset
+	return sinTbl[deg];
+}
 
 

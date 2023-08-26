@@ -111,10 +111,15 @@ void inputHandler::update(void)
     //last_encoder_val = encoder_val; //not needed if we read and reset, but needed if we don't
 
 
-    //update the encoder
-    encoder_val = rotaryEncoder.readAndReset();
+    //zero the encoder
+    delta_encoder_val = encoder_val/4 - last_encoder_val;
+    last_encoder_val = encoder_val / 4;
 }
 
-
+void inputHandler::update_encoder(void)
+{
+    //keeps track of all updates, zeros out every time the normal update function is called, like the rest of the inputs
+    encoder_val = rotaryEncoder.read();
+}
 
 
