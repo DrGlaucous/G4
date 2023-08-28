@@ -16,9 +16,15 @@ void beeper()
 
 menuHandler::menuHandler(): u8g2(U8G2_R0, U8X8_PIN_NONE , I2C_SCL, I2C_SDA),
 menuItemInt("Number:", number),
+menuItemInt2("NUMA:", number),
+menuItemInt3("NUMB:", number),
 menuItemBool("Enable print:", enablePrint),
 menuItemButton("Beep", beeper),
 menuPageMain("Main Menu"),
+subMenA("Menu A"),
+subMenB("Menu B"),
+toSubMenA("Sub A",subMenA),
+toSubMenB("Sub B", subMenB),
 menu(u8g2)
 {
 
@@ -37,6 +43,20 @@ void menuHandler::start()
 	menuPageMain.addMenuItem(menuItemInt);
 	menuPageMain.addMenuItem(menuItemBool);
 	menuPageMain.addMenuItem(menuItemButton);
+	menuPageMain.addMenuItem(toSubMenA);
+	menuPageMain.addMenuItem(toSubMenB);
+
+	subMenA.addMenuItem(menuItemInt);
+	subMenA.addMenuItem(menuItemInt2);
+	subMenA.setParentMenuPage(menuPageMain);
+
+	subMenB.addMenuItem(menuItemBool);
+	subMenB.addMenuItem(menuItemInt3);
+	subMenB.addMenuItem(menuItemInt2);
+	subMenB.addMenuItem(menuItemButton);
+	subMenB.setParentMenuPage(menuPageMain);
+
+
 	//add page to menu and set it as current
 	menu.setMenuPageCurrent(menuPageMain);
 	menu.drawMenu();
@@ -50,7 +70,7 @@ void menuHandler::update()
 	{
 		drawing_screen = true;
 		first_page = true;
-		gBuzzer.beep_single(1);
+		gBuzzer.beep_single(1000);
 	}
 
 
@@ -104,14 +124,44 @@ bool menuHandler::handleNav()
 			menu.registerKeyPress(GEM_KEY_OK);
 		}
 	}
-	Serial.println(someUpdate);
 
 	return someUpdate;
 }
 
 
+void menuHandler::handleCallback(callback_datapack_t inData)
+{
+	*inData.target = inData.value;
+}
+
+
+//decide what to draw when it's actually time to do so
+void menuHandler::screenDrawLoop(int value)
+{
+
+	switch(screen_type)
+	{
+		default:
+		case 0:
+			menu.drawMenu(true);
+			break;
+	}
 
 
 
+
+}
+
+//draw power HUD
+void drawPowerGauge()
+{
+
+}
+
+//draw a generic gauge
+void drawGauge()
+{
+
+}
 
 

@@ -22,6 +22,7 @@ hw_timer_t *timer = NULL;
 void IRAM_ATTR handleLoop()
 {
     gPins.update_encoder();
+    gBuzzer.update();
 }
 
 
@@ -36,7 +37,7 @@ void setup() {
     timerAlarmEnable(timer);
 
     gInfo.send_message("weee");
-    gBuzzer.beep_multiple(10, 30, 10);
+    gBuzzer.beep_multiple(10000, 30000, 10);
 
 }
 
@@ -46,7 +47,6 @@ void loop() {
     gPins.update();
     gMenu.update();
 
-    gBuzzer.update();
 	gFlywheel.update();
 	gPusher.update();
 

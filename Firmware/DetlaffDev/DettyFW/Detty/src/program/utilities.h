@@ -27,23 +27,23 @@ class buzzerHandler
     public:
         buzzerHandler(int pinNo);
         void update();
-        void beep_single(unsigned int millisOn);
+        void beep_single(unsigned int microsOn);
         void set_beep(bool on);
-        void beep_multiple(unsigned int millisOn, unsigned int millisOff, unsigned int countTimes);
-        void beep_multiple_continuous(unsigned int millisOn, unsigned int millisOff);
+        void beep_multiple(unsigned int microsOn, unsigned int microsOff, unsigned int countTimes);
+        void beep_multiple_continuous(unsigned int microsOn, unsigned int microsOff);
     
     private:
 
         int pin_no = 0;
 
-        unsigned long start_millis = 0;
-        //millis() - start_millis
-        unsigned long current_millis = 0;
+        unsigned long start_micros = 0;
+        //micros() - start_micros
+        unsigned long current_micros = 0;
         //used to detect a change in ticks
-        unsigned long last_millis = 0;
+        unsigned long last_micros = 0;
 
-        unsigned int millis_on = 0;
-        unsigned int millis_off = 0;
+        unsigned int micros_on = 0;
+        unsigned int micros_off = 0;
         unsigned int count_times = 0;
         bool loop = false;
 

@@ -41,7 +41,7 @@ void buzzerHandler::update()
 {
 
     //only check on the tick changeover
-    if(millis() == last_millis)
+    if(micros() == last_micros)
         return;
 
     //ensure the buzzer is OFF when we run out of cycles
@@ -51,15 +51,15 @@ void buzzerHandler::update()
         return;
     }
 
-    current_millis = millis() - start_millis;
+    current_micros = micros() - start_micros;
 
     //after low time, decrement count and switch pin ON
-    if(current_millis > millis_on + millis_off)
+    if(current_micros > micros_on + micros_off)
     {
-        start_millis = millis();
+        start_micros = micros();
         --count_times;
     }
-    else if(current_millis > millis_on)
+    else if(current_micros > micros_on)
     {
         set_pin(pin_no, LOW);
     }
@@ -68,33 +68,33 @@ void buzzerHandler::update()
         set_pin(pin_no, HIGH);
     }
 
-    last_millis = millis();
+    last_micros = micros();
 
 }
-void buzzerHandler::beep_single(unsigned int millisOn)
+void buzzerHandler::beep_single(unsigned int microsOn)
 {
-    millis_on = millisOn;
-    millis_off = 0;
+    micros_on = microsOn;
+    micros_off = 0;
     count_times = 1;
-    current_millis = millis();
-    start_millis = current_millis;
+    current_micros = micros();
+    start_micros = current_micros;
     loop = false;
 }
-void buzzerHandler::beep_multiple(unsigned int millisOn, unsigned int millisOff, unsigned int countTimes)
+void buzzerHandler::beep_multiple(unsigned int microsOn, unsigned int microsOff, unsigned int countTimes)
 {
-    millis_on = millisOn;
-    millis_off = millisOff;
+    micros_on = microsOn;
+    micros_off = microsOff;
     count_times = countTimes;
-    current_millis = millis();
-    start_millis = current_millis;
+    current_micros = micros();
+    
     loop = false;
 }
-void buzzerHandler::beep_multiple_continuous(unsigned int millisOn, unsigned int millisOff)
+void buzzerHandler::beep_multiple_continuous(unsigned int microsOn, unsigned int microsOff)
 {
-    millis_on = millisOn;
-    millis_off = millisOff;
-    current_millis = millis();
-    start_millis = current_millis;
+    micros_on = microsOn;
+    micros_off = microsOff;
+    current_micros = micros();
+    start_micros = current_micros;
     loop = true;
 }
 void buzzerHandler::set_beep(bool on)

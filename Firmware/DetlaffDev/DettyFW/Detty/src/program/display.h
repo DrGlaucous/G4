@@ -27,6 +27,14 @@ class menuHandler
     void screenDrawLoop(int value);
 
 
+    typedef struct callback_datapack_s
+    {
+        int* target;
+        int value;
+    } callback_datapack_t;
+    //sets a flag that corresponds to the menu that should be entered
+    static void handleCallback(callback_datapack_t inData);
+
 
     //vars
 
@@ -34,12 +42,14 @@ class menuHandler
     bool drawing_screen = false;
     bool first_page = false;
 
+    int screen_type = 0;
+
     //display class
     INIT_CLASS u8g2;
 
 
 
-    ////////////////////////////////TEST
+
     unsigned int deltaMillis = 0;
     bool virtualIn = false;
 
@@ -47,9 +57,16 @@ class menuHandler
     bool enablePrint = false;
 
     GEMItem menuItemInt;
+    GEMItem menuItemInt2;
+    GEMItem menuItemInt3;
     GEMItem menuItemBool;
     GEMItem menuItemButton;
+    GEMItem toSubMenA;
+    GEMItem toSubMenB;
+
     GEMPage menuPageMain;
+    GEMPage subMenA;
+    GEMPage subMenB;
     GEM_u8g2 menu;
 
 
