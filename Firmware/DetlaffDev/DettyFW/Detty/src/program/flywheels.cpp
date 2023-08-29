@@ -6,10 +6,6 @@
 
 #include "flywheels.h"
 
-//this is the valid DSHOT range, I'm using it for all ESC types for simplicity
-//(dshot will probably be the most common use case for this)
-#define MIN_FLYWHEEL_SPEED 48
-#define MAX_FLYWHEEL_SPEED 2047
 
 void singleMotor::attach(int pinNum,
                         unsigned int delayMillis,

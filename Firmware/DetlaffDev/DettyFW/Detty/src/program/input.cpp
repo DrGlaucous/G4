@@ -66,6 +66,8 @@ inputHandler::inputHandler(void)
 
     //nothing to do here for the encoder: everything's been constructed already
 
+    //analogRead voltmeter
+    pinMode(VOLTMETER_PIN, OUTPUT);
 }
 
 inputHandler::~inputHandler()
@@ -110,10 +112,13 @@ void inputHandler::update(void)
 
     //last_encoder_val = encoder_val; //not needed if we read and reset, but needed if we don't
 
-
     //zero the encoder
     delta_encoder_val = encoder_val/4 - last_encoder_val;
     last_encoder_val = encoder_val / 4;
+
+    //read the raw value from the ADC
+    voltmeter_read = analogRead(VOLTMETER_PIN);
+
 }
 
 void inputHandler::update_encoder(void)

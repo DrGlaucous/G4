@@ -72,6 +72,9 @@ class inputHandler
         //Bounce2::Button encoderB = Bounce2::Button();
         Bounce2::Button encoderSwitch = Bounce2::Button();
 
+        //voltmeter (raw analogRead value)
+        int voltmeter_read;
+
         //rotary encoder values
         int encoder_val = 0;
         int last_encoder_val = 0;

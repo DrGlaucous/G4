@@ -10,7 +10,7 @@
 //------------outputs------------//
 //-------------------------------//
 
-#define SOLENOID 25 // (HIGH=ON)
+//#define SOLENOID 25 // (HIGH=ON)
 #define BUZZER 4 // (HIGH=ON)
 
 //////////////FLYWHEELS//////////////
@@ -26,6 +26,14 @@
 //if ESC_DSHOT_BIDIR is set to true, then this value is ignored
 #define ESC_REV_DELAY 0
 
+
+//use this range to set the min/max values the motor class will take to control the motor, since everything is mapped, values here don't matter too much
+//for now, this is the valid DSHOT range, I'm using it for all ESC types for simplicity
+//(dshot will probably be the most common use case for this)
+#define MIN_FLYWHEEL_SPEED 48
+#define MAX_FLYWHEEL_SPEED 2047
+
+
 //MIN and MAX values for each type of motor output
 //for brushed motors, this is the duty cycle of the driver (0-255)
 //for PWM escs, this is the angle of the servo (37-180)
@@ -36,7 +44,7 @@
 //the RPM the program expects to get from the motor
 //to find most accurate real values for this, motors with telemetry will need to be calibrated
 //(can be closely estimated by multiplying kv by voltage)
-//for motors without telemetry, these value can be set to anything with decent resolution
+//for motors without telemetry, these value can be set to anything with decent resolution (to get a "fake" telemetry gauge)
 #define ESC_RPM_MIN 0
 #define ESC_RPM_MAX 27600
 
@@ -150,6 +158,21 @@
 #define IR_REC_READBACK 35
 //IR emitter LED, not absolutely needed, but it saves wear on the LED and battery if used
 #define IR_EMITTER 33
+
+//voltmeter
+#define VOLTMETER_PIN 34
+//ohms of the resistors in the voltage divider (units don't matter here, so long as they're the same)
+//for instance, these are kOhms for me.
+#define R1_VAL 330
+#define R2_VAL 22
+//set these to map the ADC properly (what is the value of the ADC with respect to this voltage?)
+//example: if we read a voltage of 0.772 volts, we should expect an ADC reading of 800
+#define ADC_VALUE_REF 800
+#define ADC_VOLTAGE_REF 0.772
+
+//voltages at which the battery is full and empty
+#define BATTERY_FULL_CHARGE 12
+#define BATTERY_EMPTY 7
 
 
 //-------------------------------//

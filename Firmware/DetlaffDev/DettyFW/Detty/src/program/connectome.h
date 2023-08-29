@@ -22,7 +22,6 @@ typedef enum shoot_type_flag_e
 
 
 
-
 class connectomeHandler
 {
     public:
