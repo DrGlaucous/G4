@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-28T02:06:16.792Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="NiS5i9RtmkeaIMJ0PUu4" version="21.6.9" type="device" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-08-30T17:21:47.792Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="X-HDHDI0_5wMJoS6HS63" version="21.7.1" type="device" pages="7">
   <diagram name="Main" id="S1vQzTJ0WQg2u6IEPUsZ">
     <mxGraphModel dx="1434" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -444,6 +444,17 @@
         </mxCell>
         <mxCell id="oS4LZUIGWyryh4xkqikM-100" value="All displays will also contain a voltage and preset HUD&lt;br&gt;(Some other useful displays are in &quot;Behavior&quot;)" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=12;" vertex="1" parent="1">
           <mxGeometry x="40" y="1535" width="120" height="140" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="0awkJUt9RFeURrO8yF4l" name="Settings Process">
+    <mxGraphModel dx="1434" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Csjtiez6BSDZOXpmigHv-1" value="&lt;h1&gt;Settings&lt;/h1&gt;&lt;p&gt;Settings will be stored in .json format, resetting the board will load in the settings from a file partitioned with tinyfs&lt;/p&gt;&lt;p&gt;we will either use config.h or a .json placed in a compilation directory to establish factory defaults&lt;/p&gt;&lt;p&gt;if no json file is found, factory defaults are used instead&lt;/p&gt;&lt;p&gt;check fluidNC to see how this will work&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="140" width="330" height="230" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
