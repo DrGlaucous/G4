@@ -23,30 +23,30 @@ inputHandler::inputHandler(void)
 
     //attach debounching to the corresponding GPIO
     {
-        triggerSwitch.attach(TRIGGER, INPUT_PULLUP);
+        triggerSwitch.attach(TRIGGER_PIN, INPUT_PULLUP);
         triggerSwitch.interval(DEBOUNCE_TIME);
         triggerSwitch.setPressedState(TRIGGER_NC);
 
 
-        magReleaseSwitch.attach(MAG_TRIG, INPUT_PULLUP);
+        magReleaseSwitch.attach(MAG_TRIG_PIN, INPUT_PULLUP);
         magReleaseSwitch.interval(DEBOUNCE_TIME);
         magReleaseSwitch.setPressedState(TRIGGER_NC);
 
     #ifdef USE_REV_TRIG
-            revTriggerSwitch.attach(REV_TRIG, INPUT_PULLUP);
+            revTriggerSwitch.attach(REV_TRIG_PIN, INPUT_PULLUP);
             revTriggerSwitch.interval(DEBOUNCE_TIME);
             revTriggerSwitch.setPressedState(TRIGGER_NC);
     #endif
 
-        presetA.attach(PRESET_A, INPUT_PULLUP);
+        presetA.attach(PRESET_A_PIN, INPUT_PULLUP);
         presetA.interval(DEBOUNCE_TIME);
         presetA.setPressedState(TRIGGER_NC);
 
-        presetB.attach(PRESET_B, INPUT_PULLUP);
+        presetB.attach(PRESET_B_PIN, INPUT_PULLUP);
         presetB.interval(DEBOUNCE_TIME);
         presetB.setPressedState(TRIGGER_NC);
 
-        presetC.attach(PRESET_C, INPUT_PULLUP);
+        presetC.attach(PRESET_C_PIN, INPUT_PULLUP);
         presetC.interval(DEBOUNCE_TIME);
         presetC.setPressedState(TRIGGER_NC);
 
@@ -59,7 +59,7 @@ inputHandler::inputHandler(void)
         //encoderB.interval(DEBOUNCE_TIME);
         //encoderB.setPressedState(TRIGGER_NC);
 
-        encoderSwitch.attach(ENCODER_BUTTON, INPUT_PULLUP);
+        encoderSwitch.attach(ENCODER_BUTTON_PIN, INPUT_PULLUP);
         encoderSwitch.interval(DEBOUNCE_TIME);
         encoderSwitch.setPressedState(TRIGGER_NC);
     }

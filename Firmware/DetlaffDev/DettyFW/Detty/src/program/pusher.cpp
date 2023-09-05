@@ -6,22 +6,16 @@
 #include "pusher.h"
 
 
-//the range of input (full speed = PUSHER_SPEED_MAX)
-#define PUSHER_SPEED_MAX 1024
-#define PUSHER_SPEED_MIN 0
-
-
-
 /// SOLENOID CLASS
 
-solenoidHandler::solenoidHandler(int pinFet, int minExtendTime, int minRetractTime, int maxExtendTime)
+solenoidHandler::solenoidHandler(int pinFet, int* minExtendTime, int* minRetractTime, int* maxExtendTime, int* maxRetractTime)
 {
     pin_fet = pinFet;
     min_extend_time = minExtendTime;
     max_extend_time = maxExtendTime;
 
     min_retract_time = minRetractTime;
-    max_retract_time = (max_extend_time / min_extend_time) * min_retract_time;
+    max_retract_time = maxRetractTime;
 
 }
 
@@ -40,8 +34,15 @@ void solenoidHandler::pushFullAuto(int speed)
     //find how quickly we need to cycle the solenoid
     //currently, the code performs a 50/50 duty cycle instead of doing short bursts at a dynamic space
     //both ON state and OFF state change with speed
-    curr_extend_time = map(speed, PUSHER_SPEED_MIN, PUSHER_SPEED_MAX, min_extend_time, max_extend_time);
-    curr_retract_time = map(speed, PUSHER_SPEED_MIN, PUSHER_SPEED_MAX, min_retract_time, max_retract_time);
+    curr_extend_time = map(speed, PUSHER_SPEED_MIN, PUSHER_SPEED_MAX, *max_extend_time, *min_extend_time);
+    curr_retract_time = map(speed, PUSHER_SPEED_MIN, PUSHER_SPEED_MAX, *max_retract_time, *min_retract_time);
+
+    // Serial.print(curr_extend_time);
+    // Serial.print("\t");
+    // Serial.print(curr_retract_time);
+    // Serial.println(" []");
+
+
 
     //check for already running operations and stop them
     if(burst_count > 0)
@@ -81,7 +82,7 @@ void solenoidHandler::update()
     if(begin || burst_count > 0)
     {
         //time to change states
-        if(countdown_millis -= deltaMillis <= 0)
+        if((countdown_millis -= deltaMillis) <= 0)
         {
             //if the solenoid is currently OUT
             if(solenoid_state == true)
@@ -95,6 +96,7 @@ void solenoidHandler::update()
             solenoid_state = !solenoid_state;
  
         }
+
     }
     else
         solenoid_state = false; //ensure the solenoid is OFF when nothing is happening
@@ -108,6 +110,7 @@ void solenoidHandler::halt()
 {
     begin = false; //stop any potential full-auto or new starts
     burst_count = 0; //zero out remaining burst time
+    countdown_millis = 0;
 }
 
 
@@ -129,7 +132,7 @@ pusherHandler::pusherHandler()
             stpHandler = new stepperHandler();
             break;
         case PUSHER_TYPE_SOLENOID:
-            solHandler = new solenoidHandler(SO_PIN_FET, SO_MIN_EXT_TIME, SO_MIN_RET_TIME, SO_MAX_EXT_TIME);
+            solHandler = new solenoidHandler(SO_FET_PIN, &gSettings.so_min_ext_time, &gSettings.so_min_ret_time, &gSettings.so_max_ext_time, &gSettings.so_max_ret_time);
             solHandler->start();
             break;
         default:

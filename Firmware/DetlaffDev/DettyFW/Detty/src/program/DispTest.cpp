@@ -4,7 +4,7 @@
 // #include "DispTest.h"
 // #include "main.h"
 
-// //INIT_CLASS u8g2(U8G2_R0, U8X8_PIN_NONE , I2C_SCL, I2C_SDA);
+// //INIT_CLASS u8g2(U8G2_R0, U8X8_PIN_NONE , I2C_SCL_PIN, I2C_SDA_PIN);
 
 
 // short sinTbl[0x100];

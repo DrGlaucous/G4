@@ -4,30 +4,57 @@
 #include "main.h"
 #include "configuration.h"
 #include "display.h"
+#include "settings.h"
+
 
 //the menu library
 #include <GEM_u8g2.h>
 
 //test function (function callbacks don't work if we refrence a non-static class funciton)
-void beeper()
+void beeper(GEMCallbackData iV)
 {
+	iV.valPointer;
 	gBuzzer.beep_multiple(50, 150, 5);
 }
 
-menuHandler::menuHandler(): u8g2(U8G2_R0, U8X8_PIN_NONE , I2C_SCL, I2C_SDA),
-menuItemInt("Number:", number),
-menuItemInt2("NUMA:", number),
-menuItemInt3("NUMB:", number),
-menuItemBool("Enable print:", enablePrint),
-menuItemButton("Beep", beeper),
-menuPageMain("Main Menu"),
-subMenA("Menu A"),
-subMenB("Menu B"),
-toSubMenA("Sub A",subMenA),
-toSubMenB("Sub B", subMenB),
+menuHandler::menuHandler(): u8g2(U8G2_R0, U8X8_PIN_NONE , I2C_SCL_PIN, I2C_SDA_PIN),
+mainMenu("Main"),
+settingsPage("Settings"),
+toSettingsPage("Settings", settingsPage),
+	saveAllSettings("Save All Settings", handleCallback, (void*)&saveSettingsDP),
+	bindPreset("Bind Preset", handleCallback, (void*)&bindPresetDP),
+	escConfigPage("ESC Config"),
+	toEscConfigPage("ESC Config", escConfigPage),
+		escMinOutput("Min Out", gSettings.esc_output_min),
+		escMaxOutput("Max Out", gSettings.esc_output_max),
+		escFeedbackPage("Feedback"),
+		toEscFeedbackPage("Feedback", escFeedbackPage),
+			escMinRPM("Min RPM", gSettings.esc_rpm_min),
+			escMaxRPM("Max RPM", gSettings.esc_rpm_max),
+			autoConfRPM("RPM Autoconfig", handleCallback, (void*)&rpmAutoconfigDP),
+	pusherConfigPage("Pusher Config"),
+	toPusherConfigPage("Pusher Config", pusherConfigPage),
+		minExtendTime("Min Ext Time", gSettings.so_min_ext_time, handleCallback, (void*)&pusherSettingChangeDP),
+		maxExtendTime("Max Ext time", gSettings.so_max_ext_time, handleCallback, (void*)&pusherSettingChangeDP),
+		minRetractTime("Min Ret Time", gSettings.so_min_ret_time, handleCallback, (void*)&pusherSettingChangeDP),
+	wifiPage("Wifi"),
+	toWifiPage("Wifi", wifiPage),
+		wifiButton("Not Done Yet", gSettings.so_min_ret_time, true), //random value in here for now
+shootPower("Power", handleCallback, (void*)&shootPowerDP),
+shootRate("Rate", handleCallback, (void*)&shootRateDP),
+shootModePage("Shoot Mode"),
+toshootModePage("Mode", shootModePage),
+	fireTypeList(sizeof(fireTypeListOptions)/sizeof(SelectOptionInt), fireTypeListOptions),
+	fireType("Fire", gSettings.preset_settings[gSettings.selected_preset].shoot_mode, fireTypeList), //SelectOptionByte
+	burstCount("Burst #", gSettings.preset_settings[gSettings.selected_preset].burst_count),
+	triggerTypeList(sizeof(triggerTypeListOptions)/sizeof(SelectOptionInt), triggerTypeListOptions),
+	triggerType("Trigger", gSettings.preset_settings[gSettings.selected_preset].trigger_mode, triggerTypeList),
+	cacheDelay("Cache ms", gSettings.preset_settings[gSettings.selected_preset].cache_delay),
+flywheelRPM("RPM View", handleCallback, (void*)&flywheelRPMDP),
+ammoCount("Ammo View", handleCallback, (void*)&ammoCountDP),
+fpsView("FPS View", handleCallback, (void*)&fpsViewDP),
 menu(u8g2)
 {
-
 }
 
 void menuHandler::start()
@@ -40,37 +67,82 @@ void menuHandler::start()
 	menu.init();
 	
 	//add items to menu
-	menuPageMain.addMenuItem(menuItemInt);
-	menuPageMain.addMenuItem(menuItemBool);
-	menuPageMain.addMenuItem(menuItemButton);
-	menuPageMain.addMenuItem(toSubMenA);
-	menuPageMain.addMenuItem(toSubMenB);
 
-	subMenA.addMenuItem(menuItemInt);
-	subMenA.addMenuItem(menuItemInt2);
-	subMenA.setParentMenuPage(menuPageMain);
+	//root
+	mainMenu.addMenuItem(toshootModePage);
+	mainMenu.addMenuItem(shootRate);
+	mainMenu.addMenuItem(shootPower);
+	mainMenu.addMenuItem(flywheelRPM);
+	mainMenu.addMenuItem(ammoCount);
+	mainMenu.addMenuItem(fpsView);
+	mainMenu.addMenuItem(toSettingsPage);
 
-	subMenB.addMenuItem(menuItemBool);
-	subMenB.addMenuItem(menuItemInt3);
-	subMenB.addMenuItem(menuItemInt2);
-	subMenB.addMenuItem(menuItemButton);
-	subMenB.setParentMenuPage(menuPageMain);
+	//settings page
+	settingsPage.setParentMenuPage(mainMenu);
+	settingsPage.addMenuItem(saveAllSettings);
+	settingsPage.addMenuItem(bindPreset);
+	settingsPage.addMenuItem(toEscConfigPage);
+	settingsPage.addMenuItem(toPusherConfigPage);
+	settingsPage.addMenuItem(toWifiPage);
+
+	//esc config page
+	escConfigPage.setParentMenuPage(settingsPage);
+	escConfigPage.addMenuItem(escMinOutput);
+	escConfigPage.addMenuItem(escMaxOutput);
+	escConfigPage.addMenuItem(toEscFeedbackPage);
+	escConfigPage.addMenuItem(toPusherConfigPage);
+
+	//esc feedback page
+	escFeedbackPage.setParentMenuPage(escConfigPage);
+	escFeedbackPage.addMenuItem(escMinRPM);
+	escFeedbackPage.addMenuItem(escMaxRPM);
+	escFeedbackPage.addMenuItem(autoConfRPM);
+
+	//pusher config page
+	pusherConfigPage.setParentMenuPage(settingsPage);
+	pusherConfigPage.addMenuItem(minExtendTime);
+	pusherConfigPage.addMenuItem(maxExtendTime);
+	pusherConfigPage.addMenuItem(minRetractTime);
+
+	//wifi page
+	wifiPage.setParentMenuPage(settingsPage);
+	wifiPage.addMenuItem(wifiButton);
+
+	//shoot mode page
+	shootModePage.setParentMenuPage(mainMenu);
+	shootModePage.addMenuItem(fireType);
+	shootModePage.addMenuItem(burstCount);
+	shootModePage.addMenuItem(triggerType);
+	shootModePage.addMenuItem(cacheDelay);
 
 
 	//add page to menu and set it as current
-	menu.setMenuPageCurrent(menuPageMain);
+	menu.setMenuPageCurrent(mainMenu);
 	menu.drawMenu();
+
+
+
+
 
 }
 
 
+
+
 void menuHandler::update()
 {
-	if(handleNav())
+	bool needsRefresh = false;
+
+	if(handlePreset()) //switch presets if needed
+		needsRefresh = true;
+
+	if(handleNav()) //navegate menu or settings
+		needsRefresh = true;
+
+	if(needsRefresh)
 	{
 		drawing_screen = true;
 		first_page = true;
-		gBuzzer.beep_single(1000);
 	}
 
 
@@ -91,6 +163,56 @@ void menuHandler::update()
 
 }
 
+bool menuHandler::handlePreset()
+{
+	//only un-press if no preset buttons are pressed
+	if(!gPins.presetA.isPressed()
+		&& !gPins.presetB.isPressed()
+		&& !gPins.presetC.isPressed()
+		)
+	{
+		preset_switched = false;
+		return false;
+	}
+	bool needsRefresh = false;
+
+	//signify that the button has been pressed
+	if(gPins.presetA.pressed() || gPins.presetB.pressed() || gPins.presetC.pressed())
+	{
+		gBuzzer.beep_single(10000);
+	}
+
+	if(preset_switched == false
+		&& gPins.presetA.isPressed()
+		&& gPins.presetA.currentDuration() > gSettings.preset_hold_time)
+	{
+		gSettings.selected_preset = PRESET_A;
+		preset_switched = true;
+		needsRefresh = true;
+		gBuzzer.beep_single(100000);
+	}
+	if(preset_switched == false
+		&& gPins.presetB.isPressed()
+		&& gPins.presetB.currentDuration() > gSettings.preset_hold_time)
+	{
+		gSettings.selected_preset = PRESET_B;
+		preset_switched = true;
+		needsRefresh = true;
+		gBuzzer.beep_single(100000);
+	}
+	if( preset_switched == false
+		&& gPins.presetC.isPressed()
+		&& gPins.presetC.currentDuration() > gSettings.preset_hold_time)
+	{
+		gSettings.selected_preset = PRESET_C;
+		preset_switched = true;
+		needsRefresh = true;
+		gBuzzer.beep_single(100000);
+	}
+
+	return needsRefresh;
+
+}
 
 
 //#define GEM_KEY_NONE    0                         // No key presses are detected
@@ -104,34 +226,129 @@ bool menuHandler::handleNav()
 {
 	//determine the direction we've rotated, so we know what navegation char to add to the buffer
 	bool someUpdate = (gPins.delta_encoder_val != 0);
-	//for each one, update the menu quickly
-	for(int i = 0; i < abs(gPins.delta_encoder_val); ++i)
+
+	switch(screen_type)
 	{
-		if(menu.readyForKey())
+		default:
+		case DISPLAY_NULL:
+			break;
+		case DISPLAY_MENU: //navegate the menu
 		{
-			if(gPins.delta_encoder_val < 0)
-				menu.registerKeyPress(GEM_KEY_DOWN);
-			else
-				menu.registerKeyPress(GEM_KEY_UP);
+			//for each encoder click, update the menu quickly
+			for(int i = 0; i < abs(gPins.delta_encoder_val); ++i)
+			{
+				if(menu.readyForKey())
+				{
+					if(gPins.delta_encoder_val < 0)
+						menu.registerKeyPress(GEM_KEY_DOWN);
+					else
+						menu.registerKeyPress(GEM_KEY_UP);
+				}
+			}
+			//check for long press
+			if(gPins.encoderSwitch.currentDuration() > 500 && gPins.encoderSwitch.isPressed() && was_held == false)
+			{
+				someUpdate = true;
+				if(menu.readyForKey())
+				{
+					menu.registerKeyPress(GEM_KEY_RIGHT);
+				}
+				was_held = true;
+			}
+			//check for release
+			if(gPins.encoderSwitch.released())
+			{
+				someUpdate = true;
+				if(menu.readyForKey() && was_held == false)
+				{
+					menu.registerKeyPress(GEM_KEY_OK);
+				}
+				was_held = false;
+			}
+
+			break;
 		}
+		case DISPLAY_FLYWHEEL_POWER: //update flywheel speed in the settings
+		{
+
+			live_settings_t *currentLS = &gSettings.preset_settings[gSettings.selected_preset];
+			currentLS->flywheel_speed -= gPins.delta_encoder_val * (FLYWHEEL_SPEED_MAX - FLYWHEEL_SPEED_MIN) / 48;
+
+			if(currentLS->flywheel_speed > FLYWHEEL_SPEED_MAX)
+				currentLS->flywheel_speed = FLYWHEEL_SPEED_MAX;
+
+			if(currentLS->flywheel_speed < FLYWHEEL_SPEED_MIN)
+				currentLS->flywheel_speed = FLYWHEEL_SPEED_MIN;
+
+			if(gPins.encoderSwitch.released())
+			{
+				screen_type = DISPLAY_MENU;
+				someUpdate = true;
+			}
+
+			break;
+		}
+		case DISPLAY_PUSH_RATE: //update pusher speed in the settings
+		{
+
+			live_settings_t *currentLS = &gSettings.preset_settings[gSettings.selected_preset];
+			currentLS->pusher_rate -= gPins.delta_encoder_val * (PUSHER_SPEED_MAX - PUSHER_SPEED_MIN) / 48;
+
+			if(currentLS->pusher_rate > PUSHER_SPEED_MAX)
+				currentLS->pusher_rate = PUSHER_SPEED_MAX;
+
+			if(currentLS->pusher_rate < PUSHER_SPEED_MIN)
+				currentLS->pusher_rate = PUSHER_SPEED_MIN;
+
+			if(gPins.encoderSwitch.released())
+			{
+				screen_type = DISPLAY_MENU;
+				someUpdate = true;
+			}
+
+			break;
+		}
+		
+
 	}
 
-	if(gPins.encoderSwitch.released())
-	{
-		someUpdate = true;
-		if(menu.readyForKey())
-		{
-			menu.registerKeyPress(GEM_KEY_OK);
-		}
-	}
+	if(someUpdate)
+		gBuzzer.beep_single(1000); //haptic ticks
 
 	return someUpdate;
 }
 
-
-void menuHandler::handleCallback(callback_datapack_t inData)
+//performa a certain action depending on the menu option pressed
+void menuHandler::handleCallback(GEMCallbackData inData)
 {
-	*inData.target = inData.value;
+
+	callback_datapack_t* castData = (callback_datapack_t*)inData.valPointer;
+
+	bool change_menu = false;
+	switch(castData->action_no)
+	{
+		default:
+		case 0: //change menu to be drawn
+			change_menu = true;
+			break;
+		case 1: //save settings
+			//todo: this
+			break;
+		case 2: //autoconfig RPM
+			//todo: this
+			break;
+		case 3: //process pusher settings
+			gSettings.so_max_ret_time = (gSettings.so_max_ext_time / gSettings.so_min_ext_time) * gSettings.so_min_ret_time;
+			break;
+
+
+
+	}
+
+	if(change_menu)
+	{
+		castData->parent->screen_type = castData->screen_type;
+	}
 }
 
 
@@ -149,27 +366,62 @@ void menuHandler::screenDrawLoop(void)
 		case DISPLAY_MENU:
 			menu.drawMenu(true);
 			break;
-		case DISPLAY_FLYWHEEL_SPEED: //SET the speed
+		case DISPLAY_FLYWHEEL_POWER: //SET the speed
 			{
-				//show power
+				//show selected preset
+				drawSelectedPreset(&u8g2, 0, DISPLAY_HEIGHT - 8, DISPLAY_WIDTH, 8, preset_labels, 3, gSettings.selected_preset);
+
+
+				//show voltage
 				drawPowerGauge(&u8g2, DISPLAY_WIDTH - 20, 0);
 
 				//show how fast we want the flywheels to spin
 				drawDialGauge(&u8g2, DISPLAY_WIDTH / 2,
 							DISPLAY_HEIGHT / 2,
 							(DISPLAY_HEIGHT - 20) / 2,
-							MIN_FLYWHEEL_SPEED,
-							MAX_FLYWHEEL_SPEED,
-							MAX_FLYWHEEL_SPEED / 2);
+							FLYWHEEL_SPEED_MIN,
+							FLYWHEEL_SPEED_MAX,
+							gSettings.preset_settings[gSettings.selected_preset].flywheel_speed);
+
+				float percentPower = map_float(gSettings.preset_settings[gSettings.selected_preset].flywheel_speed, FLYWHEEL_SPEED_MIN, FLYWHEEL_SPEED_MAX, 0, 100);
+				//draw percentage below gauge
+				char percentText[10] = {}; //should be 8, but 10 for safety
+				sprintf(percentText, "%.2f%%", percentPower); //"000.00%"
+				u8g2.setFont(GEM_FONT_SMALL); //4x6 font
+				u8g2.drawStr(DISPLAY_WIDTH / 2 - (4*3),
+							0,//DISPLAY_HEIGHT/2 + (DISPLAY_HEIGHT - 20) / 2,
+							percentText);
 
 				break;
 			}
-		case DISPLAY_PUSH_RATE:
+		case DISPLAY_PUSH_RATE: //set fire rate
 			{
+				//show voltage
+				drawPowerGauge(&u8g2, DISPLAY_WIDTH - 20, 0);
+
+				//show how fast we want the flywheels to spin
+				drawDialGauge(&u8g2, DISPLAY_WIDTH / 2,
+							DISPLAY_HEIGHT / 2,
+							(DISPLAY_HEIGHT - 20) / 2,
+							PUSHER_SPEED_MIN,
+							PUSHER_SPEED_MAX,
+							gSettings.preset_settings[gSettings.selected_preset].pusher_rate);
+
+				float percentRate = map_float(gSettings.preset_settings[gSettings.selected_preset].pusher_rate, PUSHER_SPEED_MIN, PUSHER_SPEED_MAX, 0, 100);
+				//draw percentage below gauge
+				char percentText[10] = {}; //should be 8, but 10 for safety
+				sprintf(percentText, "%.2f%%", percentRate); //"000.00%"
+				u8g2.setFont(GEM_FONT_SMALL); //4x6 font
+				u8g2.drawStr(DISPLAY_WIDTH / 2 - (4*3),
+							0,//DISPLAY_HEIGHT/2 + (DISPLAY_HEIGHT - 20) / 2,
+							percentText);
+
 				break;
 			}
 		case DISPLAY_FLYWHEEL_RPM: //SEE the speed (set it too)
 			{
+				gBuzzer.beep_single(100000);
+				screen_type = DISPLAY_MENU;
 				break;
 			}
 
@@ -180,6 +432,10 @@ void menuHandler::screenDrawLoop(void)
 
 
 }
+
+
+
+//utility functions for drawing screen elements:
 
 //loop input between min and max value (like over/underflows) min<=x<max
 int menuHandler::loopItem(int item, int min, int max)
@@ -317,5 +573,21 @@ void menuHandler::drawPowerGauge(INIT_CLASS *miniDisp, short x, short y)
 				0, 100, (int)map_float(volts, BATTERY_EMPTY, BATTERY_FULL_CHARGE, 0, 100));
 }
 
+//draw current selected preset
+void menuHandler::drawSelectedPreset(INIT_CLASS *miniDisp, short x, short y, short width, short height,
+									const char** labels, unsigned char box_count, unsigned char selected_box)
+{
+	miniDisp->setFont(GEM_FONT_SMALL);
 
+	short box_width = width / box_count;
+	
+	for(int i = 0; i < box_count; ++i)
+	{
+		//miniDisp->getStrWidth(labels[selected_box]);
+		miniDisp->drawStr(x + (box_width * i), y + (height / 2 - 3), labels[selected_box]);
+		miniDisp->drawFrame(x + (box_width * i), y, box_width, height);
+
+	}
+
+}
 

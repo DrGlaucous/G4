@@ -84,7 +84,7 @@ class inputHandler
         bool hasBeenInitialzed = false; //prevent more than one initialization
 
 
-        Encoder rotaryEncoder = Encoder(ENCODER_A, ENCODER_B);
+        Encoder rotaryEncoder = Encoder(ENCODER_A_PIN, ENCODER_B_PIN);
 
 
 

@@ -13,7 +13,7 @@ class solenoidHandler
 {
     public:
     //assign variables
-    solenoidHandler(int pinFet, int minExtendTime, int minRetractTime, int maxExtendTime);
+    solenoidHandler(int pinFet, int* minExtendTime, int* minRetractTime, int* maxExtendTime, int* maxRetractTime);
     //activate pins
     void start();
     //run this as often as possible
@@ -36,13 +36,13 @@ class solenoidHandler
 
     //values correspond to max speed
     //the ammount of time it takes the solenoid to make a full stroke (ms)
-    int min_extend_time = 0;
-    int min_retract_time = 0;
+    int* min_extend_time;
+    int* min_retract_time;
 
     //values correspond to min speed
     //the max ammount of time the solenoid can be on (100% duty cycle will destroy a solenoid)
-    int max_extend_time = 0;
-    int max_retract_time = 0; //caluclated from the other values
+    int* max_extend_time;
+    int* max_retract_time; //caluclated from the other values
 
     //dynamics//
     unsigned int burst_count = 0; //how many times we need to push yet

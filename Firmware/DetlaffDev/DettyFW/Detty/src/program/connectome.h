@@ -33,25 +33,8 @@ class connectomeHandler
 
     private:
 
-    void handleMenuLogic();
-    void handleShootLogic();
 
 
-    //flags for the type of select fire we want
-    uint32_t fire_flags = 0;
-
-    //switch between the 2 main types of fire modes
-    bool is_full_auto = false;
-
-
-
-    //menu layout stuff
-    const char* level1[3] = 
-    {
-        "a",
-        "b",
-        "c"
-    };
 
 
 };

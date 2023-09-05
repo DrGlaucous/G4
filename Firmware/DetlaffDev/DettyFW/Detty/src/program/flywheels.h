@@ -24,10 +24,10 @@ class singleMotor
     void attach(int pinNum,
                         unsigned int delayMillis,
                         flywheel_type_t flywheelType,
-                        dshot_mode_t dshotMode = DSHOT_OFF,
-                        bidirectional_mode_t dshotBidir = NO_BIDIRECTION,
-                        int outMin = 0, int outMax = 100,
-                        int rpmMin = 0, int rpmMax = 100
+                        dshot_mode_t dshotMode,
+                        bidirectional_mode_t dshotBidir,
+                        int* outMin, int* outMax,
+                        int* rpmMin, int* rpmMax
                         );
 
     //begin sending values out to the motor
@@ -65,8 +65,7 @@ class singleMotor
     ////////dynamic variables////////
 
     int target_speed = 0; //speed the motor is trying to reach
-
-    int last_speed = 0; //speed the motor is reaching from (old current_speed value)
+    int last_speed = 0; //speed the motor is reaching from (old current_speed value, set with each set_target_speed)
     int current_speed = 0; //speed the motor is at now
 
     unsigned long last_millis = 0; //for changing only 1x per tick
@@ -75,8 +74,12 @@ class singleMotor
     //this makes sure that there is some space between each transmission
     unsigned short counter_millis = 0;
 
-    unsigned int transition_millis = 0; //how long the motor should take going from last_speed to target_speed
-    unsigned int start_transition_millis = 0; //know where we started from for mapping transition_millis
+    int transition_millis = 0; //how long the motor should take going from last_speed to target_speed
+    int start_transition_millis = 0; //know where we started from for mapping transition_millis
+
+
+    int ramp_down_millis = 0; //how long we have to ramp down the ESC
+    int start_rd_millis = 0; //serves the same purpose as start_transition_millis
 
     int pin_num = -1; //pin to attach to, invalid by default
 
@@ -90,14 +93,15 @@ class singleMotor
     Servo* pwm_driver = NULL;
 
 
+
     //see the description for these variables in 'configuration.h'
-    int output_min = 0;
-    int output_max = 100;
+    int* output_min;
+    int* output_max;
     //only used when we're actually writing the value to the motor
 
     //ditto about description
-    int rpm_min = 0;
-    int rpm_max = 100;
+    int* rpm_min;
+    int* rpm_max;
     //current_speed, last_speed, and target_speed bounce between these two values
 
 
@@ -111,12 +115,14 @@ class flywheelHandler
     //~flywheelHandler();
     void update();
 
+    void set_target_speed(int speed);
+
     //is the cage at speed?
     bool at_speed;
 
     //how fast should the cage go?
     //motor objects can process this value raw
-    int target_speed;
+    int last_speed;
 
 
     private:
