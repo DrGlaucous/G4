@@ -11,7 +11,7 @@
 //-------------------------------//
 
 //#define SOLENOID 25 // (HIGH=ON)
-#define BUZZER 4 // (HIGH=ON)
+#define BUZZER -1 //4 // (HIGH=ON)
 
 //////////////FLYWHEELS//////////////
 
@@ -58,7 +58,7 @@
     //dshot mode
     #define ESC_DSHOT_MODE DSHOT300
     //enables eRPM telemetry
-    #define ESC_DSHOT_BIDIR true
+    #define ESC_DSHOT_BIDIR false
     //number of magnet poles the motor has, important for getting real RPM from eRPM
     #define ESC_DSHOT_MOTOR_POLES 14
 #endif
@@ -103,13 +103,13 @@
 
 //PUSHER_TYPE_SOLENOID
 //the pin that controls the solenoid FET
-#define SO_FET_PIN 25
+#define SO_FET_PIN 4//25 use buzzer for testing
 //time in ms it takes the solenoid to extend
 #define SO_MIN_EXT_TIME 65
 //time in ms it takes the solenoid to retract
-#define SO_MIN_RET_TIME 65
+#define SO_MIN_RET_TIME 40
 //max time the solenoid is allowed to be ON
-#define SO_MAX_EXT_TIME 1000
+#define SO_MAX_EXT_TIME 200
 
 
 

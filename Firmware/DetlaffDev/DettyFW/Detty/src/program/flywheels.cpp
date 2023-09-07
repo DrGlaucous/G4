@@ -202,7 +202,7 @@ bool singleMotor::update()
 
 
     //check if real speed is close enough to target speed (10% error)
-    if(current_speed > target_speed * 9 / 10)
+    if(current_speed >= target_speed * 9 / 10)
         return true; //motor is at speed
     else
         return false; //motor needs more time

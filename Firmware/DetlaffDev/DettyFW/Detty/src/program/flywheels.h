@@ -125,7 +125,7 @@ class flywheelHandler
     int last_speed;
 
 
-    private:
+    //private:
 
 
     //this array holds the individual flywheel objects

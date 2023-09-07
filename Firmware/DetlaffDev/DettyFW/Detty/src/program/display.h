@@ -49,6 +49,7 @@ class menuHandler
 
 
 
+
     //vars
 
     //for drawing pages outside a do-while loop
@@ -69,6 +70,10 @@ class menuHandler
         "pre C",
     };
 
+    //a re-used live setting list to act as an intermediary between the GUI and the real live settings
+    live_settings_t current_live_set = {};
+    int testInt = 0;
+
     //display class
     INIT_CLASS u8g2;
 
@@ -79,13 +84,14 @@ class menuHandler
     //callback settings for the menu
     callback_datapack_t saveSettingsDP = {this, 1, DISPLAY_NULL};
     callback_datapack_t bindPresetDP = {this, 0, DISPLAY_BIND_PRESET};
-    callback_datapack_t rpmAutoconfigDP = {this, 1, DISPLAY_NULL};
-    callback_datapack_t pusherSettingChangeDP = {this, 1, DISPLAY_NULL};
+    callback_datapack_t rpmAutoconfigDP = {this, 2, DISPLAY_NULL};
+    callback_datapack_t pusherSettingChangeDP = {this, 3, DISPLAY_NULL};
     callback_datapack_t shootPowerDP = {this, 0, DISPLAY_FLYWHEEL_POWER};
     callback_datapack_t shootRateDP = {this, 0, DISPLAY_PUSH_RATE};
     callback_datapack_t flywheelRPMDP = {this, 0, DISPLAY_FLYWHEEL_RPM};
     callback_datapack_t ammoCountDP = {this, 0, DISPLAY_AMMO_COUNT};
     callback_datapack_t fpsViewDP = {this, 0, DISPLAY_FPS};
+    callback_datapack_t liveSettingsDP = {this, 4, DISPLAY_NULL};
 
     //list items
     SelectOptionInt fireTypeListOptions[3] =
@@ -150,6 +156,9 @@ class menuHandler
     //handles all callbacks that come from the menu
     //sets a flag that corresponds to the menu that should be entered
     static void handleCallback(GEMCallbackData inData);
+
+
+    static void pushLiveSettings(live_settings_t fromThis, live_settings_t* toThis);
 
     //puts the menu elements onscreen
     void screenDrawLoop(void);

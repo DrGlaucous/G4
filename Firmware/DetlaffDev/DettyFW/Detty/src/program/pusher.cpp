@@ -58,14 +58,15 @@ void solenoidHandler::pushBurst(int speed, unsigned int count)
     burst_count = count;
 }
 
-void solenoidHandler::update()
+bool solenoidHandler::update()
 {
+    bool isPushing = (begin || burst_count > 0); //return current push state
 
     unsigned long deltaMillis = millis() - last_millis;
     last_millis = millis();
     //don't waste cycles if the time is the same
     if(deltaMillis == 0)
-        return;
+        return isPushing;
 
 
     bool fullAuto = false;
@@ -84,25 +85,47 @@ void solenoidHandler::update()
         //time to change states
         if((countdown_millis -= deltaMillis) <= 0)
         {
-            //if the solenoid is currently OUT
-            if(solenoid_state == true)
+            //1/2 of total time, for slow speeds, use a 50/50 duty cycle
+            countdown_millis = (curr_retract_time + curr_extend_time) / 2;
+
+            //prioritize the slower of the two times
+            //check if the duty cycle needs altering to account for the cycles
+            if(*min_extend_time < *min_retract_time)
             {
-                --burst_count; //we shot a dart, decrement cycler
-                countdown_millis = curr_retract_time; //setup wait for the retract part
+                //if the solenoid is currently extended, use the retract time directly, otherwise use what's leftover
+                if(countdown_millis < *min_retract_time)
+                    countdown_millis = solenoid_state ? *min_retract_time : countdown_millis - *min_retract_time;
             }
             else
-                countdown_millis = curr_extend_time; //setup wait for the extend part
-            //flip-flop the solenoid state
+                if(countdown_millis < *min_extend_time)
+                    countdown_millis = solenoid_state ? countdown_millis - *min_extend_time : *min_extend_time;
+
+            if(solenoid_state == true)
+                --burst_count;
+            
             solenoid_state = !solenoid_state;
+
+            // //if the solenoid is currently OUT
+            // if(solenoid_state == true)
+            // {
+            //     --burst_count; //we shot a dart, decrement cycler
+            //     countdown_millis = curr_retract_time; //setup wait for the retract part
+            // }
+            // else
+            //     countdown_millis = curr_extend_time; //setup wait for the extend part
+            // //flip-flop the solenoid state
+            // solenoid_state = !solenoid_state;
  
         }
-
     }
     else
+    {
         solenoid_state = false; //ensure the solenoid is OFF when nothing is happening
+    }
 
     digitalWrite(pin_fet, solenoid_state);
 
+    return isPushing;
 
 }
 
@@ -154,7 +177,7 @@ void pusherHandler::update()
             //stpHandler->update();
             break;
         case PUSHER_TYPE_SOLENOID:
-            solHandler->update();
+            is_pushing = solHandler->update();
             break;
         default:
         case PUSHER_TYPE_NULL:

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-04T03:03:02.926Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="vqxiTi62646aya0ogVYj" version="21.6.9" type="device" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-09-06T04:45:24.129Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="mxK5lvL13bdSZsYKU_MA" version="21.6.9" type="device" pages="7">
   <diagram name="Main" id="S1vQzTJ0WQg2u6IEPUsZ">
     <mxGraphModel dx="1434" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -176,12 +176,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="GrL_Apm6GFU2-oQZu7ur" name="PusherProcess">
-    <mxGraphModel dx="1434" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Z2W0BY5XMFeomVGp_JNg-1" value="&lt;h1&gt;Handler&lt;/h1&gt;&lt;p&gt;For all types of backends, we can pass back several push types:&lt;/p&gt;&lt;p&gt;sending a trigger event will initialize one of these modes, and it will run until otherwise specified&lt;/p&gt;&lt;p&gt;full-auto:&lt;/p&gt;&lt;p&gt;speed (speed is unitless, and is mapped from max to the max speed as configured by delay)&lt;/p&gt;&lt;p&gt;burst:&lt;/p&gt;&lt;p&gt;speed + count&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="330" y="350" width="390" height="370" as="geometry" />
+        <mxCell id="Z2W0BY5XMFeomVGp_JNg-1" value="&lt;h1&gt;Handler&lt;/h1&gt;&lt;p&gt;For all types of backends, we can pass back several push types:&lt;/p&gt;&lt;p&gt;sending a trigger event will initialize one of these modes, and it will run until otherwise specified&lt;/p&gt;&lt;p&gt;full-auto:&lt;/p&gt;&lt;p&gt;speed (speed is unitless, and is mapped from max to the max speed as configured by delay)&lt;/p&gt;&lt;p&gt;burst:&lt;/p&gt;&lt;p&gt;speed + count&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="20" y="20" width="390" height="370" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

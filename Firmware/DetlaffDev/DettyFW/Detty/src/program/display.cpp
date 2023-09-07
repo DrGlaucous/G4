@@ -45,16 +45,17 @@ shootRate("Rate", handleCallback, (void*)&shootRateDP),
 shootModePage("Shoot Mode"),
 toshootModePage("Mode", shootModePage),
 	fireTypeList(sizeof(fireTypeListOptions)/sizeof(SelectOptionInt), fireTypeListOptions),
-	fireType("Fire", gSettings.preset_settings[gSettings.selected_preset].shoot_mode, fireTypeList), //SelectOptionByte
-	burstCount("Burst #", gSettings.preset_settings[gSettings.selected_preset].burst_count),
+	fireType("Fire", current_live_set.shoot_mode, fireTypeList, handleCallback, (void*)&liveSettingsDP), //SelectOptionByte
+	burstCount("Burst #", current_live_set.burst_count, handleCallback, (void*)&liveSettingsDP),
 	triggerTypeList(sizeof(triggerTypeListOptions)/sizeof(SelectOptionInt), triggerTypeListOptions),
-	triggerType("Trigger", gSettings.preset_settings[gSettings.selected_preset].trigger_mode, triggerTypeList),
-	cacheDelay("Cache ms", gSettings.preset_settings[gSettings.selected_preset].cache_delay),
+	triggerType("Trigger", current_live_set.trigger_mode, triggerTypeList, handleCallback, (void*)&liveSettingsDP),
+	cacheDelay("Cache ms", current_live_set.cache_delay, handleCallback, (void*)&liveSettingsDP),
 flywheelRPM("RPM View", handleCallback, (void*)&flywheelRPMDP),
 ammoCount("Ammo View", handleCallback, (void*)&ammoCountDP),
 fpsView("FPS View", handleCallback, (void*)&fpsViewDP),
 menu(u8g2)
 {
+	pushLiveSettings(gSettings.preset_settings[gSettings.selected_preset], &current_live_set);
 }
 
 void menuHandler::start()
@@ -210,6 +211,9 @@ bool menuHandler::handlePreset()
 		gBuzzer.beep_single(100000);
 	}
 
+	if(needsRefresh)
+		pushLiveSettings(gSettings.preset_settings[gSettings.selected_preset], &current_live_set);
+
 	return needsRefresh;
 
 }
@@ -282,6 +286,7 @@ bool menuHandler::handleNav()
 
 			if(gPins.encoderSwitch.released())
 			{
+				pushLiveSettings(*currentLS, &current_live_set);
 				screen_type = DISPLAY_MENU;
 				someUpdate = true;
 			}
@@ -302,6 +307,7 @@ bool menuHandler::handleNav()
 
 			if(gPins.encoderSwitch.released())
 			{
+				pushLiveSettings(*currentLS, &current_live_set);//put newest settings back into the menu
 				screen_type = DISPLAY_MENU;
 				someUpdate = true;
 			}
@@ -316,6 +322,11 @@ bool menuHandler::handleNav()
 		gBuzzer.beep_single(1000); //haptic ticks
 
 	return someUpdate;
+}
+
+void menuHandler::pushLiveSettings(live_settings_t fromThis, live_settings_t* toThis)
+{
+	memcpy(toThis, &fromThis, sizeof(live_settings_t));
 }
 
 //performa a certain action depending on the menu option pressed
@@ -340,6 +351,12 @@ void menuHandler::handleCallback(GEMCallbackData inData)
 		case 3: //process pusher settings
 			gSettings.so_max_ret_time = (gSettings.so_max_ext_time / gSettings.so_min_ext_time) * gSettings.so_min_ret_time;
 			break;
+		case 4: //update the preset's settings
+			//copy the menu's settings to the preset
+			pushLiveSettings(castData->parent->current_live_set, &gSettings.preset_settings[gSettings.selected_preset]);
+			break;
+
+
 
 
 
@@ -415,6 +432,7 @@ void menuHandler::screenDrawLoop(void)
 				u8g2.drawStr(DISPLAY_WIDTH / 2 - (4*3),
 							0,//DISPLAY_HEIGHT/2 + (DISPLAY_HEIGHT - 20) / 2,
 							percentText);
+							
 
 				break;
 			}

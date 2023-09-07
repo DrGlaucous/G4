@@ -17,7 +17,7 @@ class solenoidHandler
     //activate pins
     void start();
     //run this as often as possible
-    void update();
+    bool update();
 
     //stop a fullAuto or pushBurst operation
     void halt();
@@ -109,6 +109,7 @@ class pusherHandler
     //run a round burst at this speed
     void pushBurst(int speed, unsigned int count);
 
+    bool is_pushing = false; //current active state of the pusher
 
     private:
     //pointers to backend objects of each pusher type
