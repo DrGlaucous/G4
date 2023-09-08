@@ -58,7 +58,7 @@
     //dshot mode
     #define ESC_DSHOT_MODE DSHOT300
     //enables eRPM telemetry
-    #define ESC_DSHOT_BIDIR false
+    #define ESC_DSHOT_BIDIR true
     //number of magnet poles the motor has, important for getting real RPM from eRPM
     #define ESC_DSHOT_MOTOR_POLES 14
 #endif
@@ -103,7 +103,7 @@
 
 //PUSHER_TYPE_SOLENOID
 //the pin that controls the solenoid FET
-#define SO_FET_PIN 4//25 use buzzer for testing
+#define SO_FET_PIN 4//25 //use buzzer for testing
 //time in ms it takes the solenoid to extend
 #define SO_MIN_EXT_TIME 65
 //time in ms it takes the solenoid to retract

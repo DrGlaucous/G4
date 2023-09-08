@@ -28,16 +28,28 @@ void connectomeHandler::update()
         case SHOOT_MODE_NULL:
             break;
         case SHOOT_MODE_FULL_AUTO:
-            triggerTypeHandler();
-            if(gPins.triggerSwitch.pressed())
+
+            //triggerTypeHandler(); //this doesn't really make sense for full auto
+            
+            if(gPins.triggerSwitch.isPressed())
             {
-                gPusher.pushBurst(currentSet->pusher_rate, 3);
-                //Serial.println("press");
+                if(gPins.triggerSwitch.pressed())
+                {
+                    gFlywheel.set_target_speed(currentSet->flywheel_speed);
+
+                }
+                else if(gFlywheel.at_speed && !push_in_progress)
+                {
+                    push_in_progress = true;
+                    gPusher.pushFullAuto(currentSet->pusher_rate);
+                }
             }
-            if(gPins.triggerSwitch.released())
+            else if(gPins.triggerSwitch.released())
             {
+                push_in_progress = false;
+                gFlywheel.set_target_speed(0);
                 gPusher.halt();
-                //Serial.println("release");
+
             }
 
             break;
@@ -98,9 +110,10 @@ void connectomeHandler::update()
                     }
                     else //we finished a cache cylce, reset
                     {
+                        gFlywheel.set_target_speed(0);
                         cache_in_progress = false;
                         push_in_progress = false;
-                        Serial.println("finish");
+                        //Serial.println("finish");
                     }
                 }
 
