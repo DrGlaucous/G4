@@ -90,15 +90,15 @@ bool solenoidHandler::update()
 
             //prioritize the slower of the two times
             //check if the duty cycle needs altering to account for the cycles
-            if(*min_extend_time < *min_retract_time)
-            {
-                //if the solenoid is currently extended, use the retract time directly, otherwise use what's leftover
-                if(countdown_millis < *min_retract_time)
-                    countdown_millis = solenoid_state ? *min_retract_time : countdown_millis - *min_retract_time;
-            }
-            else
-                if(countdown_millis < *min_extend_time)
-                    countdown_millis = solenoid_state ? countdown_millis - *min_extend_time : *min_extend_time;
+            // if(*min_extend_time < *min_retract_time)
+            // {
+            //     //if the solenoid is currently extended, use the retract time directly, otherwise use what's leftover
+            //     if(countdown_millis < *min_retract_time)
+            //         countdown_millis = solenoid_state ? *min_retract_time : countdown_millis - *min_retract_time;
+            // }
+            // else
+            //     if(countdown_millis < *min_extend_time)
+            //         countdown_millis = solenoid_state ? countdown_millis - *min_extend_time : *min_extend_time;
 
             if(solenoid_state == true)
                 --burst_count;

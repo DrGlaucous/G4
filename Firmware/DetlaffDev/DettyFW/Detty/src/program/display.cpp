@@ -559,7 +559,7 @@ void menuHandler::drawPowerGauge(INIT_CLASS *miniDisp, short x, short y)
 
 	//TODO: move this somewhere where it WON't be re-calculated for each draw page
 	//convert ADC number into a raw voltage and then step that up according to the voltage divider's values
-	float volts = map_float(gPins.voltmeter_read, 0, ADC_VALUE_REF, 0, ADC_VOLTAGE_REF) *
+	float volts = map_float(gPins.voltmeter_read, ADC_VALUE_REF_1, ADC_VALUE_REF_2, ADC_VOLTAGE_REF_1, ADC_VOLTAGE_REF_2) *
 					(R1_VAL + R2_VAL) / R2_VAL;
 
 
@@ -575,7 +575,7 @@ void menuHandler::drawPowerGauge(INIT_CLASS *miniDisp, short x, short y)
 	//testing voltmeter accuracy
 	// Serial.print(gPins.voltmeter_read);
 	// Serial.print("\t");
-	// Serial.print(map_float(gPins.voltmeter_read, 0, ADC_VALUE_REF, 0, ADC_VOLTAGE_REF));
+	// Serial.print(map_float(gPins.voltmeter_read, 0, ADC_VALUE_REF_2, 0, ADC_VOLTAGE_REF_2));
 	// Serial.print("\t");
 	// Serial.print(toBePrinted);
 	// Serial.print("\t");

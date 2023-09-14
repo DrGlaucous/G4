@@ -11,7 +11,7 @@
 //-------------------------------//
 
 //#define SOLENOID 25 // (HIGH=ON)
-#define BUZZER -1 //4 // (HIGH=ON)
+#define BUZZER 4 // (HIGH=ON)
 
 //////////////FLYWHEELS//////////////
 
@@ -103,7 +103,7 @@
 
 //PUSHER_TYPE_SOLENOID
 //the pin that controls the solenoid FET
-#define SO_FET_PIN 4//25 //use buzzer for testing
+#define SO_FET_PIN 25 //use buzzer for testing
 //time in ms it takes the solenoid to extend
 #define SO_MIN_EXT_TIME 65
 //time in ms it takes the solenoid to retract
@@ -174,8 +174,11 @@
 #define R2_VAL 22
 //set these to map the ADC properly (what is the value of the ADC with respect to this voltage?)
 //example: if we read a voltage of 0.772 volts, we should expect an ADC reading of 800
-#define ADC_VALUE_REF 800
-#define ADC_VOLTAGE_REF 0.772
+#define ADC_VALUE_REF_1 0
+#define ADC_VOLTAGE_REF_1 0
+
+#define ADC_VALUE_REF_2 800
+#define ADC_VOLTAGE_REF_2 0.772
 
 //voltages at which the battery is full and empty
 #define BATTERY_FULL_CHARGE 12
