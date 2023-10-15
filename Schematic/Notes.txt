@@ -1,0 +1,3 @@
+
+
+Potential MOSFET for use with ESP32: IPP030N06NF2SAKMA1 (from Mouser)
