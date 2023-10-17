@@ -1,911 +1,2647 @@
-220480693978909
-TerminalBlock_RND
-TerminalBlock_RND_205-00001_1x02_P5.00mm_Horizontal
-terminal block RND 205-00001, 2 pins, pitch 5mm, size 10x9mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00001_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00001 pitch 5mm size 10x9mm^2 drill 1.3mm pad 2.5mm
+641090009248985
+Capacitor_THT
+CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal
+CP, Axial series, Axial, Horizontal, pin pitch=15mm, , length*diameter=10*4.5mm^2, Electrolytic Capacitor, , http://www.vishay.com/docs/28325/021asm.pdf
+CP Axial series Axial Horizontal pin pitch 15mm  length 10mm diameter 4.5mm Electrolytic Capacitor
 0
 2
 2
-TerminalBlock_RND
-TerminalBlock_RND_205-00002_1x03_P5.00mm_Horizontal
-terminal block RND 205-00002, 3 pins, pitch 5mm, size 15x9mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00001_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00002 pitch 5mm size 15x9mm^2 drill 1.3mm pad 2.5mm
-0
-3
-3
-TerminalBlock_RND
-TerminalBlock_RND_205-00003_1x04_P5.00mm_Horizontal
-terminal block RND 205-00003, 4 pins, pitch 5mm, size 20x9mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00001_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00003 pitch 5mm size 20x9mm^2 drill 1.3mm pad 2.5mm
-0
-4
-4
-TerminalBlock_RND
-TerminalBlock_RND_205-00004_1x05_P5.00mm_Horizontal
-terminal block RND 205-00004, 5 pins, pitch 5mm, size 25x9mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00001_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00004 pitch 5mm size 25x9mm^2 drill 1.3mm pad 2.5mm
-0
-5
-5
-TerminalBlock_RND
-TerminalBlock_RND_205-00005_1x06_P5.00mm_Horizontal
-terminal block RND 205-00005, 6 pins, pitch 5mm, size 30x9mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00001_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00005 pitch 5mm size 30x9mm^2 drill 1.3mm pad 2.5mm
-0
-6
-6
-TerminalBlock_RND
-TerminalBlock_RND_205-00006_1x07_P5.00mm_Horizontal
-terminal block RND 205-00006, 7 pins, pitch 5mm, size 35x9mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00001_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00006 pitch 5mm size 35x9mm^2 drill 1.3mm pad 2.5mm
-0
-7
-7
-TerminalBlock_RND
-TerminalBlock_RND_205-00007_1x08_P5.00mm_Horizontal
-terminal block RND 205-00007, 8 pins, pitch 5mm, size 40x9mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00001_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00007 pitch 5mm size 40x9mm^2 drill 1.3mm pad 2.5mm
-0
-8
-8
-TerminalBlock_RND
-TerminalBlock_RND_205-00008_1x09_P5.00mm_Horizontal
-terminal block RND 205-00008, 9 pins, pitch 5mm, size 45x9mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00001_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00008 pitch 5mm size 45x9mm^2 drill 1.3mm pad 2.5mm
-0
-9
-9
-TerminalBlock_RND
-TerminalBlock_RND_205-00009_1x10_P5.00mm_Horizontal
-terminal block RND 205-00009, 10 pins, pitch 5mm, size 50x9mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00001_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00009 pitch 5mm size 50x9mm^2 drill 1.3mm pad 2.5mm
-0
-10
-10
-TerminalBlock_RND
-TerminalBlock_RND_205-00010_1x11_P5.00mm_Horizontal
-terminal block RND 205-00010, 11 pins, pitch 5mm, size 55x9mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00001_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00010 pitch 5mm size 55x9mm^2 drill 1.3mm pad 2.5mm
-0
-11
-11
-TerminalBlock_RND
-TerminalBlock_RND_205-00011_1x12_P5.00mm_Horizontal
-terminal block RND 205-00011, 12 pins, pitch 5mm, size 60x9mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00001_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00011 pitch 5mm size 60x9mm^2 drill 1.3mm pad 2.5mm
-0
-12
-12
-TerminalBlock_RND
-TerminalBlock_RND_205-00012_1x02_P5.00mm_Horizontal
-terminal block RND 205-00012, 2 pins, pitch 5mm, size 10x7.6mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00012_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00012 pitch 5mm size 10x7.6mm^2 drill 1.3mm pad 2.5mm
+Capacitor_THT
+CP_Axial_L10.0mm_D6.0mm_P15.00mm_Horizontal
+CP, Axial series, Axial, Horizontal, pin pitch=15mm, , length*diameter=10*6mm^2, Electrolytic Capacitor, , http://www.vishay.com/docs/28325/021asm.pdf
+CP Axial series Axial Horizontal pin pitch 15mm  length 10mm diameter 6mm Electrolytic Capacitor
 0
 2
 2
-TerminalBlock_RND
-TerminalBlock_RND_205-00013_1x03_P5.00mm_Horizontal
-terminal block RND 205-00013, 3 pins, pitch 5mm, size 15x7.6mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00012_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00013 pitch 5mm size 15x7.6mm^2 drill 1.3mm pad 2.5mm
-0
-3
-3
-TerminalBlock_RND
-TerminalBlock_RND_205-00014_1x04_P5.00mm_Horizontal
-terminal block RND 205-00014, 4 pins, pitch 5mm, size 20x7.6mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00012_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00014 pitch 5mm size 20x7.6mm^2 drill 1.3mm pad 2.5mm
-0
-4
-4
-TerminalBlock_RND
-TerminalBlock_RND_205-00015_1x05_P5.00mm_Horizontal
-terminal block RND 205-00015, 5 pins, pitch 5mm, size 25x7.6mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00012_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00015 pitch 5mm size 25x7.6mm^2 drill 1.3mm pad 2.5mm
-0
-5
-5
-TerminalBlock_RND
-TerminalBlock_RND_205-00016_1x06_P5.00mm_Horizontal
-terminal block RND 205-00016, 6 pins, pitch 5mm, size 30x7.6mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00012_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00016 pitch 5mm size 30x7.6mm^2 drill 1.3mm pad 2.5mm
-0
-6
-6
-TerminalBlock_RND
-TerminalBlock_RND_205-00017_1x07_P5.00mm_Horizontal
-terminal block RND 205-00017, 7 pins, pitch 5mm, size 35x7.6mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00012_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00017 pitch 5mm size 35x7.6mm^2 drill 1.3mm pad 2.5mm
-0
-7
-7
-TerminalBlock_RND
-TerminalBlock_RND_205-00018_1x08_P5.00mm_Horizontal
-terminal block RND 205-00018, 8 pins, pitch 5mm, size 40x7.6mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00012_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00018 pitch 5mm size 40x7.6mm^2 drill 1.3mm pad 2.5mm
-0
-8
-8
-TerminalBlock_RND
-TerminalBlock_RND_205-00019_1x09_P5.00mm_Horizontal
-terminal block RND 205-00019, 9 pins, pitch 5mm, size 45x7.6mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00012_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00019 pitch 5mm size 45x7.6mm^2 drill 1.3mm pad 2.5mm
-0
-9
-9
-TerminalBlock_RND
-TerminalBlock_RND_205-00020_1x10_P5.00mm_Horizontal
-terminal block RND 205-00020, 10 pins, pitch 5mm, size 50x7.6mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00012_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00020 pitch 5mm size 50x7.6mm^2 drill 1.3mm pad 2.5mm
-0
-10
-10
-TerminalBlock_RND
-TerminalBlock_RND_205-00021_1x11_P5.00mm_Horizontal
-terminal block RND 205-00021, 11 pins, pitch 5mm, size 55x7.6mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00012_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00021 pitch 5mm size 55x7.6mm^2 drill 1.3mm pad 2.5mm
-0
-11
-11
-TerminalBlock_RND
-TerminalBlock_RND_205-00022_1x12_P5.00mm_Horizontal
-terminal block RND 205-00022, 12 pins, pitch 5mm, size 60x7.6mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00012_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00022 pitch 5mm size 60x7.6mm^2 drill 1.3mm pad 2.5mm
-0
-12
-12
-TerminalBlock_RND
-TerminalBlock_RND_205-00023_1x02_P10.00mm_Horizontal
-terminal block RND 205-00023, 2 pins, pitch 10mm, size 15x9mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00023_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00023 pitch 10mm size 15x9mm^2 drill 1.3mm pad 2.5mm
+Capacitor_THT
+CP_Axial_L11.0mm_D5.0mm_P18.00mm_Horizontal
+CP, Axial series, Axial, Horizontal, pin pitch=18mm, , length*diameter=11*5mm^2, Electrolytic Capacitor
+CP Axial series Axial Horizontal pin pitch 18mm  length 11mm diameter 5mm Electrolytic Capacitor
 0
 2
 2
-TerminalBlock_RND
-TerminalBlock_RND_205-00024_1x03_P10.00mm_Horizontal
-terminal block RND 205-00024, 3 pins, pitch 10mm, size 25x9mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00023_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00024 pitch 10mm size 25x9mm^2 drill 1.3mm pad 2.5mm
-0
-3
-3
-TerminalBlock_RND
-TerminalBlock_RND_205-00025_1x04_P10.00mm_Horizontal
-terminal block RND 205-00025, 4 pins, pitch 10mm, size 35x9mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00023_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00025 pitch 10mm size 35x9mm^2 drill 1.3mm pad 2.5mm
-0
-4
-4
-TerminalBlock_RND
-TerminalBlock_RND_205-00026_1x05_P10.00mm_Horizontal
-terminal block RND 205-00026, 5 pins, pitch 10mm, size 45x9mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00023_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00026 pitch 10mm size 45x9mm^2 drill 1.3mm pad 2.5mm
-0
-5
-5
-TerminalBlock_RND
-TerminalBlock_RND_205-00027_1x06_P10.00mm_Horizontal
-terminal block RND 205-00027, 6 pins, pitch 10mm, size 55x9mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00023_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00027 pitch 10mm size 55x9mm^2 drill 1.3mm pad 2.5mm
-0
-6
-6
-TerminalBlock_RND
-TerminalBlock_RND_205-00028_1x07_P10.00mm_Horizontal
-terminal block RND 205-00028, 7 pins, pitch 10mm, size 65x9mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00023_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00028 pitch 10mm size 65x9mm^2 drill 1.3mm pad 2.5mm
-0
-7
-7
-TerminalBlock_RND
-TerminalBlock_RND_205-00029_1x08_P10.00mm_Horizontal
-terminal block RND 205-00029, 8 pins, pitch 10mm, size 75x9mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00023_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00029 pitch 10mm size 75x9mm^2 drill 1.3mm pad 2.5mm
-0
-8
-8
-TerminalBlock_RND
-TerminalBlock_RND_205-00030_1x09_P10.00mm_Horizontal
-terminal block RND 205-00030, 9 pins, pitch 10mm, size 85x9mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00023_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00030 pitch 10mm size 85x9mm^2 drill 1.3mm pad 2.5mm
-0
-9
-9
-TerminalBlock_RND
-TerminalBlock_RND_205-00031_1x10_P10.00mm_Horizontal
-terminal block RND 205-00031, 10 pins, pitch 10mm, size 95x9mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00023_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00031 pitch 10mm size 95x9mm^2 drill 1.3mm pad 2.5mm
-0
-10
-10
-TerminalBlock_RND
-TerminalBlock_RND_205-00032_1x11_P10.00mm_Horizontal
-terminal block RND 205-00032, 11 pins, pitch 10mm, size 105x9mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00023_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00032 pitch 10mm size 105x9mm^2 drill 1.3mm pad 2.5mm
-0
-11
-11
-TerminalBlock_RND
-TerminalBlock_RND_205-00033_1x12_P10.00mm_Horizontal
-terminal block RND 205-00033, 12 pins, pitch 10mm, size 115x9mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00023_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00033 pitch 10mm size 115x9mm^2 drill 1.3mm pad 2.5mm
-0
-12
-12
-TerminalBlock_RND
-TerminalBlock_RND_205-00045_1x02_P5.00mm_Horizontal
-terminal block RND 205-00045, 2 pins, pitch 5mm, size 10x8.1mm^2, drill diamater 1.1mm, pad diameter 2.1mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00045_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00045 pitch 5mm size 10x8.1mm^2 drill 1.1mm pad 2.1mm
+Capacitor_THT
+CP_Axial_L11.0mm_D6.0mm_P18.00mm_Horizontal
+CP, Axial series, Axial, Horizontal, pin pitch=18mm, , length*diameter=11*6mm^2, Electrolytic Capacitor
+CP Axial series Axial Horizontal pin pitch 18mm  length 11mm diameter 6mm Electrolytic Capacitor
 0
 2
 2
-TerminalBlock_RND
-TerminalBlock_RND_205-00046_1x03_P5.00mm_Horizontal
-terminal block RND 205-00046, 3 pins, pitch 5mm, size 15x8.1mm^2, drill diamater 1.1mm, pad diameter 2.1mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00045_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00046 pitch 5mm size 15x8.1mm^2 drill 1.1mm pad 2.1mm
-0
-3
-3
-TerminalBlock_RND
-TerminalBlock_RND_205-00047_1x04_P5.00mm_Horizontal
-terminal block RND 205-00047, 4 pins, pitch 5mm, size 20x8.1mm^2, drill diamater 1.1mm, pad diameter 2.1mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00045_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00047 pitch 5mm size 20x8.1mm^2 drill 1.1mm pad 2.1mm
-0
-4
-4
-TerminalBlock_RND
-TerminalBlock_RND_205-00048_1x05_P5.00mm_Horizontal
-terminal block RND 205-00048, 5 pins, pitch 5mm, size 25x8.1mm^2, drill diamater 1.1mm, pad diameter 2.1mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00045_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00048 pitch 5mm size 25x8.1mm^2 drill 1.1mm pad 2.1mm
-0
-5
-5
-TerminalBlock_RND
-TerminalBlock_RND_205-00049_1x06_P5.00mm_Horizontal
-terminal block RND 205-00049, 6 pins, pitch 5mm, size 30x8.1mm^2, drill diamater 1.1mm, pad diameter 2.1mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00045_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00049 pitch 5mm size 30x8.1mm^2 drill 1.1mm pad 2.1mm
-0
-6
-6
-TerminalBlock_RND
-TerminalBlock_RND_205-00050_1x07_P5.00mm_Horizontal
-terminal block RND 205-00050, 7 pins, pitch 5mm, size 35x8.1mm^2, drill diamater 1.1mm, pad diameter 2.1mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00045_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00050 pitch 5mm size 35x8.1mm^2 drill 1.1mm pad 2.1mm
-0
-7
-7
-TerminalBlock_RND
-TerminalBlock_RND_205-00051_1x08_P5.00mm_Horizontal
-terminal block RND 205-00051, 8 pins, pitch 5mm, size 40x8.1mm^2, drill diamater 1.1mm, pad diameter 2.1mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00045_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00051 pitch 5mm size 40x8.1mm^2 drill 1.1mm pad 2.1mm
-0
-8
-8
-TerminalBlock_RND
-TerminalBlock_RND_205-00052_1x09_P5.00mm_Horizontal
-terminal block RND 205-00052, 9 pins, pitch 5mm, size 45x8.1mm^2, drill diamater 1.1mm, pad diameter 2.1mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00045_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00052 pitch 5mm size 45x8.1mm^2 drill 1.1mm pad 2.1mm
-0
-9
-9
-TerminalBlock_RND
-TerminalBlock_RND_205-00053_1x10_P5.00mm_Horizontal
-terminal block RND 205-00053, 10 pins, pitch 5mm, size 50x8.1mm^2, drill diamater 1.1mm, pad diameter 2.1mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00045_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00053 pitch 5mm size 50x8.1mm^2 drill 1.1mm pad 2.1mm
-0
-10
-10
-TerminalBlock_RND
-TerminalBlock_RND_205-00054_1x11_P5.00mm_Horizontal
-terminal block RND 205-00054, 11 pins, pitch 5mm, size 55x8.1mm^2, drill diamater 1.1mm, pad diameter 2.1mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00045_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00054 pitch 5mm size 55x8.1mm^2 drill 1.1mm pad 2.1mm
-0
-11
-11
-TerminalBlock_RND
-TerminalBlock_RND_205-00055_1x12_P5.00mm_Horizontal
-terminal block RND 205-00055, 12 pins, pitch 5mm, size 60x8.1mm^2, drill diamater 1.1mm, pad diameter 2.1mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00045_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00055 pitch 5mm size 60x8.1mm^2 drill 1.1mm pad 2.1mm
-0
-12
-12
-TerminalBlock_RND
-TerminalBlock_RND_205-00056_1x02_P5.00mm_45Degree
-terminal block RND 205-00056, 45Degree (cable under 45degree), 2 pins, pitch 5mm, size 10x12.6mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00056_DB_EN.pdf, script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00056 45Degree pitch 5mm size 10x12.6mm^2 drill 1.3mm pad 2.5mm
+Capacitor_THT
+CP_Axial_L11.0mm_D8.0mm_P15.00mm_Horizontal
+CP, Axial series, Axial, Horizontal, pin pitch=15mm, , length*diameter=11*8mm^2, Electrolytic Capacitor, , http://www.vishay.com/docs/28325/021asm.pdf
+CP Axial series Axial Horizontal pin pitch 15mm  length 11mm diameter 8mm Electrolytic Capacitor
 0
 2
 2
-TerminalBlock_RND
-TerminalBlock_RND_205-00057_1x03_P5.00mm_45Degree
-terminal block RND 205-00057, 45Degree (cable under 45degree), 3 pins, pitch 5mm, size 15x12.6mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00056_DB_EN.pdf, script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00057 45Degree pitch 5mm size 15x12.6mm^2 drill 1.3mm pad 2.5mm
-0
-3
-3
-TerminalBlock_RND
-TerminalBlock_RND_205-00058_1x04_P5.00mm_45Degree
-terminal block RND 205-00058, 45Degree (cable under 45degree), 4 pins, pitch 5mm, size 20x12.6mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00056_DB_EN.pdf, script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00058 45Degree pitch 5mm size 20x12.6mm^2 drill 1.3mm pad 2.5mm
-0
-4
-4
-TerminalBlock_RND
-TerminalBlock_RND_205-00059_1x05_P5.00mm_45Degree
-terminal block RND 205-00059, 45Degree (cable under 45degree), 5 pins, pitch 5mm, size 25x12.6mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00056_DB_EN.pdf, script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00059 45Degree pitch 5mm size 25x12.6mm^2 drill 1.3mm pad 2.5mm
-0
-5
-5
-TerminalBlock_RND
-TerminalBlock_RND_205-00060_1x06_P5.00mm_45Degree
-terminal block RND 205-00060, 45Degree (cable under 45degree), 6 pins, pitch 5mm, size 30x12.6mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00056_DB_EN.pdf, script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00060 45Degree pitch 5mm size 30x12.6mm^2 drill 1.3mm pad 2.5mm
-0
-6
-6
-TerminalBlock_RND
-TerminalBlock_RND_205-00061_1x07_P5.00mm_45Degree
-terminal block RND 205-00061, 45Degree (cable under 45degree), 7 pins, pitch 5mm, size 35x12.6mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00056_DB_EN.pdf, script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00061 45Degree pitch 5mm size 35x12.6mm^2 drill 1.3mm pad 2.5mm
-0
-7
-7
-TerminalBlock_RND
-TerminalBlock_RND_205-00062_1x08_P5.00mm_45Degree
-terminal block RND 205-00062, 45Degree (cable under 45degree), 8 pins, pitch 5mm, size 40x12.6mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00056_DB_EN.pdf, script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00062 45Degree pitch 5mm size 40x12.6mm^2 drill 1.3mm pad 2.5mm
-0
-8
-8
-TerminalBlock_RND
-TerminalBlock_RND_205-00063_1x09_P5.00mm_45Degree
-terminal block RND 205-00063, 45Degree (cable under 45degree), 9 pins, pitch 5mm, size 45x12.6mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00056_DB_EN.pdf, script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00063 45Degree pitch 5mm size 45x12.6mm^2 drill 1.3mm pad 2.5mm
-0
-9
-9
-TerminalBlock_RND
-TerminalBlock_RND_205-00064_1x10_P5.00mm_45Degree
-terminal block RND 205-00064, 45Degree (cable under 45degree), 10 pins, pitch 5mm, size 50x12.6mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00056_DB_EN.pdf, script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00064 45Degree pitch 5mm size 50x12.6mm^2 drill 1.3mm pad 2.5mm
-0
-10
-10
-TerminalBlock_RND
-TerminalBlock_RND_205-00065_1x11_P5.00mm_45Degree
-terminal block RND 205-00065, 45Degree (cable under 45degree), 11 pins, pitch 5mm, size 55x12.6mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00056_DB_EN.pdf, script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00065 45Degree pitch 5mm size 55x12.6mm^2 drill 1.3mm pad 2.5mm
-0
-11
-11
-TerminalBlock_RND
-TerminalBlock_RND_205-00066_1x12_P5.00mm_45Degree
-terminal block RND 205-00066, 45Degree (cable under 45degree), 12 pins, pitch 5mm, size 60x12.6mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00056_DB_EN.pdf, script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00066 45Degree pitch 5mm size 60x12.6mm^2 drill 1.3mm pad 2.5mm
-0
-12
-12
-TerminalBlock_RND
-TerminalBlock_RND_205-00067_1x02_P7.50mm_Horizontal
-terminal block RND 205-00067, 2 pins, pitch 7.5mm, size 15x10.3mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00067_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00067 pitch 7.5mm size 15x10.3mm^2 drill 1.3mm pad 2.5mm
+Capacitor_THT
+CP_Axial_L18.0mm_D6.5mm_P25.00mm_Horizontal
+CP, Axial series, Axial, Horizontal, pin pitch=25mm, , length*diameter=18*6.5mm^2, Electrolytic Capacitor, , http://www.vishay.com/docs/28325/021asm.pdf
+CP Axial series Axial Horizontal pin pitch 25mm  length 18mm diameter 6.5mm Electrolytic Capacitor
 0
 2
 2
-TerminalBlock_RND
-TerminalBlock_RND_205-00068_1x03_P7.50mm_Horizontal
-terminal block RND 205-00068, 3 pins, pitch 7.5mm, size 22.5x10.3mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00067_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00068 pitch 7.5mm size 22.5x10.3mm^2 drill 1.3mm pad 2.5mm
-0
-3
-3
-TerminalBlock_RND
-TerminalBlock_RND_205-00069_1x04_P7.50mm_Horizontal
-terminal block RND 205-00069, 4 pins, pitch 7.5mm, size 30x10.3mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00067_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00069 pitch 7.5mm size 30x10.3mm^2 drill 1.3mm pad 2.5mm
-0
-4
-4
-TerminalBlock_RND
-TerminalBlock_RND_205-00070_1x05_P7.50mm_Horizontal
-terminal block RND 205-00070, 5 pins, pitch 7.5mm, size 37.5x10.3mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00067_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00070 pitch 7.5mm size 37.5x10.3mm^2 drill 1.3mm pad 2.5mm
-0
-5
-5
-TerminalBlock_RND
-TerminalBlock_RND_205-00071_1x06_P7.50mm_Horizontal
-terminal block RND 205-00071, 6 pins, pitch 7.5mm, size 45x10.3mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00067_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00071 pitch 7.5mm size 45x10.3mm^2 drill 1.3mm pad 2.5mm
-0
-6
-6
-TerminalBlock_RND
-TerminalBlock_RND_205-00072_1x07_P7.50mm_Horizontal
-terminal block RND 205-00072, 7 pins, pitch 7.5mm, size 52.5x10.3mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00067_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00072 pitch 7.5mm size 52.5x10.3mm^2 drill 1.3mm pad 2.5mm
-0
-7
-7
-TerminalBlock_RND
-TerminalBlock_RND_205-00073_1x08_P7.50mm_Horizontal
-terminal block RND 205-00073, 8 pins, pitch 7.5mm, size 60x10.3mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00067_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00073 pitch 7.5mm size 60x10.3mm^2 drill 1.3mm pad 2.5mm
-0
-8
-8
-TerminalBlock_RND
-TerminalBlock_RND_205-00074_1x09_P7.50mm_Horizontal
-terminal block RND 205-00074, 9 pins, pitch 7.5mm, size 67.5x10.3mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00067_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00074 pitch 7.5mm size 67.5x10.3mm^2 drill 1.3mm pad 2.5mm
-0
-9
-9
-TerminalBlock_RND
-TerminalBlock_RND_205-00075_1x10_P7.50mm_Horizontal
-terminal block RND 205-00075, 10 pins, pitch 7.5mm, size 75x10.3mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00067_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00075 pitch 7.5mm size 75x10.3mm^2 drill 1.3mm pad 2.5mm
-0
-10
-10
-TerminalBlock_RND
-TerminalBlock_RND_205-00076_1x11_P7.50mm_Horizontal
-terminal block RND 205-00076, 11 pins, pitch 7.5mm, size 82.5x10.3mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00067_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00076 pitch 7.5mm size 82.5x10.3mm^2 drill 1.3mm pad 2.5mm
-0
-11
-11
-TerminalBlock_RND
-TerminalBlock_RND_205-00077_1x12_P7.50mm_Horizontal
-terminal block RND 205-00077, 12 pins, pitch 7.5mm, size 90x10.3mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00067_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00077 pitch 7.5mm size 90x10.3mm^2 drill 1.3mm pad 2.5mm
-0
-12
-12
-TerminalBlock_RND
-TerminalBlock_RND_205-00078_1x02_P10.00mm_Horizontal
-terminal block RND 205-00078, 2 pins, pitch 10mm, size 15x10.3mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00078_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00078 pitch 10mm size 15x10.3mm^2 drill 1.3mm pad 2.5mm
+Capacitor_THT
+CP_Axial_L18.0mm_D8.0mm_P25.00mm_Horizontal
+CP, Axial series, Axial, Horizontal, pin pitch=25mm, , length*diameter=18*8mm^2, Electrolytic Capacitor, , http://www.vishay.com/docs/28325/021asm.pdf
+CP Axial series Axial Horizontal pin pitch 25mm  length 18mm diameter 8mm Electrolytic Capacitor
 0
 2
 2
-TerminalBlock_RND
-TerminalBlock_RND_205-00079_1x03_P10.00mm_Horizontal
-terminal block RND 205-00079, 3 pins, pitch 10mm, size 25x10.3mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00078_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00079 pitch 10mm size 25x10.3mm^2 drill 1.3mm pad 2.5mm
-0
-3
-3
-TerminalBlock_RND
-TerminalBlock_RND_205-00080_1x04_P10.00mm_Horizontal
-terminal block RND 205-00080, 4 pins, pitch 10mm, size 35x10.3mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00078_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00080 pitch 10mm size 35x10.3mm^2 drill 1.3mm pad 2.5mm
-0
-4
-4
-TerminalBlock_RND
-TerminalBlock_RND_205-00081_1x05_P10.00mm_Horizontal
-terminal block RND 205-00081, 5 pins, pitch 10mm, size 45x10.3mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00078_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00081 pitch 10mm size 45x10.3mm^2 drill 1.3mm pad 2.5mm
-0
-5
-5
-TerminalBlock_RND
-TerminalBlock_RND_205-00082_1x06_P10.00mm_Horizontal
-terminal block RND 205-00082, 6 pins, pitch 10mm, size 55x10.3mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00078_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00082 pitch 10mm size 55x10.3mm^2 drill 1.3mm pad 2.5mm
-0
-6
-6
-TerminalBlock_RND
-TerminalBlock_RND_205-00083_1x07_P10.00mm_Horizontal
-terminal block RND 205-00083, 7 pins, pitch 10mm, size 65x10.3mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00078_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00083 pitch 10mm size 65x10.3mm^2 drill 1.3mm pad 2.5mm
-0
-7
-7
-TerminalBlock_RND
-TerminalBlock_RND_205-00084_1x08_P10.00mm_Horizontal
-terminal block RND 205-00084, 8 pins, pitch 10mm, size 75x10.3mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00078_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00084 pitch 10mm size 75x10.3mm^2 drill 1.3mm pad 2.5mm
-0
-8
-8
-TerminalBlock_RND
-TerminalBlock_RND_205-00085_1x09_P10.00mm_Horizontal
-terminal block RND 205-00085, 9 pins, pitch 10mm, size 85x10.3mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00078_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00085 pitch 10mm size 85x10.3mm^2 drill 1.3mm pad 2.5mm
-0
-9
-9
-TerminalBlock_RND
-TerminalBlock_RND_205-00086_1x10_P10.00mm_Horizontal
-terminal block RND 205-00086, 10 pins, pitch 10mm, size 95x10.3mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00078_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00086 pitch 10mm size 95x10.3mm^2 drill 1.3mm pad 2.5mm
-0
-10
-10
-TerminalBlock_RND
-TerminalBlock_RND_205-00087_1x11_P10.00mm_Horizontal
-terminal block RND 205-00087, 11 pins, pitch 10mm, size 105x10.3mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00078_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00087 pitch 10mm size 105x10.3mm^2 drill 1.3mm pad 2.5mm
-0
-11
-11
-TerminalBlock_RND
-TerminalBlock_RND_205-00088_1x12_P10.00mm_Horizontal
-terminal block RND 205-00088, 12 pins, pitch 10mm, size 115x10.3mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00078_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00088 pitch 10mm size 115x10.3mm^2 drill 1.3mm pad 2.5mm
-0
-12
-12
-TerminalBlock_RND
-TerminalBlock_RND_205-00232_1x02_P5.08mm_Horizontal
-terminal block RND 205-00232, 2 pins, pitch 5.08mm, size 10.2x8.45mm^2, drill diamater 1.1mm, pad diameter 2.1mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00232_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00232 pitch 5.08mm size 10.2x8.45mm^2 drill 1.1mm pad 2.1mm
+Capacitor_THT
+CP_Axial_L18.0mm_D10.0mm_P25.00mm_Horizontal
+CP, Axial series, Axial, Horizontal, pin pitch=25mm, , length*diameter=18*10mm^2, Electrolytic Capacitor, , http://www.vishay.com/docs/28325/021asm.pdf
+CP Axial series Axial Horizontal pin pitch 25mm  length 18mm diameter 10mm Electrolytic Capacitor
 0
 2
 2
-TerminalBlock_RND
-TerminalBlock_RND_205-00233_1x03_P5.08mm_Horizontal
-terminal block RND 205-00233, 3 pins, pitch 5.08mm, size 15.2x8.45mm^2, drill diamater 1.1mm, pad diameter 2.1mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00232_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00233 pitch 5.08mm size 15.2x8.45mm^2 drill 1.1mm pad 2.1mm
-0
-3
-3
-TerminalBlock_RND
-TerminalBlock_RND_205-00234_1x04_P5.08mm_Horizontal
-terminal block RND 205-00234, 4 pins, pitch 5.08mm, size 20.3x8.45mm^2, drill diamater 1.1mm, pad diameter 2.1mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00232_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00234 pitch 5.08mm size 20.3x8.45mm^2 drill 1.1mm pad 2.1mm
-0
-4
-4
-TerminalBlock_RND
-TerminalBlock_RND_205-00235_1x05_P5.08mm_Horizontal
-terminal block RND 205-00235, 5 pins, pitch 5.08mm, size 25.4x8.45mm^2, drill diamater 1.1mm, pad diameter 2.1mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00232_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00235 pitch 5.08mm size 25.4x8.45mm^2 drill 1.1mm pad 2.1mm
-0
-5
-5
-TerminalBlock_RND
-TerminalBlock_RND_205-00236_1x06_P5.08mm_Horizontal
-terminal block RND 205-00236, 6 pins, pitch 5.08mm, size 30.5x8.45mm^2, drill diamater 1.1mm, pad diameter 2.1mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00232_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00236 pitch 5.08mm size 30.5x8.45mm^2 drill 1.1mm pad 2.1mm
-0
-6
-6
-TerminalBlock_RND
-TerminalBlock_RND_205-00237_1x07_P5.08mm_Horizontal
-terminal block RND 205-00237, 7 pins, pitch 5.08mm, size 35.6x8.45mm^2, drill diamater 1.1mm, pad diameter 2.1mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00232_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00237 pitch 5.08mm size 35.6x8.45mm^2 drill 1.1mm pad 2.1mm
-0
-7
-7
-TerminalBlock_RND
-TerminalBlock_RND_205-00238_1x08_P5.08mm_Horizontal
-terminal block RND 205-00238, 8 pins, pitch 5.08mm, size 40.6x8.45mm^2, drill diamater 1.1mm, pad diameter 2.1mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00232_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00238 pitch 5.08mm size 40.6x8.45mm^2 drill 1.1mm pad 2.1mm
-0
-8
-8
-TerminalBlock_RND
-TerminalBlock_RND_205-00239_1x09_P5.08mm_Horizontal
-terminal block RND 205-00239, 9 pins, pitch 5.08mm, size 45.7x8.45mm^2, drill diamater 1.1mm, pad diameter 2.1mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00232_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00239 pitch 5.08mm size 45.7x8.45mm^2 drill 1.1mm pad 2.1mm
-0
-9
-9
-TerminalBlock_RND
-TerminalBlock_RND_205-00240_1x10_P5.08mm_Horizontal
-terminal block RND 205-00240, 10 pins, pitch 5.08mm, size 50.8x8.45mm^2, drill diamater 1.1mm, pad diameter 2.1mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00232_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00240 pitch 5.08mm size 50.8x8.45mm^2 drill 1.1mm pad 2.1mm
-0
-10
-10
-TerminalBlock_RND
-TerminalBlock_RND_205-00241_1x02_P10.16mm_Horizontal
-terminal block RND 205-00241, 2 pins, pitch 10.2mm, size 15.2x8.3mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00023_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00241 pitch 10.2mm size 15.2x8.3mm^2 drill 1.3mm pad 2.5mm
+Capacitor_THT
+CP_Axial_L20.0mm_D10.0mm_P26.00mm_Horizontal
+CP, Axial series, Axial, Horizontal, pin pitch=26mm, , length*diameter=20*10mm^2, Electrolytic Capacitor, , http://www.kemet.com/Lists/ProductCatalog/Attachments/424/KEM_AC102.pdf
+CP Axial series Axial Horizontal pin pitch 26mm  length 20mm diameter 10mm Electrolytic Capacitor
 0
 2
 2
-TerminalBlock_RND
-TerminalBlock_RND_205-00242_1x03_P10.16mm_Horizontal
-terminal block RND 205-00242, 3 pins, pitch 10.2mm, size 25.4x8.3mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00023_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00242 pitch 10.2mm size 25.4x8.3mm^2 drill 1.3mm pad 2.5mm
-0
-3
-3
-TerminalBlock_RND
-TerminalBlock_RND_205-00243_1x04_P10.16mm_Horizontal
-terminal block RND 205-00243, 4 pins, pitch 10.2mm, size 35.6x8.3mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00023_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00243 pitch 10.2mm size 35.6x8.3mm^2 drill 1.3mm pad 2.5mm
-0
-4
-4
-TerminalBlock_RND
-TerminalBlock_RND_205-00244_1x05_P10.16mm_Horizontal
-terminal block RND 205-00244, 5 pins, pitch 10.2mm, size 45.7x8.3mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00023_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00244 pitch 10.2mm size 45.7x8.3mm^2 drill 1.3mm pad 2.5mm
-0
-5
-5
-TerminalBlock_RND
-TerminalBlock_RND_205-00245_1x06_P10.16mm_Horizontal
-terminal block RND 205-00245, 6 pins, pitch 10.2mm, size 55.9x8.3mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00023_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00245 pitch 10.2mm size 55.9x8.3mm^2 drill 1.3mm pad 2.5mm
-0
-6
-6
-TerminalBlock_RND
-TerminalBlock_RND_205-00246_1x07_P10.16mm_Horizontal
-terminal block RND 205-00246, 7 pins, pitch 10.2mm, size 66x8.3mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00023_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00246 pitch 10.2mm size 66x8.3mm^2 drill 1.3mm pad 2.5mm
-0
-7
-7
-TerminalBlock_RND
-TerminalBlock_RND_205-00247_1x08_P10.16mm_Horizontal
-terminal block RND 205-00247, 8 pins, pitch 10.2mm, size 76.2x8.3mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00023_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00247 pitch 10.2mm size 76.2x8.3mm^2 drill 1.3mm pad 2.5mm
-0
-8
-8
-TerminalBlock_RND
-TerminalBlock_RND_205-00248_1x09_P10.16mm_Horizontal
-terminal block RND 205-00248, 9 pins, pitch 10.2mm, size 86.4x8.3mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00023_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00248 pitch 10.2mm size 86.4x8.3mm^2 drill 1.3mm pad 2.5mm
-0
-9
-9
-TerminalBlock_RND
-TerminalBlock_RND_205-00249_1x10_P10.16mm_Horizontal
-terminal block RND 205-00249, 10 pins, pitch 10.2mm, size 96.5x8.3mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00023_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00249 pitch 10.2mm size 96.5x8.3mm^2 drill 1.3mm pad 2.5mm
-0
-10
-10
-TerminalBlock_RND
-TerminalBlock_RND_205-00250_1x11_P10.16mm_Horizontal
-terminal block RND 205-00250, 11 pins, pitch 10.2mm, size 107x8.3mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00023_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00250 pitch 10.2mm size 107x8.3mm^2 drill 1.3mm pad 2.5mm
-0
-11
-11
-TerminalBlock_RND
-TerminalBlock_RND_205-00251_1x12_P10.16mm_Horizontal
-terminal block RND 205-00251, 12 pins, pitch 10.2mm, size 117x8.3mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00023_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00251 pitch 10.2mm size 117x8.3mm^2 drill 1.3mm pad 2.5mm
-0
-12
-12
-TerminalBlock_RND
-TerminalBlock_RND_205-00276_1x02_P5.00mm_Vertical
-terminal block RND 205-00078, vertical (cable from top), 2 pins, pitch 5mm, size 10x10mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00276_DB_EN.pdf, script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00078 vertical pitch 5mm size 10x10mm^2 drill 1.3mm pad 2.5mm
+Capacitor_THT
+CP_Axial_L20.0mm_D13.0mm_P26.00mm_Horizontal
+CP, Axial series, Axial, Horizontal, pin pitch=26mm, , length*diameter=20*13mm^2, Electrolytic Capacitor, , http://www.kemet.com/Lists/ProductCatalog/Attachments/424/KEM_AC102.pdf
+CP Axial series Axial Horizontal pin pitch 26mm  length 20mm diameter 13mm Electrolytic Capacitor
 0
 2
 2
-TerminalBlock_RND
-TerminalBlock_RND_205-00277_1x03_P5.00mm_Vertical
-terminal block RND 205-00079, vertical (cable from top), 3 pins, pitch 5mm, size 15x10mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00276_DB_EN.pdf, script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00079 vertical pitch 5mm size 15x10mm^2 drill 1.3mm pad 2.5mm
-0
-3
-3
-TerminalBlock_RND
-TerminalBlock_RND_205-00278_1x04_P5.00mm_Vertical
-terminal block RND 205-00080, vertical (cable from top), 4 pins, pitch 5mm, size 20x10mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00276_DB_EN.pdf, script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00080 vertical pitch 5mm size 20x10mm^2 drill 1.3mm pad 2.5mm
-0
-4
-4
-TerminalBlock_RND
-TerminalBlock_RND_205-00279_1x05_P5.00mm_Vertical
-terminal block RND 205-00081, vertical (cable from top), 5 pins, pitch 5mm, size 25x10mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00276_DB_EN.pdf, script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00081 vertical pitch 5mm size 25x10mm^2 drill 1.3mm pad 2.5mm
-0
-5
-5
-TerminalBlock_RND
-TerminalBlock_RND_205-00280_1x06_P5.00mm_Vertical
-terminal block RND 205-00082, vertical (cable from top), 6 pins, pitch 5mm, size 30x10mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00276_DB_EN.pdf, script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00082 vertical pitch 5mm size 30x10mm^2 drill 1.3mm pad 2.5mm
-0
-6
-6
-TerminalBlock_RND
-TerminalBlock_RND_205-00281_1x07_P5.00mm_Vertical
-terminal block RND 205-00083, vertical (cable from top), 7 pins, pitch 5mm, size 35x10mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00276_DB_EN.pdf, script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00083 vertical pitch 5mm size 35x10mm^2 drill 1.3mm pad 2.5mm
-0
-7
-7
-TerminalBlock_RND
-TerminalBlock_RND_205-00282_1x08_P5.00mm_Vertical
-terminal block RND 205-00084, vertical (cable from top), 8 pins, pitch 5mm, size 40x10mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00276_DB_EN.pdf, script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00084 vertical pitch 5mm size 40x10mm^2 drill 1.3mm pad 2.5mm
-0
-8
-8
-TerminalBlock_RND
-TerminalBlock_RND_205-00283_1x09_P5.00mm_Vertical
-terminal block RND 205-00085, vertical (cable from top), 9 pins, pitch 5mm, size 45x10mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00276_DB_EN.pdf, script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00085 vertical pitch 5mm size 45x10mm^2 drill 1.3mm pad 2.5mm
-0
-9
-9
-TerminalBlock_RND
-TerminalBlock_RND_205-00284_1x10_P5.00mm_Vertical
-terminal block RND 205-00086, vertical (cable from top), 10 pins, pitch 5mm, size 50x10mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00276_DB_EN.pdf, script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00086 vertical pitch 5mm size 50x10mm^2 drill 1.3mm pad 2.5mm
-0
-10
-10
-TerminalBlock_RND
-TerminalBlock_RND_205-00285_1x11_P5.00mm_Vertical
-terminal block RND 205-00087, vertical (cable from top), 11 pins, pitch 5mm, size 55x10mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00276_DB_EN.pdf, script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00087 vertical pitch 5mm size 55x10mm^2 drill 1.3mm pad 2.5mm
-0
-11
-11
-TerminalBlock_RND
-TerminalBlock_RND_205-00286_1x12_P5.00mm_Vertical
-terminal block RND 205-00088, vertical (cable from top), 12 pins, pitch 5mm, size 60x10mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00276_DB_EN.pdf, script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00088 vertical pitch 5mm size 60x10mm^2 drill 1.3mm pad 2.5mm
-0
-12
-12
-TerminalBlock_RND
-TerminalBlock_RND_205-00287_1x02_P5.08mm_Horizontal
-terminal block RND 205-00287, 2 pins, pitch 5.08mm, size 10.2x10.6mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00287_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00287 pitch 5.08mm size 10.2x10.6mm^2 drill 1.3mm pad 2.5mm
+Capacitor_THT
+CP_Axial_L21.0mm_D8.0mm_P28.00mm_Horizontal
+CP, Axial series, Axial, Horizontal, pin pitch=28mm, , length*diameter=21*8mm^2, Electrolytic Capacitor
+CP Axial series Axial Horizontal pin pitch 28mm  length 21mm diameter 8mm Electrolytic Capacitor
 0
 2
 2
-TerminalBlock_RND
-TerminalBlock_RND_205-00288_1x03_P5.08mm_Horizontal
-terminal block RND 205-00288, 3 pins, pitch 5.08mm, size 15.2x10.6mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00287_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00288 pitch 5.08mm size 15.2x10.6mm^2 drill 1.3mm pad 2.5mm
-0
-3
-3
-TerminalBlock_RND
-TerminalBlock_RND_205-00289_1x04_P5.08mm_Horizontal
-terminal block RND 205-00289, 4 pins, pitch 5.08mm, size 20.3x10.6mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00287_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00289 pitch 5.08mm size 20.3x10.6mm^2 drill 1.3mm pad 2.5mm
-0
-4
-4
-TerminalBlock_RND
-TerminalBlock_RND_205-00290_1x05_P5.08mm_Horizontal
-terminal block RND 205-00290, 5 pins, pitch 5.08mm, size 25.4x10.6mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00287_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00290 pitch 5.08mm size 25.4x10.6mm^2 drill 1.3mm pad 2.5mm
-0
-5
-5
-TerminalBlock_RND
-TerminalBlock_RND_205-00291_1x06_P5.08mm_Horizontal
-terminal block RND 205-00291, 6 pins, pitch 5.08mm, size 30.5x10.6mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00287_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00291 pitch 5.08mm size 30.5x10.6mm^2 drill 1.3mm pad 2.5mm
-0
-6
-6
-TerminalBlock_RND
-TerminalBlock_RND_205-00292_1x07_P5.08mm_Horizontal
-terminal block RND 205-00292, 7 pins, pitch 5.08mm, size 35.6x10.6mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00287_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00292 pitch 5.08mm size 35.6x10.6mm^2 drill 1.3mm pad 2.5mm
-0
-7
-7
-TerminalBlock_RND
-TerminalBlock_RND_205-00293_1x08_P5.08mm_Horizontal
-terminal block RND 205-00293, 8 pins, pitch 5.08mm, size 40.6x10.6mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00287_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00293 pitch 5.08mm size 40.6x10.6mm^2 drill 1.3mm pad 2.5mm
-0
-8
-8
-TerminalBlock_RND
-TerminalBlock_RND_205-00294_1x09_P5.08mm_Horizontal
-terminal block RND 205-00294, 9 pins, pitch 5.08mm, size 45.7x10.6mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00287_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00294 pitch 5.08mm size 45.7x10.6mm^2 drill 1.3mm pad 2.5mm
-0
-9
-9
-TerminalBlock_RND
-TerminalBlock_RND_205-00295_1x10_P5.08mm_Horizontal
-terminal block RND 205-00295, 10 pins, pitch 5.08mm, size 50.8x10.6mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00287_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00295 pitch 5.08mm size 50.8x10.6mm^2 drill 1.3mm pad 2.5mm
-0
-10
-10
-TerminalBlock_RND
-TerminalBlock_RND_205-00296_1x11_P5.08mm_Horizontal
-terminal block RND 205-00296, 11 pins, pitch 5.08mm, size 55.9x10.6mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00287_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00296 pitch 5.08mm size 55.9x10.6mm^2 drill 1.3mm pad 2.5mm
-0
-11
-11
-TerminalBlock_RND
-TerminalBlock_RND_205-00297_1x12_P5.08mm_Horizontal
-terminal block RND 205-00297, 12 pins, pitch 5.08mm, size 61x10.6mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00287_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00297 pitch 5.08mm size 61x10.6mm^2 drill 1.3mm pad 2.5mm
-0
-12
-12
-TerminalBlock_RND
-TerminalBlock_RND_205-00298_1x02_P10.00mm_Horizontal
-terminal block RND 205-00298, 2 pins, pitch 10mm, size 15x8.1mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00298_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00298 pitch 10mm size 15x8.1mm^2 drill 1.3mm pad 2.5mm
+Capacitor_THT
+CP_Axial_L25.0mm_D10.0mm_P30.00mm_Horizontal
+CP, Axial series, Axial, Horizontal, pin pitch=30mm, , length*diameter=25*10mm^2, Electrolytic Capacitor, , http://www.vishay.com/docs/28325/021asm.pdf
+CP Axial series Axial Horizontal pin pitch 30mm  length 25mm diameter 10mm Electrolytic Capacitor
 0
 2
 2
-TerminalBlock_RND
-TerminalBlock_RND_205-00299_1x03_P10.00mm_Horizontal
-terminal block RND 205-00299, 3 pins, pitch 10mm, size 25x8.1mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00298_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00299 pitch 10mm size 25x8.1mm^2 drill 1.3mm pad 2.5mm
+Capacitor_THT
+CP_Axial_L26.5mm_D20.0mm_P33.00mm_Horizontal
+CP, Axial series, Axial, Horizontal, pin pitch=33mm, , length*diameter=26.5*20mm^2, Electrolytic Capacitor, , http://www.kemet.com/Lists/ProductCatalog/Attachments/424/KEM_AC102.pdf
+CP Axial series Axial Horizontal pin pitch 33mm  length 26.5mm diameter 20mm Electrolytic Capacitor
 0
-3
-3
-TerminalBlock_RND
-TerminalBlock_RND_205-00300_1x04_P10.00mm_Horizontal
-terminal block RND 205-00300, 4 pins, pitch 10mm, size 35x8.1mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00298_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00300 pitch 10mm size 35x8.1mm^2 drill 1.3mm pad 2.5mm
+2
+2
+Capacitor_THT
+CP_Axial_L29.0mm_D10.0mm_P35.00mm_Horizontal
+CP, Axial series, Axial, Horizontal, pin pitch=35mm, , length*diameter=29*10mm^2, Electrolytic Capacitor, , http://www.kemet.com/Lists/ProductCatalog/Attachments/424/KEM_AC102.pdf
+CP Axial series Axial Horizontal pin pitch 35mm  length 29mm diameter 10mm Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Axial_L29.0mm_D13.0mm_P35.00mm_Horizontal
+CP, Axial series, Axial, Horizontal, pin pitch=35mm, , length*diameter=29*13mm^2, Electrolytic Capacitor, , http://www.kemet.com/Lists/ProductCatalog/Attachments/424/KEM_AC102.pdf
+CP Axial series Axial Horizontal pin pitch 35mm  length 29mm diameter 13mm Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Axial_L29.0mm_D16.0mm_P35.00mm_Horizontal
+CP, Axial series, Axial, Horizontal, pin pitch=35mm, , length*diameter=29*16mm^2, Electrolytic Capacitor, , http://www.kemet.com/Lists/ProductCatalog/Attachments/424/KEM_AC102.pdf
+CP Axial series Axial Horizontal pin pitch 35mm  length 29mm diameter 16mm Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Axial_L29.0mm_D20.0mm_P35.00mm_Horizontal
+CP, Axial series, Axial, Horizontal, pin pitch=35mm, , length*diameter=29*20mm^2, Electrolytic Capacitor, , http://www.kemet.com/Lists/ProductCatalog/Attachments/424/KEM_AC102.pdf
+CP Axial series Axial Horizontal pin pitch 35mm  length 29mm diameter 20mm Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Axial_L30.0mm_D10.0mm_P35.00mm_Horizontal
+CP, Axial series, Axial, Horizontal, pin pitch=35mm, , length*diameter=30*10mm^2, Electrolytic Capacitor, , http://www.vishay.com/docs/28325/021asm.pdf
+CP Axial series Axial Horizontal pin pitch 35mm  length 30mm diameter 10mm Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Axial_L30.0mm_D12.5mm_P35.00mm_Horizontal
+CP, Axial series, Axial, Horizontal, pin pitch=35mm, , length*diameter=30*12.5mm^2, Electrolytic Capacitor, , http://www.vishay.com/docs/28325/021asm.pdf
+CP Axial series Axial Horizontal pin pitch 35mm  length 30mm diameter 12.5mm Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Axial_L30.0mm_D15.0mm_P35.00mm_Horizontal
+CP, Axial series, Axial, Horizontal, pin pitch=35mm, , length*diameter=30*15mm^2, Electrolytic Capacitor, , http://www.vishay.com/docs/28325/021asm.pdf
+CP Axial series Axial Horizontal pin pitch 35mm  length 30mm diameter 15mm Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Axial_L30.0mm_D18.0mm_P35.00mm_Horizontal
+CP, Axial series, Axial, Horizontal, pin pitch=35mm, , length*diameter=30*18mm^2, Electrolytic Capacitor, , http://www.vishay.com/docs/28325/021asm.pdf
+CP Axial series Axial Horizontal pin pitch 35mm  length 30mm diameter 18mm Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Axial_L34.5mm_D20.0mm_P41.00mm_Horizontal
+CP, Axial series, Axial, Horizontal, pin pitch=41mm, , length*diameter=34.5*20mm^2, Electrolytic Capacitor, , http://www.kemet.com/Lists/ProductCatalog/Attachments/424/KEM_AC102.pdf
+CP Axial series Axial Horizontal pin pitch 41mm  length 34.5mm diameter 20mm Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Axial_L37.0mm_D13.0mm_P43.00mm_Horizontal
+CP, Axial series, Axial, Horizontal, pin pitch=43mm, , length*diameter=37*13mm^2, Electrolytic Capacitor, , http://www.kemet.com/Lists/ProductCatalog/Attachments/424/KEM_AC102.pdf
+CP Axial series Axial Horizontal pin pitch 43mm  length 37mm diameter 13mm Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Axial_L37.0mm_D16.0mm_P43.00mm_Horizontal
+CP, Axial series, Axial, Horizontal, pin pitch=43mm, , length*diameter=37*16mm^2, Electrolytic Capacitor, , http://www.kemet.com/Lists/ProductCatalog/Attachments/424/KEM_AC102.pdf
+CP Axial series Axial Horizontal pin pitch 43mm  length 37mm diameter 16mm Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Axial_L37.0mm_D20.0mm_P43.00mm_Horizontal
+CP, Axial series, Axial, Horizontal, pin pitch=43mm, , length*diameter=37*20mm^2, Electrolytic Capacitor, , http://www.kemet.com/Lists/ProductCatalog/Attachments/424/KEM_AC102.pdf
+CP Axial series Axial Horizontal pin pitch 43mm  length 37mm diameter 20mm Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Axial_L38.0mm_D18.0mm_P44.00mm_Horizontal
+CP, Axial series, Axial, Horizontal, pin pitch=44mm, , length*diameter=38*18mm^2, Electrolytic Capacitor, , http://www.vishay.com/docs/28325/021asm.pdf
+CP Axial series Axial Horizontal pin pitch 44mm  length 38mm diameter 18mm Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Axial_L38.0mm_D21.0mm_P44.00mm_Horizontal
+CP, Axial series, Axial, Horizontal, pin pitch=44mm, , length*diameter=38*21mm^2, Electrolytic Capacitor, , http://www.vishay.com/docs/28325/021asm.pdf
+CP Axial series Axial Horizontal pin pitch 44mm  length 38mm diameter 21mm Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Axial_L40.0mm_D16.0mm_P48.00mm_Horizontal
+CP, Axial series, Axial, Horizontal, pin pitch=48mm, , length*diameter=40*16mm^2, Electrolytic Capacitor
+CP Axial series Axial Horizontal pin pitch 48mm  length 40mm diameter 16mm Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Axial_L42.0mm_D23.0mm_P45.00mm_Horizontal
+CP, Axial series, Axial, Horizontal, pin pitch=45mm, , length*diameter=42*23.0mm^2, Electrolytic Capacitor, , http://www.vishay.com/docs/42037/53d.pdf
+CP Axial series Axial Horizontal pin pitch 45mm  length 42mm diameter 23.0mm Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Axial_L42.0mm_D26.0mm_P45.00mm_Horizontal
+CP, Axial series, Axial, Horizontal, pin pitch=45mm, , length*diameter=42*26mm^2, Electrolytic Capacitor, , http://www.vishay.com/docs/42037/53d.pdf
+CP Axial series Axial Horizontal pin pitch 45mm  length 42mm diameter 26mm Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Axial_L42.0mm_D29.0mm_P45.00mm_Horizontal
+CP, Axial series, Axial, Horizontal, pin pitch=45mm, , length*diameter=42*29.0mm^2, Electrolytic Capacitor, , http://www.vishay.com/docs/42037/53d.pdf
+CP Axial series Axial Horizontal pin pitch 45mm  length 42mm diameter 29.0mm Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Axial_L42.0mm_D32.0mm_P45.00mm_Horizontal
+CP, Axial series, Axial, Horizontal, pin pitch=45mm, , length*diameter=42*32.0mm^2, Electrolytic Capacitor, , http://www.vishay.com/docs/42037/53d.pdf
+CP Axial series Axial Horizontal pin pitch 45mm  length 42mm diameter 32.0mm Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Axial_L42.0mm_D35.0mm_P45.00mm_Horizontal
+CP, Axial series, Axial, Horizontal, pin pitch=45mm, , length*diameter=42*35.0mm^2, Electrolytic Capacitor, , http://www.vishay.com/docs/42037/53d.pdf
+CP Axial series Axial Horizontal pin pitch 45mm  length 42mm diameter 35.0mm Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Axial_L42.5mm_D20.0mm_P49.00mm_Horizontal
+CP, Axial series, Axial, Horizontal, pin pitch=49mm, , length*diameter=42.5*20mm^2, Electrolytic Capacitor
+CP Axial series Axial Horizontal pin pitch 49mm  length 42.5mm diameter 20mm Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Axial_L46.0mm_D20.0mm_P52.00mm_Horizontal
+CP, Axial series, Axial, Horizontal, pin pitch=52mm, , length*diameter=46*20mm^2, Electrolytic Capacitor
+CP Axial series Axial Horizontal pin pitch 52mm  length 46mm diameter 20mm Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Axial_L55.0mm_D23.0mm_P60.00mm_Horizontal
+CP, Axial series, Axial, Horizontal, pin pitch=60mm, , length*diameter=55*23.0mm^2, Electrolytic Capacitor, , http://www.vishay.com/docs/42037/53d.pdf
+CP Axial series Axial Horizontal pin pitch 60mm  length 55mm diameter 23.0mm Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Axial_L55.0mm_D26.0mm_P60.00mm_Horizontal
+CP, Axial series, Axial, Horizontal, pin pitch=60mm, , length*diameter=55*26mm^2, Electrolytic Capacitor, , http://www.vishay.com/docs/42037/53d.pdf
+CP Axial series Axial Horizontal pin pitch 60mm  length 55mm diameter 26mm Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Axial_L55.0mm_D29.0mm_P60.00mm_Horizontal
+CP, Axial series, Axial, Horizontal, pin pitch=60mm, , length*diameter=55*29.0mm^2, Electrolytic Capacitor, , http://www.vishay.com/docs/42037/53d.pdf
+CP Axial series Axial Horizontal pin pitch 60mm  length 55mm diameter 29.0mm Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Axial_L55.0mm_D32.0mm_P60.00mm_Horizontal
+CP, Axial series, Axial, Horizontal, pin pitch=60mm, , length*diameter=55*32.0mm^2, Electrolytic Capacitor, , http://www.vishay.com/docs/42037/53d.pdf
+CP Axial series Axial Horizontal pin pitch 60mm  length 55mm diameter 32.0mm Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Axial_L55.0mm_D35.0mm_P60.00mm_Horizontal
+CP, Axial series, Axial, Horizontal, pin pitch=60mm, , length*diameter=55*35.0mm^2, Electrolytic Capacitor, , http://www.vishay.com/docs/42037/53d.pdf
+CP Axial series Axial Horizontal pin pitch 60mm  length 55mm diameter 35.0mm Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Axial_L67.0mm_D23.0mm_P75.00mm_Horizontal
+CP, Axial series, Axial, Horizontal, pin pitch=75mm, , length*diameter=67*23.0mm^2, Electrolytic Capacitor, , http://www.vishay.com/docs/42037/53d.pdf
+CP Axial series Axial Horizontal pin pitch 75mm  length 67mm diameter 23.0mm Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Axial_L67.0mm_D26.0mm_P75.00mm_Horizontal
+CP, Axial series, Axial, Horizontal, pin pitch=75mm, , length*diameter=67*26mm^2, Electrolytic Capacitor, , http://www.vishay.com/docs/42037/53d.pdf
+CP Axial series Axial Horizontal pin pitch 75mm  length 67mm diameter 26mm Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Axial_L67.0mm_D29.0mm_P75.00mm_Horizontal
+CP, Axial series, Axial, Horizontal, pin pitch=75mm, , length*diameter=67*29.0mm^2, Electrolytic Capacitor, , http://www.vishay.com/docs/42037/53d.pdf
+CP Axial series Axial Horizontal pin pitch 75mm  length 67mm diameter 29.0mm Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Axial_L67.0mm_D32.0mm_P75.00mm_Horizontal
+CP, Axial series, Axial, Horizontal, pin pitch=75mm, , length*diameter=67*32.0mm^2, Electrolytic Capacitor, , http://www.vishay.com/docs/42037/53d.pdf
+CP Axial series Axial Horizontal pin pitch 75mm  length 67mm diameter 32.0mm Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Axial_L67.0mm_D35.0mm_P75.00mm_Horizontal
+CP, Axial series, Axial, Horizontal, pin pitch=75mm, , length*diameter=67*35.0mm^2, Electrolytic Capacitor, , http://www.vishay.com/docs/42037/53d.pdf
+CP Axial series Axial Horizontal pin pitch 75mm  length 67mm diameter 35.0mm Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Axial_L80.0mm_D23.0mm_P85.00mm_Horizontal
+CP, Axial series, Axial, Horizontal, pin pitch=85mm, , length*diameter=80*23.0mm^2, Electrolytic Capacitor, , http://www.vishay.com/docs/42037/53d.pdf
+CP Axial series Axial Horizontal pin pitch 85mm  length 80mm diameter 23.0mm Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Axial_L80.0mm_D26.0mm_P85.00mm_Horizontal
+CP, Axial series, Axial, Horizontal, pin pitch=85mm, , length*diameter=80*26mm^2, Electrolytic Capacitor, , http://www.vishay.com/docs/42037/53d.pdf
+CP Axial series Axial Horizontal pin pitch 85mm  length 80mm diameter 26mm Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Axial_L80.0mm_D29.0mm_P85.00mm_Horizontal
+CP, Axial series, Axial, Horizontal, pin pitch=85mm, , length*diameter=80*29.0mm^2, Electrolytic Capacitor, , http://www.vishay.com/docs/42037/53d.pdf
+CP Axial series Axial Horizontal pin pitch 85mm  length 80mm diameter 29.0mm Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Axial_L80.0mm_D32.0mm_P85.00mm_Horizontal
+CP, Axial series, Axial, Horizontal, pin pitch=85mm, , length*diameter=80*32.0mm^2, Electrolytic Capacitor, , http://www.vishay.com/docs/42037/53d.pdf
+CP Axial series Axial Horizontal pin pitch 85mm  length 80mm diameter 32.0mm Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Axial_L80.0mm_D35.0mm_P85.00mm_Horizontal
+CP, Axial series, Axial, Horizontal, pin pitch=85mm, , length*diameter=80*35.0mm^2, Electrolytic Capacitor, , http://www.vishay.com/docs/42037/53d.pdf
+CP Axial series Axial Horizontal pin pitch 85mm  length 80mm diameter 35.0mm Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Axial_L93.0mm_D23.0mm_P100.00mm_Horizontal
+CP, Axial series, Axial, Horizontal, pin pitch=100mm, , length*diameter=93*23.0mm^2, Electrolytic Capacitor, , http://www.vishay.com/docs/42037/53d.pdf
+CP Axial series Axial Horizontal pin pitch 100mm  length 93mm diameter 23.0mm Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Axial_L93.0mm_D26.0mm_P100.00mm_Horizontal
+CP, Axial series, Axial, Horizontal, pin pitch=100mm, , length*diameter=93*26mm^2, Electrolytic Capacitor, , http://www.vishay.com/docs/42037/53d.pdf
+CP Axial series Axial Horizontal pin pitch 100mm  length 93mm diameter 26mm Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Axial_L93.0mm_D29.0mm_P100.00mm_Horizontal
+CP, Axial series, Axial, Horizontal, pin pitch=100mm, , length*diameter=93*29.0mm^2, Electrolytic Capacitor, , http://www.vishay.com/docs/42037/53d.pdf
+CP Axial series Axial Horizontal pin pitch 100mm  length 93mm diameter 29.0mm Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Axial_L93.0mm_D32.0mm_P100.00mm_Horizontal
+CP, Axial series, Axial, Horizontal, pin pitch=100mm, , length*diameter=93*32.0mm^2, Electrolytic Capacitor, , http://www.vishay.com/docs/42037/53d.pdf
+CP Axial series Axial Horizontal pin pitch 100mm  length 93mm diameter 32.0mm Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Axial_L93.0mm_D35.0mm_P100.00mm_Horizontal
+CP, Axial series, Axial, Horizontal, pin pitch=100mm, , length*diameter=93*35.0mm^2, Electrolytic Capacitor, , http://www.vishay.com/docs/42037/53d.pdf
+CP Axial series Axial Horizontal pin pitch 100mm  length 93mm diameter 35.0mm Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Radial_D4.0mm_P1.50mm
+CP, Radial series, Radial, pin pitch=1.50mm, , diameter=4mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 1.50mm  diameter 4mm Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Radial_D4.0mm_P2.00mm
+CP, Radial series, Radial, pin pitch=2.00mm, , diameter=4mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 2.00mm  diameter 4mm Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Radial_D5.0mm_P2.00mm
+CP, Radial series, Radial, pin pitch=2.00mm, , diameter=5mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 2.00mm  diameter 5mm Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Radial_D5.0mm_P2.50mm
+CP, Radial series, Radial, pin pitch=2.50mm, , diameter=5mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 2.50mm  diameter 5mm Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Radial_D6.3mm_P2.50mm
+CP, Radial series, Radial, pin pitch=2.50mm, , diameter=6.3mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 2.50mm  diameter 6.3mm Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Radial_D7.5mm_P2.50mm
+CP, Radial series, Radial, pin pitch=2.50mm, , diameter=7.5mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 2.50mm  diameter 7.5mm Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Radial_D8.0mm_P2.50mm
+CP, Radial series, Radial, pin pitch=2.50mm, , diameter=8mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 2.50mm  diameter 8mm Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Radial_D8.0mm_P3.50mm
+CP, Radial series, Radial, pin pitch=3.50mm, , diameter=8mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 3.50mm  diameter 8mm Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Radial_D8.0mm_P3.80mm
+CP, Radial series, Radial, pin pitch=3.80mm, , diameter=8mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 3.80mm  diameter 8mm Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Radial_D8.0mm_P5.00mm
+CP, Radial series, Radial, pin pitch=5.00mm, , diameter=8mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 5.00mm  diameter 8mm Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Radial_D10.0mm_P2.50mm
+CP, Radial series, Radial, pin pitch=2.50mm, , diameter=10mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 2.50mm  diameter 10mm Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Radial_D10.0mm_P2.50mm_P5.00mm
+CP, Radial series, Radial, pin pitch=2.50mm 5.00mm, , diameter=10mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 2.50mm 5.00mm  diameter 10mm Electrolytic Capacitor
 0
 4
+2
+Capacitor_THT
+CP_Radial_D10.0mm_P3.50mm
+CP, Radial series, Radial, pin pitch=3.50mm, , diameter=10mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 3.50mm  diameter 10mm Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Radial_D10.0mm_P3.80mm
+CP, Radial series, Radial, pin pitch=3.80mm, , diameter=10mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 3.80mm  diameter 10mm Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Radial_D10.0mm_P5.00mm
+CP, Radial series, Radial, pin pitch=5.00mm, , diameter=10mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 5.00mm  diameter 10mm Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Radial_D10.0mm_P5.00mm_P7.50mm
+CP, Radial series, Radial, pin pitch=5.00mm 7.50mm, , diameter=10mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 5.00mm 7.50mm  diameter 10mm Electrolytic Capacitor
+0
 4
-TerminalBlock_RND
-TerminalBlock_RND_205-00301_1x05_P10.00mm_Horizontal
-terminal block RND 205-00301, 5 pins, pitch 10mm, size 45x8.1mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00298_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00301 pitch 10mm size 45x8.1mm^2 drill 1.3mm pad 2.5mm
+2
+Capacitor_THT
+CP_Radial_D10.0mm_P7.50mm
+CP, Radial series, Radial, pin pitch=7.50mm, , diameter=10mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 7.50mm  diameter 10mm Electrolytic Capacitor
 0
-5
-5
-TerminalBlock_RND
-TerminalBlock_RND_205-00302_1x06_P10.00mm_Horizontal
-terminal block RND 205-00302, 6 pins, pitch 10mm, size 55x8.1mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00298_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00302 pitch 10mm size 55x8.1mm^2 drill 1.3mm pad 2.5mm
+2
+2
+Capacitor_THT
+CP_Radial_D12.5mm_P2.50mm
+CP, Radial series, Radial, pin pitch=2.50mm, , diameter=12.5mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 2.50mm  diameter 12.5mm Electrolytic Capacitor
 0
-6
-6
-TerminalBlock_RND
-TerminalBlock_RND_205-00303_1x07_P10.00mm_Horizontal
-terminal block RND 205-00303, 7 pins, pitch 10mm, size 65x8.1mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00298_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00303 pitch 10mm size 65x8.1mm^2 drill 1.3mm pad 2.5mm
+2
+2
+Capacitor_THT
+CP_Radial_D12.5mm_P5.00mm
+CP, Radial series, Radial, pin pitch=5.00mm, , diameter=12.5mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 5.00mm  diameter 12.5mm Electrolytic Capacitor
 0
-7
-7
-TerminalBlock_RND
-TerminalBlock_RND_205-00304_1x08_P10.00mm_Horizontal
-terminal block RND 205-00304, 8 pins, pitch 10mm, size 75x8.1mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00298_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00304 pitch 10mm size 75x8.1mm^2 drill 1.3mm pad 2.5mm
+2
+2
+Capacitor_THT
+CP_Radial_D12.5mm_P7.50mm
+CP, Radial series, Radial, pin pitch=7.50mm, , diameter=12.5mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 7.50mm  diameter 12.5mm Electrolytic Capacitor
 0
-8
-8
-TerminalBlock_RND
-TerminalBlock_RND_205-00305_1x09_P10.00mm_Horizontal
-terminal block RND 205-00305, 9 pins, pitch 10mm, size 85x8.1mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00298_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00305 pitch 10mm size 85x8.1mm^2 drill 1.3mm pad 2.5mm
+2
+2
+Capacitor_THT
+CP_Radial_D13.0mm_P2.50mm
+CP, Radial series, Radial, pin pitch=2.50mm, , diameter=13mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 2.50mm  diameter 13mm Electrolytic Capacitor
 0
-9
-9
-TerminalBlock_RND
-TerminalBlock_RND_205-00306_1x10_P10.00mm_Horizontal
-terminal block RND 205-00306, 10 pins, pitch 10mm, size 95x8.1mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00298_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00306 pitch 10mm size 95x8.1mm^2 drill 1.3mm pad 2.5mm
+2
+2
+Capacitor_THT
+CP_Radial_D13.0mm_P5.00mm
+CP, Radial series, Radial, pin pitch=5.00mm, , diameter=13mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 5.00mm  diameter 13mm Electrolytic Capacitor
 0
-10
-10
-TerminalBlock_RND
-TerminalBlock_RND_205-00307_1x11_P10.00mm_Horizontal
-terminal block RND 205-00307, 11 pins, pitch 10mm, size 105x8.1mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00298_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00307 pitch 10mm size 105x8.1mm^2 drill 1.3mm pad 2.5mm
+2
+2
+Capacitor_THT
+CP_Radial_D13.0mm_P7.50mm
+CP, Radial series, Radial, pin pitch=7.50mm, , diameter=13mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 7.50mm  diameter 13mm Electrolytic Capacitor
 0
-11
-11
-TerminalBlock_RND
-TerminalBlock_RND_205-00308_1x12_P10.00mm_Horizontal
-terminal block RND 205-00308, 12 pins, pitch 10mm, size 115x8.1mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00298_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
-THT terminal block RND 205-00308 pitch 10mm size 115x8.1mm^2 drill 1.3mm pad 2.5mm
+2
+2
+Capacitor_THT
+CP_Radial_D14.0mm_P5.00mm
+CP, Radial series, Radial, pin pitch=5.00mm, , diameter=14mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 5.00mm  diameter 14mm Electrolytic Capacitor
 0
-12
-12
+2
+2
+Capacitor_THT
+CP_Radial_D14.0mm_P7.50mm
+CP, Radial series, Radial, pin pitch=7.50mm, , diameter=14mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 7.50mm  diameter 14mm Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Radial_D16.0mm_P7.50mm
+CP, Radial series, Radial, pin pitch=7.50mm, , diameter=16mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 7.50mm  diameter 16mm Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Radial_D17.0mm_P7.50mm
+CP, Radial series, Radial, pin pitch=7.50mm, , diameter=17mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 7.50mm  diameter 17mm Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Radial_D18.0mm_P7.50mm
+CP, Radial series, Radial, pin pitch=7.50mm, , diameter=18mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 7.50mm  diameter 18mm Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Radial_D22.0mm_P10.00mm_3pin_SnapIn
+CP, Radial series, Radial, pin pitch=10.00mm, diameter=22mm, height=40mm, Electrolytic Capacitor, , http://www.vishay.com/docs/28342/058059pll-si.pdf
+CP Radial series Radial pin pitch 10.00mm diameter 22mm height 40mm Electrolytic Capacitor
+0
+3
+2
+Capacitor_THT
+CP_Radial_D22.0mm_P10.00mm_SnapIn
+CP, Radial series, Radial, pin pitch=10.00mm, , diameter=22mm, Electrolytic Capacitor, , http://www.vishay.com/docs/28342/058059pll-si.pdf
+CP Radial series Radial pin pitch 10.00mm  diameter 22mm Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Radial_D24.0mm_P10.00mm_3pin_SnapIn
+CP, Radial series, Radial, pin pitch=10.00mm, diameter=24mm, height=40mm, Electrolytic Capacitor, , http://www.vishay.com/docs/28342/058059pll-si.pdf
+CP Radial series Radial pin pitch 10.00mm diameter 24mm height 40mm Electrolytic Capacitor
+0
+3
+2
+Capacitor_THT
+CP_Radial_D24.0mm_P10.00mm_SnapIn
+CP, Radial series, Radial, pin pitch=10.00mm, , diameter=24mm, Electrolytic Capacitor, , http://www.vishay.com/docs/28342/058059pll-si.pdf
+CP Radial series Radial pin pitch 10.00mm  diameter 24mm Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Radial_D25.0mm_P10.00mm_3pin_SnapIn
+CP, Radial series, Radial, pin pitch=10.00mm, diameter=25mm, height=45mm, Electrolytic Capacitor, , http://www.vishay.com/docs/28342/058059pll-si.pdf
+CP Radial series Radial pin pitch 10.00mm diameter 25mm height 45mm Electrolytic Capacitor
+0
+3
+2
+Capacitor_THT
+CP_Radial_D25.0mm_P10.00mm_SnapIn
+CP, Radial series, Radial, pin pitch=10.00mm, , diameter=25mm, Electrolytic Capacitor, , http://www.vishay.com/docs/28342/058059pll-si.pdf
+CP Radial series Radial pin pitch 10.00mm  diameter 25mm Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Radial_D26.0mm_P10.00mm_3pin_SnapIn
+CP, Radial series, Radial, pin pitch=10.00mm, diameter=26mm, height=45mm, Electrolytic Capacitor, , http://www.vishay.com/docs/28342/058059pll-si.pdf
+CP Radial series Radial pin pitch 10.00mm diameter 26mm height 45mm Electrolytic Capacitor
+0
+3
+2
+Capacitor_THT
+CP_Radial_D26.0mm_P10.00mm_SnapIn
+CP, Radial series, Radial, pin pitch=10.00mm, , diameter=26mm, Electrolytic Capacitor, , http://www.vishay.com/docs/28342/058059pll-si.pdf
+CP Radial series Radial pin pitch 10.00mm  diameter 26mm Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Radial_D30.0mm_P10.00mm_3pin_SnapIn
+CP, Radial series, Radial, pin pitch=10.00mm, diameter=30mm, height=45mm, Electrolytic Capacitor, , http://www.vishay.com/docs/28342/058059pll-si.pdf
+CP Radial series Radial pin pitch 10.00mm diameter 30mm height 45mm Electrolytic Capacitor
+0
+3
+2
+Capacitor_THT
+CP_Radial_D30.0mm_P10.00mm_SnapIn
+CP, Radial series, Radial, pin pitch=10.00mm, , diameter=30mm, Electrolytic Capacitor, , http://www.vishay.com/docs/28342/058059pll-si.pdf
+CP Radial series Radial pin pitch 10.00mm  diameter 30mm Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Radial_D35.0mm_P10.00mm_3pin_SnapIn
+CP, Radial series, Radial, pin pitch=10.00mm, diameter=35mm, height=50mm, Electrolytic Capacitor, , http://www.vishay.com/docs/28342/058059pll-si.pdf
+CP Radial series Radial pin pitch 10.00mm diameter 35mm height 50mm Electrolytic Capacitor
+0
+3
+2
+Capacitor_THT
+CP_Radial_D35.0mm_P10.00mm_SnapIn
+CP, Radial series, Radial, pin pitch=10.00mm, , diameter=35mm, Electrolytic Capacitor, , http://www.vishay.com/docs/28342/058059pll-si.pdf
+CP Radial series Radial pin pitch 10.00mm  diameter 35mm Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Radial_D40.0mm_P10.00mm_3pin_SnapIn
+CP, Radial series, Radial, pin pitch=10.00mm, diameter=40mm, height=50mm, Electrolytic Capacitor, , http://www.vishay.com/docs/28342/058059pll-si.pdf
+CP Radial series Radial pin pitch 10.00mm diameter 40mm height 50mm Electrolytic Capacitor
+0
+3
+2
+Capacitor_THT
+CP_Radial_D40.0mm_P10.00mm_SnapIn
+CP, Radial series, Radial, pin pitch=10.00mm, , diameter=40mm, Electrolytic Capacitor, , http://www.vishay.com/docs/28342/058059pll-si.pdf
+CP Radial series Radial pin pitch 10.00mm  diameter 40mm Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Radial_Tantal_D4.5mm_P2.50mm
+CP, Radial_Tantal series, Radial, pin pitch=2.50mm, , diameter=4.5mm, Tantal Electrolytic Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/TANTAL-TB-Serie%23.pdf
+CP Radial_Tantal series Radial pin pitch 2.50mm  diameter 4.5mm Tantal Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Radial_Tantal_D4.5mm_P5.00mm
+CP, Radial_Tantal series, Radial, pin pitch=5.00mm, , diameter=4.5mm, Tantal Electrolytic Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/TANTAL-TB-Serie%23.pdf
+CP Radial_Tantal series Radial pin pitch 5.00mm  diameter 4.5mm Tantal Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Radial_Tantal_D5.0mm_P2.50mm
+CP, Radial_Tantal series, Radial, pin pitch=2.50mm, , diameter=5.0mm, Tantal Electrolytic Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/TANTAL-TB-Serie%23.pdf
+CP Radial_Tantal series Radial pin pitch 2.50mm  diameter 5.0mm Tantal Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Radial_Tantal_D5.0mm_P5.00mm
+CP, Radial_Tantal series, Radial, pin pitch=5.00mm, , diameter=5.0mm, Tantal Electrolytic Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/TANTAL-TB-Serie%23.pdf
+CP Radial_Tantal series Radial pin pitch 5.00mm  diameter 5.0mm Tantal Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Radial_Tantal_D5.5mm_P2.50mm
+CP, Radial_Tantal series, Radial, pin pitch=2.50mm, , diameter=5.5mm, Tantal Electrolytic Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/TANTAL-TB-Serie%23.pdf
+CP Radial_Tantal series Radial pin pitch 2.50mm  diameter 5.5mm Tantal Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Radial_Tantal_D5.5mm_P5.00mm
+CP, Radial_Tantal series, Radial, pin pitch=5.00mm, , diameter=5.5mm, Tantal Electrolytic Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/TANTAL-TB-Serie%23.pdf
+CP Radial_Tantal series Radial pin pitch 5.00mm  diameter 5.5mm Tantal Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Radial_Tantal_D6.0mm_P2.50mm
+CP, Radial_Tantal series, Radial, pin pitch=2.50mm, , diameter=6.0mm, Tantal Electrolytic Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/TANTAL-TB-Serie%23.pdf
+CP Radial_Tantal series Radial pin pitch 2.50mm  diameter 6.0mm Tantal Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Radial_Tantal_D6.0mm_P5.00mm
+CP, Radial_Tantal series, Radial, pin pitch=5.00mm, , diameter=6.0mm, Tantal Electrolytic Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/TANTAL-TB-Serie%23.pdf
+CP Radial_Tantal series Radial pin pitch 5.00mm  diameter 6.0mm Tantal Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Radial_Tantal_D7.0mm_P2.50mm
+CP, Radial_Tantal series, Radial, pin pitch=2.50mm, , diameter=7.0mm, Tantal Electrolytic Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/TANTAL-TB-Serie%23.pdf
+CP Radial_Tantal series Radial pin pitch 2.50mm  diameter 7.0mm Tantal Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Radial_Tantal_D7.0mm_P5.00mm
+CP, Radial_Tantal series, Radial, pin pitch=5.00mm, , diameter=7.0mm, Tantal Electrolytic Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/TANTAL-TB-Serie%23.pdf
+CP Radial_Tantal series Radial pin pitch 5.00mm  diameter 7.0mm Tantal Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Radial_Tantal_D8.0mm_P2.50mm
+CP, Radial_Tantal series, Radial, pin pitch=2.50mm, , diameter=8.0mm, Tantal Electrolytic Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/TANTAL-TB-Serie%23.pdf
+CP Radial_Tantal series Radial pin pitch 2.50mm  diameter 8.0mm Tantal Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Radial_Tantal_D8.0mm_P5.00mm
+CP, Radial_Tantal series, Radial, pin pitch=5.00mm, , diameter=8.0mm, Tantal Electrolytic Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/TANTAL-TB-Serie%23.pdf
+CP Radial_Tantal series Radial pin pitch 5.00mm  diameter 8.0mm Tantal Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Radial_Tantal_D9.0mm_P2.50mm
+CP, Radial_Tantal series, Radial, pin pitch=2.50mm, , diameter=9.0mm, Tantal Electrolytic Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/TANTAL-TB-Serie%23.pdf
+CP Radial_Tantal series Radial pin pitch 2.50mm  diameter 9.0mm Tantal Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Radial_Tantal_D9.0mm_P5.00mm
+CP, Radial_Tantal series, Radial, pin pitch=5.00mm, , diameter=9.0mm, Tantal Electrolytic Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/TANTAL-TB-Serie%23.pdf
+CP Radial_Tantal series Radial pin pitch 5.00mm  diameter 9.0mm Tantal Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Radial_Tantal_D10.5mm_P2.50mm
+CP, Radial_Tantal series, Radial, pin pitch=2.50mm, , diameter=10.5mm, Tantal Electrolytic Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/TANTAL-TB-Serie%23.pdf
+CP Radial_Tantal series Radial pin pitch 2.50mm  diameter 10.5mm Tantal Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+CP_Radial_Tantal_D10.5mm_P5.00mm
+CP, Radial_Tantal series, Radial, pin pitch=5.00mm, , diameter=10.5mm, Tantal Electrolytic Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/TANTAL-TB-Serie%23.pdf
+CP Radial_Tantal series Radial pin pitch 5.00mm  diameter 10.5mm Tantal Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal
+C, Axial series, Axial, Horizontal, pin pitch=7.5mm, , length*diameter=3.8*2.6mm^2, http://www.vishay.com/docs/45231/arseries.pdf
+C Axial series Axial Horizontal pin pitch 7.5mm  length 3.8mm diameter 2.6mm
+0
+2
+2
+Capacitor_THT
+C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal
+C, Axial series, Axial, Horizontal, pin pitch=10mm, , length*diameter=3.8*2.6mm^2, http://www.vishay.com/docs/45231/arseries.pdf
+C Axial series Axial Horizontal pin pitch 10mm  length 3.8mm diameter 2.6mm
+0
+2
+2
+Capacitor_THT
+C_Axial_L3.8mm_D2.6mm_P12.50mm_Horizontal
+C, Axial series, Axial, Horizontal, pin pitch=12.5mm, , length*diameter=3.8*2.6mm^2, http://www.vishay.com/docs/45231/arseries.pdf
+C Axial series Axial Horizontal pin pitch 12.5mm  length 3.8mm diameter 2.6mm
+0
+2
+2
+Capacitor_THT
+C_Axial_L3.8mm_D2.6mm_P15.00mm_Horizontal
+C, Axial series, Axial, Horizontal, pin pitch=15mm, , length*diameter=3.8*2.6mm^2, http://www.vishay.com/docs/45231/arseries.pdf
+C Axial series Axial Horizontal pin pitch 15mm  length 3.8mm diameter 2.6mm
+0
+2
+2
+Capacitor_THT
+C_Axial_L5.1mm_D3.1mm_P7.50mm_Horizontal
+C, Axial series, Axial, Horizontal, pin pitch=7.5mm, , length*diameter=5.1*3.1mm^2, http://www.vishay.com/docs/45231/arseries.pdf
+C Axial series Axial Horizontal pin pitch 7.5mm  length 5.1mm diameter 3.1mm
+0
+2
+2
+Capacitor_THT
+C_Axial_L5.1mm_D3.1mm_P10.00mm_Horizontal
+C, Axial series, Axial, Horizontal, pin pitch=10mm, , length*diameter=5.1*3.1mm^2, http://www.vishay.com/docs/45231/arseries.pdf
+C Axial series Axial Horizontal pin pitch 10mm  length 5.1mm diameter 3.1mm
+0
+2
+2
+Capacitor_THT
+C_Axial_L5.1mm_D3.1mm_P12.50mm_Horizontal
+C, Axial series, Axial, Horizontal, pin pitch=12.5mm, , length*diameter=5.1*3.1mm^2, http://www.vishay.com/docs/45231/arseries.pdf
+C Axial series Axial Horizontal pin pitch 12.5mm  length 5.1mm diameter 3.1mm
+0
+2
+2
+Capacitor_THT
+C_Axial_L5.1mm_D3.1mm_P15.00mm_Horizontal
+C, Axial series, Axial, Horizontal, pin pitch=15mm, , length*diameter=5.1*3.1mm^2, http://www.vishay.com/docs/45231/arseries.pdf
+C Axial series Axial Horizontal pin pitch 15mm  length 5.1mm diameter 3.1mm
+0
+2
+2
+Capacitor_THT
+C_Axial_L12.0mm_D6.5mm_P15.00mm_Horizontal
+C, Axial series, Axial, Horizontal, pin pitch=15mm, , length*diameter=12*6.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B300/STYROFLEX.pdf
+C Axial series Axial Horizontal pin pitch 15mm  length 12mm diameter 6.5mm
+0
+2
+2
+Capacitor_THT
+C_Axial_L12.0mm_D6.5mm_P20.00mm_Horizontal
+C, Axial series, Axial, Horizontal, pin pitch=20mm, , length*diameter=12*6.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B300/STYROFLEX.pdf
+C Axial series Axial Horizontal pin pitch 20mm  length 12mm diameter 6.5mm
+0
+2
+2
+Capacitor_THT
+C_Axial_L12.0mm_D7.5mm_P15.00mm_Horizontal
+C, Axial series, Axial, Horizontal, pin pitch=15mm, , length*diameter=12*7.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B300/STYROFLEX.pdf
+C Axial series Axial Horizontal pin pitch 15mm  length 12mm diameter 7.5mm
+0
+2
+2
+Capacitor_THT
+C_Axial_L12.0mm_D7.5mm_P20.00mm_Horizontal
+C, Axial series, Axial, Horizontal, pin pitch=20mm, , length*diameter=12*7.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B300/STYROFLEX.pdf
+C Axial series Axial Horizontal pin pitch 20mm  length 12mm diameter 7.5mm
+0
+2
+2
+Capacitor_THT
+C_Axial_L12.0mm_D8.5mm_P15.00mm_Horizontal
+C, Axial series, Axial, Horizontal, pin pitch=15mm, , length*diameter=12*8.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B300/STYROFLEX.pdf
+C Axial series Axial Horizontal pin pitch 15mm  length 12mm diameter 8.5mm
+0
+2
+2
+Capacitor_THT
+C_Axial_L12.0mm_D8.5mm_P20.00mm_Horizontal
+C, Axial series, Axial, Horizontal, pin pitch=20mm, , length*diameter=12*8.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B300/STYROFLEX.pdf
+C Axial series Axial Horizontal pin pitch 20mm  length 12mm diameter 8.5mm
+0
+2
+2
+Capacitor_THT
+C_Axial_L12.0mm_D9.5mm_P15.00mm_Horizontal
+C, Axial series, Axial, Horizontal, pin pitch=15mm, , length*diameter=12*9.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B300/STYROFLEX.pdf
+C Axial series Axial Horizontal pin pitch 15mm  length 12mm diameter 9.5mm
+0
+2
+2
+Capacitor_THT
+C_Axial_L12.0mm_D9.5mm_P20.00mm_Horizontal
+C, Axial series, Axial, Horizontal, pin pitch=20mm, , length*diameter=12*9.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B300/STYROFLEX.pdf
+C Axial series Axial Horizontal pin pitch 20mm  length 12mm diameter 9.5mm
+0
+2
+2
+Capacitor_THT
+C_Axial_L12.0mm_D10.5mm_P15.00mm_Horizontal
+C, Axial series, Axial, Horizontal, pin pitch=15mm, , length*diameter=12*10.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B300/STYROFLEX.pdf
+C Axial series Axial Horizontal pin pitch 15mm  length 12mm diameter 10.5mm
+0
+2
+2
+Capacitor_THT
+C_Axial_L12.0mm_D10.5mm_P20.00mm_Horizontal
+C, Axial series, Axial, Horizontal, pin pitch=20mm, , length*diameter=12*10.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B300/STYROFLEX.pdf
+C Axial series Axial Horizontal pin pitch 20mm  length 12mm diameter 10.5mm
+0
+2
+2
+Capacitor_THT
+C_Axial_L17.0mm_D6.5mm_P20.00mm_Horizontal
+C, Axial series, Axial, Horizontal, pin pitch=20mm, , length*diameter=17*6.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B300/STYROFLEX.pdf
+C Axial series Axial Horizontal pin pitch 20mm  length 17mm diameter 6.5mm
+0
+2
+2
+Capacitor_THT
+C_Axial_L17.0mm_D6.5mm_P25.00mm_Horizontal
+C, Axial series, Axial, Horizontal, pin pitch=25mm, , length*diameter=17*6.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B300/STYROFLEX.pdf
+C Axial series Axial Horizontal pin pitch 25mm  length 17mm diameter 6.5mm
+0
+2
+2
+Capacitor_THT
+C_Axial_L17.0mm_D7.0mm_P20.00mm_Horizontal
+C, Axial series, Axial, Horizontal, pin pitch=20mm, , length*diameter=17*7.0mm^2, http://cdn-reichelt.de/documents/datenblatt/B300/STYROFLEX.pdf
+C Axial series Axial Horizontal pin pitch 20mm  length 17mm diameter 7.0mm
+0
+2
+2
+Capacitor_THT
+C_Axial_L17.0mm_D7.0mm_P25.00mm_Horizontal
+C, Axial series, Axial, Horizontal, pin pitch=25mm, , length*diameter=17*7.0mm^2, http://cdn-reichelt.de/documents/datenblatt/B300/STYROFLEX.pdf
+C Axial series Axial Horizontal pin pitch 25mm  length 17mm diameter 7.0mm
+0
+2
+2
+Capacitor_THT
+C_Axial_L19.0mm_D7.5mm_P25.00mm_Horizontal
+C, Axial series, Axial, Horizontal, pin pitch=25mm, , length*diameter=19*7.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B300/STYROFLEX.pdf
+C Axial series Axial Horizontal pin pitch 25mm  length 19mm diameter 7.5mm
+0
+2
+2
+Capacitor_THT
+C_Axial_L19.0mm_D8.0mm_P25.00mm_Horizontal
+C, Axial series, Axial, Horizontal, pin pitch=25mm, , length*diameter=19*8.0mm^2, http://cdn-reichelt.de/documents/datenblatt/B300/STYROFLEX.pdf
+C Axial series Axial Horizontal pin pitch 25mm  length 19mm diameter 8.0mm
+0
+2
+2
+Capacitor_THT
+C_Axial_L19.0mm_D9.0mm_P25.00mm_Horizontal
+C, Axial series, Axial, Horizontal, pin pitch=25mm, , length*diameter=19*9mm^2, http://cdn-reichelt.de/documents/datenblatt/B300/STYROFLEX.pdf
+C Axial series Axial Horizontal pin pitch 25mm  length 19mm diameter 9mm
+0
+2
+2
+Capacitor_THT
+C_Axial_L19.0mm_D9.5mm_P25.00mm_Horizontal
+C, Axial series, Axial, Horizontal, pin pitch=25mm, , length*diameter=19*9.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B300/STYROFLEX.pdf
+C Axial series Axial Horizontal pin pitch 25mm  length 19mm diameter 9.5mm
+0
+2
+2
+Capacitor_THT
+C_Axial_L22.0mm_D9.5mm_P27.50mm_Horizontal
+C, Axial series, Axial, Horizontal, pin pitch=27.5mm, , length*diameter=22*9.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B300/STYROFLEX.pdf
+C Axial series Axial Horizontal pin pitch 27.5mm  length 22mm diameter 9.5mm
+0
+2
+2
+Capacitor_THT
+C_Axial_L22.0mm_D10.5mm_P27.50mm_Horizontal
+C, Axial series, Axial, Horizontal, pin pitch=27.5mm, , length*diameter=22*10.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B300/STYROFLEX.pdf
+C Axial series Axial Horizontal pin pitch 27.5mm  length 22mm diameter 10.5mm
+0
+2
+2
+Capacitor_THT
+C_Disc_D3.0mm_W1.6mm_P2.50mm
+C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=3.0*1.6mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf
+C Disc series Radial pin pitch 2.50mm  diameter 3.0mm width 1.6mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Disc_D3.0mm_W2.0mm_P2.50mm
+C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=3*2mm^2, Capacitor
+C Disc series Radial pin pitch 2.50mm  diameter 3mm width 2mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Disc_D3.4mm_W2.1mm_P2.50mm
+C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=3.4*2.1mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf
+C Disc series Radial pin pitch 2.50mm  diameter 3.4mm width 2.1mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Disc_D3.8mm_W2.6mm_P2.50mm
+C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=3.8*2.6mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf
+C Disc series Radial pin pitch 2.50mm  diameter 3.8mm width 2.6mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Disc_D4.3mm_W1.9mm_P5.00mm
+C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=4.3*1.9mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf
+C Disc series Radial pin pitch 5.00mm  diameter 4.3mm width 1.9mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Disc_D4.7mm_W2.5mm_P5.00mm
+C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=4.7*2.5mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf
+C Disc series Radial pin pitch 5.00mm  diameter 4.7mm width 2.5mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Disc_D5.0mm_W2.5mm_P2.50mm
+C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=5*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf
+C Disc series Radial pin pitch 2.50mm  diameter 5mm width 2.5mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Disc_D5.0mm_W2.5mm_P5.00mm
+C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=5*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf
+C Disc series Radial pin pitch 5.00mm  diameter 5mm width 2.5mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Disc_D5.1mm_W3.2mm_P5.00mm
+C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=5.1*3.2mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf
+C Disc series Radial pin pitch 5.00mm  diameter 5.1mm width 3.2mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Disc_D6.0mm_W2.5mm_P5.00mm
+C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=6*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf
+C Disc series Radial pin pitch 5.00mm  diameter 6mm width 2.5mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Disc_D6.0mm_W4.4mm_P5.00mm
+C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=6*4.4mm^2, Capacitor
+C Disc series Radial pin pitch 5.00mm  diameter 6mm width 4.4mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Disc_D7.0mm_W2.5mm_P5.00mm
+C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf
+C Disc series Radial pin pitch 5.00mm  diameter 7mm width 2.5mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Disc_D7.5mm_W2.5mm_P5.00mm
+C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*2.5mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf
+C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 2.5mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Disc_D7.5mm_W4.4mm_P5.00mm
+C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*4.4mm^2, Capacitor
+C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 4.4mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Disc_D7.5mm_W5.0mm_P5.00mm
+C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf
+C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Disc_D7.5mm_W5.0mm_P7.50mm
+C, Disc series, Radial, pin pitch=7.50mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf
+C Disc series Radial pin pitch 7.50mm  diameter 7.5mm width 5.0mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Disc_D7.5mm_W5.0mm_P10.00mm
+C, Disc series, Radial, pin pitch=10.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf
+C Disc series Radial pin pitch 10.00mm  diameter 7.5mm width 5.0mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Disc_D8.0mm_W2.5mm_P5.00mm
+C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=8*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf
+C Disc series Radial pin pitch 5.00mm  diameter 8mm width 2.5mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Disc_D8.0mm_W5.0mm_P5.00mm
+C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=8*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf
+C Disc series Radial pin pitch 5.00mm  diameter 8mm width 5.0mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Disc_D8.0mm_W5.0mm_P7.50mm
+C, Disc series, Radial, pin pitch=7.50mm, , diameter*width=8*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf
+C Disc series Radial pin pitch 7.50mm  diameter 8mm width 5.0mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Disc_D8.0mm_W5.0mm_P10.00mm
+C, Disc series, Radial, pin pitch=10.00mm, , diameter*width=8*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf
+C Disc series Radial pin pitch 10.00mm  diameter 8mm width 5.0mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Disc_D9.0mm_W2.5mm_P5.00mm
+C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=9*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf
+C Disc series Radial pin pitch 5.00mm  diameter 9mm width 2.5mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Disc_D9.0mm_W5.0mm_P5.00mm
+C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=9*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf
+C Disc series Radial pin pitch 5.00mm  diameter 9mm width 5.0mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Disc_D9.0mm_W5.0mm_P7.50mm
+C, Disc series, Radial, pin pitch=7.50mm, , diameter*width=9*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf
+C Disc series Radial pin pitch 7.50mm  diameter 9mm width 5.0mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Disc_D9.0mm_W5.0mm_P10.00mm
+C, Disc series, Radial, pin pitch=10.00mm, , diameter*width=9*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf
+C Disc series Radial pin pitch 10.00mm  diameter 9mm width 5.0mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Disc_D10.0mm_W2.5mm_P5.00mm
+C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=10*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf
+C Disc series Radial pin pitch 5.00mm  diameter 10mm width 2.5mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Disc_D10.5mm_W5.0mm_P5.00mm
+C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=10.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf
+C Disc series Radial pin pitch 5.00mm  diameter 10.5mm width 5.0mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Disc_D10.5mm_W5.0mm_P7.50mm
+C, Disc series, Radial, pin pitch=7.50mm, , diameter*width=10.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf
+C Disc series Radial pin pitch 7.50mm  diameter 10.5mm width 5.0mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Disc_D10.5mm_W5.0mm_P10.00mm
+C, Disc series, Radial, pin pitch=10.00mm, , diameter*width=10.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf
+C Disc series Radial pin pitch 10.00mm  diameter 10.5mm width 5.0mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Disc_D11.0mm_W5.0mm_P5.00mm
+C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=11*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf
+C Disc series Radial pin pitch 5.00mm  diameter 11mm width 5.0mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Disc_D11.0mm_W5.0mm_P7.50mm
+C, Disc series, Radial, pin pitch=7.50mm, , diameter*width=11*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf
+C Disc series Radial pin pitch 7.50mm  diameter 11mm width 5.0mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Disc_D11.0mm_W5.0mm_P10.00mm
+C, Disc series, Radial, pin pitch=10.00mm, , diameter*width=11*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf
+C Disc series Radial pin pitch 10.00mm  diameter 11mm width 5.0mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Disc_D12.0mm_W4.4mm_P7.75mm
+C, Disc series, Radial, pin pitch=7.75mm, , diameter*width=12*4.4mm^2, Capacitor
+C Disc series Radial pin pitch 7.75mm  diameter 12mm width 4.4mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Disc_D12.5mm_W5.0mm_P7.50mm
+C, Disc series, Radial, pin pitch=7.50mm, , diameter*width=12.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf
+C Disc series Radial pin pitch 7.50mm  diameter 12.5mm width 5.0mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Disc_D12.5mm_W5.0mm_P10.00mm
+C, Disc series, Radial, pin pitch=10.00mm, , diameter*width=12.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf
+C Disc series Radial pin pitch 10.00mm  diameter 12.5mm width 5.0mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Disc_D14.5mm_W5.0mm_P7.50mm
+C, Disc series, Radial, pin pitch=7.50mm, , diameter*width=14.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf
+C Disc series Radial pin pitch 7.50mm  diameter 14.5mm width 5.0mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Disc_D14.5mm_W5.0mm_P10.00mm
+C, Disc series, Radial, pin pitch=10.00mm, , diameter*width=14.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf
+C Disc series Radial pin pitch 10.00mm  diameter 14.5mm width 5.0mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Disc_D16.0mm_W5.0mm_P7.50mm
+C, Disc series, Radial, pin pitch=7.50mm, , diameter*width=16.0*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf
+C Disc series Radial pin pitch 7.50mm  diameter 16.0mm width 5.0mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Disc_D16.0mm_W5.0mm_P10.00mm
+C, Disc series, Radial, pin pitch=10.00mm, , diameter*width=16.0*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf
+C Disc series Radial pin pitch 10.00mm  diameter 16.0mm width 5.0mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Radial_D4.0mm_H5.0mm_P1.50mm
+C, Radial series, Radial, pin pitch=1.50mm, diameter=4mm, height=5mm, Non-Polar Electrolytic Capacitor
+C Radial series Radial pin pitch 1.50mm diameter 4mm height 5mm Non-Polar Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+C_Radial_D4.0mm_H7.0mm_P1.50mm
+C, Radial series, Radial, pin pitch=1.50mm, diameter=4mm, height=7mm, Non-Polar Electrolytic Capacitor
+C Radial series Radial pin pitch 1.50mm diameter 4mm height 7mm Non-Polar Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+C_Radial_D5.0mm_H5.0mm_P2.00mm
+C, Radial series, Radial, pin pitch=2.00mm, diameter=5mm, height=5mm, Non-Polar Electrolytic Capacitor
+C Radial series Radial pin pitch 2.00mm diameter 5mm height 5mm Non-Polar Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+C_Radial_D5.0mm_H7.0mm_P2.00mm
+C, Radial series, Radial, pin pitch=2.00mm, diameter=5mm, height=7mm, Non-Polar Electrolytic Capacitor
+C Radial series Radial pin pitch 2.00mm diameter 5mm height 7mm Non-Polar Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+C_Radial_D5.0mm_H11.0mm_P2.00mm
+C, Radial series, Radial, pin pitch=2.00mm, diameter=5mm, height=11mm, Non-Polar Electrolytic Capacitor
+C Radial series Radial pin pitch 2.00mm diameter 5mm height 11mm Non-Polar Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+C_Radial_D6.3mm_H5.0mm_P2.50mm
+C, Radial series, Radial, pin pitch=2.50mm, diameter=6.3mm, height=5mm, Non-Polar Electrolytic Capacitor
+C Radial series Radial pin pitch 2.50mm diameter 6.3mm height 5mm Non-Polar Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+C_Radial_D6.3mm_H7.0mm_P2.50mm
+C, Radial series, Radial, pin pitch=2.50mm, diameter=6.3mm, height=7mm, Non-Polar Electrolytic Capacitor
+C Radial series Radial pin pitch 2.50mm diameter 6.3mm height 7mm Non-Polar Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+C_Radial_D6.3mm_H11.0mm_P2.50mm
+C, Radial series, Radial, pin pitch=2.50mm, diameter=6.3mm, height=11mm, Non-Polar Electrolytic Capacitor
+C Radial series Radial pin pitch 2.50mm diameter 6.3mm height 11mm Non-Polar Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+C_Radial_D8.0mm_H7.0mm_P3.50mm
+C, Radial series, Radial, pin pitch=3.50mm, diameter=8mm, height=7mm, Non-Polar Electrolytic Capacitor
+C Radial series Radial pin pitch 3.50mm diameter 8mm height 7mm Non-Polar Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+C_Radial_D8.0mm_H11.5mm_P3.50mm
+C, Radial series, Radial, pin pitch=3.50mm, diameter=8mm, height=11.5mm, Non-Polar Electrolytic Capacitor
+C Radial series Radial pin pitch 3.50mm diameter 8mm height 11.5mm Non-Polar Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+C_Radial_D10.0mm_H12.5mm_P5.00mm
+C, Radial series, Radial, pin pitch=5.00mm, diameter=10mm, height=12.5mm, Non-Polar Electrolytic Capacitor
+C Radial series Radial pin pitch 5.00mm diameter 10mm height 12.5mm Non-Polar Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+C_Radial_D10.0mm_H16.0mm_P5.00mm
+C, Radial series, Radial, pin pitch=5.00mm, diameter=10mm, height=16mm, Non-Polar Electrolytic Capacitor
+C Radial series Radial pin pitch 5.00mm diameter 10mm height 16mm Non-Polar Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+C_Radial_D10.0mm_H20.0mm_P5.00mm
+C, Radial series, Radial, pin pitch=5.00mm, diameter=10mm, height=20mm, Non-Polar Electrolytic Capacitor
+C Radial series Radial pin pitch 5.00mm diameter 10mm height 20mm Non-Polar Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+C_Radial_D12.5mm_H20.0mm_P5.00mm
+C, Radial series, Radial, pin pitch=5.00mm, diameter=12.5mm, height=20mm, Non-Polar Electrolytic Capacitor
+C Radial series Radial pin pitch 5.00mm diameter 12.5mm height 20mm Non-Polar Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+C_Radial_D12.5mm_H25.0mm_P5.00mm
+C, Radial series, Radial, pin pitch=5.00mm, diameter=12.5mm, height=25mm, Non-Polar Electrolytic Capacitor
+C Radial series Radial pin pitch 5.00mm diameter 12.5mm height 25mm Non-Polar Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+C_Radial_D16.0mm_H25.0mm_P7.50mm
+C, Radial series, Radial, pin pitch=7.50mm, diameter=16mm, height=25mm, Non-Polar Electrolytic Capacitor
+C Radial series Radial pin pitch 7.50mm diameter 16mm height 25mm Non-Polar Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+C_Radial_D16.0mm_H31.5mm_P7.50mm
+C, Radial series, Radial, pin pitch=7.50mm, diameter=16mm, height=31.5mm, Non-Polar Electrolytic Capacitor
+C Radial series Radial pin pitch 7.50mm diameter 16mm height 31.5mm Non-Polar Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+C_Radial_D18.0mm_H35.5mm_P7.50mm
+C, Radial series, Radial, pin pitch=7.50mm, diameter=18mm, height=35.5mm, Non-Polar Electrolytic Capacitor
+C Radial series Radial pin pitch 7.50mm diameter 18mm height 35.5mm Non-Polar Electrolytic Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L4.0mm_W2.5mm_P2.50mm
+C, Rect series, Radial, pin pitch=2.50mm, , length*width=4*2.5mm^2, Capacitor
+C Rect series Radial pin pitch 2.50mm  length 4mm width 2.5mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L4.6mm_W2.0mm_P2.50mm_MKS02_FKP02
+C, Rect series, Radial, pin pitch=2.50mm, , length*width=4.6*2mm^2, Capacitor, http://www.wima.de/DE/WIMA_MKS_02.pdf
+C Rect series Radial pin pitch 2.50mm  length 4.6mm width 2mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L4.6mm_W3.0mm_P2.50mm_MKS02_FKP02
+C, Rect series, Radial, pin pitch=2.50mm, , length*width=4.6*3.0mm^2, Capacitor, http://www.wima.de/DE/WIMA_MKS_02.pdf
+C Rect series Radial pin pitch 2.50mm  length 4.6mm width 3.0mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L4.6mm_W3.8mm_P2.50mm_MKS02_FKP02
+C, Rect series, Radial, pin pitch=2.50mm, , length*width=4.6*3.8mm^2, Capacitor, http://www.wima.de/DE/WIMA_MKS_02.pdf
+C Rect series Radial pin pitch 2.50mm  length 4.6mm width 3.8mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L4.6mm_W4.6mm_P2.50mm_MKS02_FKP02
+C, Rect series, Radial, pin pitch=2.50mm, , length*width=4.6*4.6mm^2, Capacitor, http://www.wima.de/DE/WIMA_MKS_02.pdf
+C Rect series Radial pin pitch 2.50mm  length 4.6mm width 4.6mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L4.6mm_W5.5mm_P2.50mm_MKS02_FKP02
+C, Rect series, Radial, pin pitch=2.50mm, , length*width=4.6*5.5mm^2, Capacitor, http://www.wima.de/DE/WIMA_MKS_02.pdf
+C Rect series Radial pin pitch 2.50mm  length 4.6mm width 5.5mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L7.0mm_W2.0mm_P5.00mm
+C, Rect series, Radial, pin pitch=5.00mm, , length*width=7*2mm^2, Capacitor
+C Rect series Radial pin pitch 5.00mm  length 7mm width 2mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L7.0mm_W2.5mm_P5.00mm
+C, Rect series, Radial, pin pitch=5.00mm, , length*width=7*2.5mm^2, Capacitor
+C Rect series Radial pin pitch 5.00mm  length 7mm width 2.5mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L7.0mm_W3.5mm_P2.50mm_P5.00mm
+C, Rect series, Radial, pin pitch=2.50mm 5.00mm, , length*width=7*3.5mm^2, Capacitor
+C Rect series Radial pin pitch 2.50mm 5.00mm  length 7mm width 3.5mm Capacitor
+0
+4
+2
+Capacitor_THT
+C_Rect_L7.0mm_W3.5mm_P5.00mm
+C, Rect series, Radial, pin pitch=5.00mm, , length*width=7*3.5mm^2, Capacitor
+C Rect series Radial pin pitch 5.00mm  length 7mm width 3.5mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L7.0mm_W4.5mm_P5.00mm
+C, Rect series, Radial, pin pitch=5.00mm, , length*width=7*4.5mm^2, Capacitor
+C Rect series Radial pin pitch 5.00mm  length 7mm width 4.5mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L7.0mm_W6.0mm_P5.00mm
+C, Rect series, Radial, pin pitch=5.00mm, , length*width=7*6mm^2, Capacitor
+C Rect series Radial pin pitch 5.00mm  length 7mm width 6mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L7.0mm_W6.5mm_P5.00mm
+C, Rect series, Radial, pin pitch=5.00mm, , length*width=7*6.5mm^2, Capacitor
+C Rect series Radial pin pitch 5.00mm  length 7mm width 6.5mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2
+C, Rect series, Radial, pin pitch=5.00mm, , length*width=7.2*2.5mm^2, Capacitor, http://www.wima.com/EN/WIMA_FKS_2.pdf
+C Rect series Radial pin pitch 5.00mm  length 7.2mm width 2.5mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L7.2mm_W3.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2
+C, Rect series, Radial, pin pitch=5.00mm, , length*width=7.2*3.0mm^2, Capacitor, http://www.wima.com/EN/WIMA_FKS_2.pdf
+C Rect series Radial pin pitch 5.00mm  length 7.2mm width 3.0mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2
+C, Rect series, Radial, pin pitch=5.00mm, , length*width=7.2*3.5mm^2, Capacitor, http://www.wima.com/EN/WIMA_FKS_2.pdf
+C Rect series Radial pin pitch 5.00mm  length 7.2mm width 3.5mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L7.2mm_W4.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2
+C, Rect series, Radial, pin pitch=5.00mm, , length*width=7.2*4.5mm^2, Capacitor, http://www.wima.com/EN/WIMA_FKS_2.pdf
+C Rect series Radial pin pitch 5.00mm  length 7.2mm width 4.5mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L7.2mm_W5.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2
+C, Rect series, Radial, pin pitch=5.00mm, , length*width=7.2*5.5mm^2, Capacitor, http://www.wima.com/EN/WIMA_FKS_2.pdf
+C Rect series Radial pin pitch 5.00mm  length 7.2mm width 5.5mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L7.2mm_W7.2mm_P5.00mm_FKS2_FKP2_MKS2_MKP2
+C, Rect series, Radial, pin pitch=5.00mm, , length*width=7.2*7.2mm^2, Capacitor, http://www.wima.com/EN/WIMA_FKS_2.pdf
+C Rect series Radial pin pitch 5.00mm  length 7.2mm width 7.2mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L7.2mm_W8.5mm_P5.00mm_FKP2_FKP2_MKS2_MKP2
+C, Rect series, Radial, pin pitch=5.00mm, , length*width=7.2*8.5mm^2, Capacitor, http://www.wima.com/EN/WIMA_FKS_2.pdf
+C Rect series Radial pin pitch 5.00mm  length 7.2mm width 8.5mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L7.2mm_W11.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2
+C, Rect series, Radial, pin pitch=5.00mm, , length*width=7.2*11mm^2, Capacitor, http://www.wima.com/EN/WIMA_FKS_2.pdf
+C Rect series Radial pin pitch 5.00mm  length 7.2mm width 11mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L7.5mm_W6.5mm_P5.00mm
+C, Rect series, Radial, pin pitch=5.00mm, , length*width=7.5*6.5mm^2, Capacitor
+C Rect series Radial pin pitch 5.00mm  length 7.5mm width 6.5mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L9.0mm_W2.5mm_P7.50mm_MKT
+C, Rect series, Radial, pin pitch=7.50mm, , length*width=9*2.5mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 7.50mm  length 9mm width 2.5mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L9.0mm_W2.6mm_P7.50mm_MKT
+C, Rect series, Radial, pin pitch=7.50mm, , length*width=9*2.6mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 7.50mm  length 9mm width 2.6mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L9.0mm_W2.7mm_P7.50mm_MKT
+C, Rect series, Radial, pin pitch=7.50mm, , length*width=9*2.7mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 7.50mm  length 9mm width 2.7mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L9.0mm_W3.2mm_P7.50mm_MKT
+C, Rect series, Radial, pin pitch=7.50mm, , length*width=9*3.2mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 7.50mm  length 9mm width 3.2mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L9.0mm_W3.3mm_P7.50mm_MKT
+C, Rect series, Radial, pin pitch=7.50mm, , length*width=9*3.3mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 7.50mm  length 9mm width 3.3mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L9.0mm_W3.4mm_P7.50mm_MKT
+C, Rect series, Radial, pin pitch=7.50mm, , length*width=9*3.4mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 7.50mm  length 9mm width 3.4mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L9.0mm_W3.6mm_P7.50mm_MKT
+C, Rect series, Radial, pin pitch=7.50mm, , length*width=9*3.6mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 7.50mm  length 9mm width 3.6mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L9.0mm_W3.8mm_P7.50mm_MKT
+C, Rect series, Radial, pin pitch=7.50mm, , length*width=9*3.8mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 7.50mm  length 9mm width 3.8mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L9.0mm_W3.9mm_P7.50mm_MKT
+C, Rect series, Radial, pin pitch=7.50mm, , length*width=9*3.9mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 7.50mm  length 9mm width 3.9mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L9.0mm_W4.0mm_P7.50mm_MKT
+C, Rect series, Radial, pin pitch=7.50mm, , length*width=9*4.0mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 7.50mm  length 9mm width 4.0mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L9.0mm_W4.2mm_P7.50mm_MKT
+C, Rect series, Radial, pin pitch=7.50mm, , length*width=9*4.2mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 7.50mm  length 9mm width 4.2mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L9.0mm_W4.9mm_P7.50mm_MKT
+C, Rect series, Radial, pin pitch=7.50mm, , length*width=9*4.9mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 7.50mm  length 9mm width 4.9mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L9.0mm_W5.1mm_P7.50mm_MKT
+C, Rect series, Radial, pin pitch=7.50mm, , length*width=9*5.1mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 7.50mm  length 9mm width 5.1mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L9.0mm_W5.7mm_P7.50mm_MKT
+C, Rect series, Radial, pin pitch=7.50mm, , length*width=9*5.7mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 7.50mm  length 9mm width 5.7mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L9.0mm_W6.4mm_P7.50mm_MKT
+C, Rect series, Radial, pin pitch=7.50mm, , length*width=9*6.4mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 7.50mm  length 9mm width 6.4mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L9.0mm_W6.7mm_P7.50mm_MKT
+C, Rect series, Radial, pin pitch=7.50mm, , length*width=9*6.7mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 7.50mm  length 9mm width 6.7mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L9.0mm_W7.7mm_P7.50mm_MKT
+C, Rect series, Radial, pin pitch=7.50mm, , length*width=9*7.7mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 7.50mm  length 9mm width 7.7mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L9.0mm_W8.5mm_P7.50mm_MKT
+C, Rect series, Radial, pin pitch=7.50mm, , length*width=9*8.5mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 7.50mm  length 9mm width 8.5mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L9.0mm_W9.5mm_P7.50mm_MKT
+C, Rect series, Radial, pin pitch=7.50mm, , length*width=9*9.5mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 7.50mm  length 9mm width 9.5mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L9.0mm_W9.8mm_P7.50mm_MKT
+C, Rect series, Radial, pin pitch=7.50mm, , length*width=9*9.8mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 7.50mm  length 9mm width 9.8mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L10.0mm_W2.5mm_P7.50mm_MKS4
+C, Rect series, Radial, pin pitch=7.50mm, , length*width=10*2.5mm^2, Capacitor, http://www.wima.com/EN/WIMA_MKS_4.pdf
+C Rect series Radial pin pitch 7.50mm  length 10mm width 2.5mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L10.0mm_W3.0mm_P7.50mm_FKS3_FKP3
+C, Rect series, Radial, pin pitch=7.50mm, , length*width=10*3mm^2, Capacitor, http://www.wima.com/EN/WIMA_FKS_3.pdf
+C Rect series Radial pin pitch 7.50mm  length 10mm width 3mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L10.0mm_W3.0mm_P7.50mm_MKS4
+C, Rect series, Radial, pin pitch=7.50mm, , length*width=10*3.0mm^2, Capacitor, http://www.wima.com/EN/WIMA_MKS_4.pdf
+C Rect series Radial pin pitch 7.50mm  length 10mm width 3.0mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L10.0mm_W4.0mm_P7.50mm_FKS3_FKP3
+C, Rect series, Radial, pin pitch=7.50mm, , length*width=10*4mm^2, Capacitor, http://www.wima.com/EN/WIMA_FKS_3.pdf
+C Rect series Radial pin pitch 7.50mm  length 10mm width 4mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L10.0mm_W4.0mm_P7.50mm_MKS4
+C, Rect series, Radial, pin pitch=7.50mm, , length*width=10*4.0mm^2, Capacitor, http://www.wima.com/EN/WIMA_MKS_4.pdf
+C Rect series Radial pin pitch 7.50mm  length 10mm width 4.0mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L10.0mm_W5.0mm_P5.00mm_P7.50mm
+C, Rect series, Radial, pin pitch=5.00mm 7.50mm, , length*width=10*5mm^2, Capacitor
+C Rect series Radial pin pitch 5.00mm 7.50mm  length 10mm width 5mm Capacitor
+0
+4
+2
+Capacitor_THT
+C_Rect_L10.3mm_W4.5mm_P7.50mm_MKS4
+C, Rect series, Radial, pin pitch=7.50mm, , length*width=10.3*4.5mm^2, Capacitor, http://www.wima.com/EN/WIMA_MKS_4.pdf
+C Rect series Radial pin pitch 7.50mm  length 10.3mm width 4.5mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L10.3mm_W5.0mm_P7.50mm_MKS4
+C, Rect series, Radial, pin pitch=7.50mm, , length*width=10.3*5mm^2, Capacitor, http://www.wima.com/EN/WIMA_MKS_4.pdf
+C Rect series Radial pin pitch 7.50mm  length 10.3mm width 5mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L10.3mm_W5.7mm_P7.50mm_MKS4
+C, Rect series, Radial, pin pitch=7.50mm, , length*width=10.3*5.7mm^2, Capacitor, http://www.wima.com/EN/WIMA_MKS_4.pdf
+C Rect series Radial pin pitch 7.50mm  length 10.3mm width 5.7mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L10.3mm_W7.2mm_P7.50mm_MKS4
+C, Rect series, Radial, pin pitch=7.50mm, , length*width=10.3*7.2mm^2, Capacitor, http://www.wima.com/EN/WIMA_MKS_4.pdf
+C Rect series Radial pin pitch 7.50mm  length 10.3mm width 7.2mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L11.0mm_W2.8mm_P10.00mm_MKT
+C, Rect series, Radial, pin pitch=10.00mm, , length*width=11.0*2.8mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 10.00mm  length 11.0mm width 2.8mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L11.0mm_W3.4mm_P10.00mm_MKT
+C, Rect series, Radial, pin pitch=10.00mm, , length*width=11.0*3.4mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 10.00mm  length 11.0mm width 3.4mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L11.0mm_W3.5mm_P10.00mm_MKT
+C, Rect series, Radial, pin pitch=10.00mm, , length*width=11.0*3.5mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 10.00mm  length 11.0mm width 3.5mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L11.0mm_W4.2mm_P10.00mm_MKT
+C, Rect series, Radial, pin pitch=10.00mm, , length*width=11.0*4.2mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 10.00mm  length 11.0mm width 4.2mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L11.0mm_W4.3mm_P10.00mm_MKT
+C, Rect series, Radial, pin pitch=10.00mm, , length*width=11.0*4.3mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 10.00mm  length 11.0mm width 4.3mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L11.0mm_W5.1mm_P10.00mm_MKT
+C, Rect series, Radial, pin pitch=10.00mm, , length*width=11.0*5.1mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 10.00mm  length 11.0mm width 5.1mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L11.0mm_W5.3mm_P10.00mm_MKT
+C, Rect series, Radial, pin pitch=10.00mm, , length*width=11.0*5.3mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 10.00mm  length 11.0mm width 5.3mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L11.0mm_W6.3mm_P10.00mm_MKT
+C, Rect series, Radial, pin pitch=10.00mm, , length*width=11.0*6.3mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 10.00mm  length 11.0mm width 6.3mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L11.0mm_W6.4mm_P10.00mm_MKT
+C, Rect series, Radial, pin pitch=10.00mm, , length*width=11.0*6.4mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 10.00mm  length 11.0mm width 6.4mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L11.0mm_W7.3mm_P10.00mm_MKT
+C, Rect series, Radial, pin pitch=10.00mm, , length*width=11.0*7.3mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 10.00mm  length 11.0mm width 7.3mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L11.0mm_W8.8mm_P10.00mm_MKT
+C, Rect series, Radial, pin pitch=10.00mm, , length*width=11.0*8.8mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 10.00mm  length 11.0mm width 8.8mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L11.5mm_W2.0mm_P10.00mm_MKT
+C, Rect series, Radial, pin pitch=10.00mm, , length*width=11.5*2mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 10.00mm  length 11.5mm width 2mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L11.5mm_W2.6mm_P10.00mm_MKT
+C, Rect series, Radial, pin pitch=10.00mm, , length*width=11.5*2.6mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 10.00mm  length 11.5mm width 2.6mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L11.5mm_W2.8mm_P10.00mm_MKT
+C, Rect series, Radial, pin pitch=10.00mm, , length*width=11.5*2.8mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 10.00mm  length 11.5mm width 2.8mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L11.5mm_W3.2mm_P10.00mm_MKT
+C, Rect series, Radial, pin pitch=10.00mm, , length*width=11.5*3.2mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 10.00mm  length 11.5mm width 3.2mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L11.5mm_W3.5mm_P10.00mm_MKT
+C, Rect series, Radial, pin pitch=10.00mm, , length*width=11.5*3.5mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 10.00mm  length 11.5mm width 3.5mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L11.5mm_W3.6mm_P10.00mm_MKT
+C, Rect series, Radial, pin pitch=10.00mm, , length*width=11.5*3.6mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 10.00mm  length 11.5mm width 3.6mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L11.5mm_W4.0mm_P10.00mm_MKT
+C, Rect series, Radial, pin pitch=10.00mm, , length*width=11.5*4.0mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 10.00mm  length 11.5mm width 4.0mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L11.5mm_W4.3mm_P10.00mm_MKT
+C, Rect series, Radial, pin pitch=10.00mm, , length*width=11.5*4.3mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 10.00mm  length 11.5mm width 4.3mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L11.5mm_W4.5mm_P10.00mm_MKT
+C, Rect series, Radial, pin pitch=10.00mm, , length*width=11.5*4.5mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 10.00mm  length 11.5mm width 4.5mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L11.5mm_W5.0mm_P10.00mm_MKT
+C, Rect series, Radial, pin pitch=10.00mm, , length*width=11.5*5mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 10.00mm  length 11.5mm width 5mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L11.5mm_W5.1mm_P10.00mm_MKT
+C, Rect series, Radial, pin pitch=10.00mm, , length*width=11.5*5.1mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 10.00mm  length 11.5mm width 5.1mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L11.5mm_W5.2mm_P10.00mm_MKT
+C, Rect series, Radial, pin pitch=10.00mm, , length*width=11.5*5.2mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 10.00mm  length 11.5mm width 5.2mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L11.5mm_W5.6mm_P10.00mm_MKT
+C, Rect series, Radial, pin pitch=10.00mm, , length*width=11.5*5.6mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 10.00mm  length 11.5mm width 5.6mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L11.5mm_W6.4mm_P10.00mm_MKT
+C, Rect series, Radial, pin pitch=10.00mm, , length*width=11.5*6.4mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 10.00mm  length 11.5mm width 6.4mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L11.5mm_W6.6mm_P10.00mm_MKT
+C, Rect series, Radial, pin pitch=10.00mm, , length*width=11.5*6.6mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 10.00mm  length 11.5mm width 6.6mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L11.5mm_W6.9mm_P10.00mm_MKT
+C, Rect series, Radial, pin pitch=10.00mm, , length*width=11.5*6.9mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 10.00mm  length 11.5mm width 6.9mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L11.5mm_W7.3mm_P10.00mm_MKT
+C, Rect series, Radial, pin pitch=10.00mm, , length*width=11.5*7.3mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 10.00mm  length 11.5mm width 7.3mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L11.5mm_W7.5mm_P10.00mm_MKT
+C, Rect series, Radial, pin pitch=10.00mm, , length*width=11.5*7.5mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 10.00mm  length 11.5mm width 7.5mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L11.5mm_W7.8mm_P10.00mm_MKT
+C, Rect series, Radial, pin pitch=10.00mm, , length*width=11.5*7.8mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 10.00mm  length 11.5mm width 7.8mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L11.5mm_W8.0mm_P10.00mm_MKT
+C, Rect series, Radial, pin pitch=10.00mm, , length*width=11.5*8.0mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 10.00mm  length 11.5mm width 8.0mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L11.5mm_W8.8mm_P10.00mm_MKT
+C, Rect series, Radial, pin pitch=10.00mm, , length*width=11.5*8.8mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 10.00mm  length 11.5mm width 8.8mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L11.5mm_W9.5mm_P10.00mm_MKT
+C, Rect series, Radial, pin pitch=10.00mm, , length*width=11.5*9.5mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 10.00mm  length 11.5mm width 9.5mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L11.5mm_W9.8mm_P10.00mm_MKT
+C, Rect series, Radial, pin pitch=10.00mm, , length*width=11.5*9.8mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 10.00mm  length 11.5mm width 9.8mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L13.0mm_W3.0mm_P10.00mm_FKS3_FKP3_MKS4
+C, Rect series, Radial, pin pitch=10.00mm, , length*width=13*3mm^2, Capacitor, http://www.wima.com/EN/WIMA_FKS_3.pdf, http://www.wima.com/EN/WIMA_MKS_4.pdf
+C Rect series Radial pin pitch 10.00mm  length 13mm width 3mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L13.0mm_W4.0mm_P10.00mm_FKS3_FKP3_MKS4
+C, Rect series, Radial, pin pitch=10.00mm, , length*width=13*4mm^2, Capacitor, http://www.wima.com/EN/WIMA_FKS_3.pdf, http://www.wima.com/EN/WIMA_MKS_4.pdf
+C Rect series Radial pin pitch 10.00mm  length 13mm width 4mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L13.0mm_W5.0mm_P10.00mm_FKS3_FKP3_MKS4
+C, Rect series, Radial, pin pitch=10.00mm, , length*width=13*5mm^2, Capacitor, http://www.wima.com/EN/WIMA_FKS_3.pdf, http://www.wima.com/EN/WIMA_MKS_4.pdf
+C Rect series Radial pin pitch 10.00mm  length 13mm width 5mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L13.0mm_W6.0mm_P10.00mm_FKS3_FKP3_MKS4
+C, Rect series, Radial, pin pitch=10.00mm, , length*width=13*6mm^2, Capacitor, http://www.wima.com/EN/WIMA_FKS_3.pdf, http://www.wima.com/EN/WIMA_MKS_4.pdf
+C Rect series Radial pin pitch 10.00mm  length 13mm width 6mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L13.0mm_W6.5mm_P7.50mm_P10.00mm
+C, Rect series, Radial, pin pitch=7.50mm 10.00mm, , length*width=13*6.5mm^2, Capacitor
+C Rect series Radial pin pitch 7.50mm 10.00mm  length 13mm width 6.5mm Capacitor
+0
+4
+2
+Capacitor_THT
+C_Rect_L13.0mm_W8.0mm_P10.00mm_FKS3_FKP3_MKS4
+C, Rect series, Radial, pin pitch=10.00mm, , length*width=13*8mm^2, Capacitor, http://www.wima.com/EN/WIMA_FKS_3.pdf, http://www.wima.com/EN/WIMA_MKS_4.pdf
+C Rect series Radial pin pitch 10.00mm  length 13mm width 8mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L13.5mm_W4.0mm_P10.00mm_FKS3_FKP3_MKS4
+C, Rect series, Radial, pin pitch=10.00mm, , length*width=13.5*4mm^2, Capacitor, http://www.wima.com/EN/WIMA_FKS_3.pdf, http://www.wima.com/EN/WIMA_MKS_4.pdf
+C Rect series Radial pin pitch 10.00mm  length 13.5mm width 4mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L13.5mm_W5.0mm_P10.00mm_FKS3_FKP3_MKS4
+C, Rect series, Radial, pin pitch=10.00mm, , length*width=13.5*5mm^2, Capacitor, http://www.wima.com/EN/WIMA_FKS_3.pdf, http://www.wima.com/EN/WIMA_MKS_4.pdf
+C Rect series Radial pin pitch 10.00mm  length 13.5mm width 5mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L16.5mm_W4.7mm_P15.00mm_MKT
+C, Rect series, Radial, pin pitch=15.00mm, , length*width=16.5*4.7mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 15.00mm  length 16.5mm width 4.7mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L16.5mm_W4.9mm_P15.00mm_MKT
+C, Rect series, Radial, pin pitch=15.00mm, , length*width=16.5*4.9mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 15.00mm  length 16.5mm width 4.9mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L16.5mm_W5.0mm_P15.00mm_MKT
+C, Rect series, Radial, pin pitch=15.00mm, , length*width=16.5*5mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 15.00mm  length 16.5mm width 5mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L16.5mm_W6.0mm_P15.00mm_MKT
+C, Rect series, Radial, pin pitch=15.00mm, , length*width=16.5*6mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 15.00mm  length 16.5mm width 6mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L16.5mm_W7.0mm_P15.00mm_MKT
+C, Rect series, Radial, pin pitch=15.00mm, , length*width=16.5*7mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 15.00mm  length 16.5mm width 7mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L16.5mm_W7.3mm_P15.00mm_MKT
+C, Rect series, Radial, pin pitch=15.00mm, , length*width=16.5*7.3mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 15.00mm  length 16.5mm width 7.3mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L16.5mm_W8.7mm_P15.00mm_MKT
+C, Rect series, Radial, pin pitch=15.00mm, , length*width=16.5*8.7mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 15.00mm  length 16.5mm width 8.7mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L16.5mm_W8.9mm_P15.00mm_MKT
+C, Rect series, Radial, pin pitch=15.00mm, , length*width=16.5*8.9mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 15.00mm  length 16.5mm width 8.9mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L16.5mm_W9.0mm_P15.00mm_MKT
+C, Rect series, Radial, pin pitch=15.00mm, , length*width=16.5*9mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 15.00mm  length 16.5mm width 9mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L16.5mm_W9.2mm_P15.00mm_MKT
+C, Rect series, Radial, pin pitch=15.00mm, , length*width=16.5*9.2mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 15.00mm  length 16.5mm width 9.2mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L16.5mm_W10.7mm_P15.00mm_MKT
+C, Rect series, Radial, pin pitch=15.00mm, , length*width=16.5*10.7mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 15.00mm  length 16.5mm width 10.7mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L16.5mm_W10.9mm_P15.00mm_MKT
+C, Rect series, Radial, pin pitch=15.00mm, , length*width=16.5*10.9mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 15.00mm  length 16.5mm width 10.9mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L16.5mm_W11.2mm_P15.00mm_MKT
+C, Rect series, Radial, pin pitch=15.00mm, , length*width=16.5*11.2mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 15.00mm  length 16.5mm width 11.2mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L16.5mm_W11.8mm_P15.00mm_MKT
+C, Rect series, Radial, pin pitch=15.00mm, , length*width=16.5*11.8mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 15.00mm  length 16.5mm width 11.8mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L16.5mm_W13.5mm_P15.00mm_MKT
+C, Rect series, Radial, pin pitch=15.00mm, , length*width=16.5*13.5mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 15.00mm  length 16.5mm width 13.5mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L16.5mm_W13.7mm_P15.00mm_MKT
+C, Rect series, Radial, pin pitch=15.00mm, , length*width=16.5*13.7mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 15.00mm  length 16.5mm width 13.7mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L16.5mm_W13.9mm_P15.00mm_MKT
+C, Rect series, Radial, pin pitch=15.00mm, , length*width=16.5*13.9mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 15.00mm  length 16.5mm width 13.9mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L18.0mm_W5.0mm_P15.00mm_FKS3_FKP3
+C, Rect series, Radial, pin pitch=15.00mm, , length*width=18*5mm^2, Capacitor, http://www.wima.com/EN/WIMA_FKS_3.pdf
+C Rect series Radial pin pitch 15.00mm  length 18mm width 5mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L18.0mm_W6.0mm_P15.00mm_FKS3_FKP3
+C, Rect series, Radial, pin pitch=15.00mm, , length*width=18*6mm^2, Capacitor, http://www.wima.com/EN/WIMA_FKS_3.pdf
+C Rect series Radial pin pitch 15.00mm  length 18mm width 6mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L18.0mm_W7.0mm_P15.00mm_FKS3_FKP3
+C, Rect series, Radial, pin pitch=15.00mm, , length*width=18*7mm^2, Capacitor, http://www.wima.com/EN/WIMA_FKS_3.pdf
+C Rect series Radial pin pitch 15.00mm  length 18mm width 7mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L18.0mm_W8.0mm_P15.00mm_FKS3_FKP3
+C, Rect series, Radial, pin pitch=15.00mm, , length*width=18*8mm^2, Capacitor, http://www.wima.com/EN/WIMA_FKS_3.pdf
+C Rect series Radial pin pitch 15.00mm  length 18mm width 8mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L18.0mm_W9.0mm_P15.00mm_FKS3_FKP3
+C, Rect series, Radial, pin pitch=15.00mm, , length*width=18*9mm^2, Capacitor, http://www.wima.com/EN/WIMA_FKS_3.pdf
+C Rect series Radial pin pitch 15.00mm  length 18mm width 9mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L18.0mm_W11.0mm_P15.00mm_FKS3_FKP3
+C, Rect series, Radial, pin pitch=15.00mm, , length*width=18*11mm^2, Capacitor, http://www.wima.com/EN/WIMA_FKS_3.pdf
+C Rect series Radial pin pitch 15.00mm  length 18mm width 11mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L19.0mm_W5.0mm_P15.00mm_MKS4
+C, Rect series, Radial, pin pitch=15.00mm, , length*width=19*5mm^2, Capacitor, http://www.wima.com/EN/WIMA_MKS_4.pdf
+C Rect series Radial pin pitch 15.00mm  length 19mm width 5mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L19.0mm_W6.0mm_P15.00mm_MKS4
+C, Rect series, Radial, pin pitch=15.00mm, , length*width=19*6mm^2, Capacitor, http://www.wima.com/EN/WIMA_MKS_4.pdf
+C Rect series Radial pin pitch 15.00mm  length 19mm width 6mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L19.0mm_W7.0mm_P15.00mm_MKS4
+C, Rect series, Radial, pin pitch=15.00mm, , length*width=19*7mm^2, Capacitor, http://www.wima.com/EN/WIMA_MKS_4.pdf
+C Rect series Radial pin pitch 15.00mm  length 19mm width 7mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L19.0mm_W8.0mm_P15.00mm_MKS4
+C, Rect series, Radial, pin pitch=15.00mm, , length*width=19*8mm^2, Capacitor, http://www.wima.com/EN/WIMA_MKS_4.pdf
+C Rect series Radial pin pitch 15.00mm  length 19mm width 8mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L19.0mm_W9.0mm_P15.00mm_MKS4
+C, Rect series, Radial, pin pitch=15.00mm, , length*width=19*9mm^2, Capacitor, http://www.wima.com/EN/WIMA_MKS_4.pdf
+C Rect series Radial pin pitch 15.00mm  length 19mm width 9mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L19.0mm_W11.0mm_P15.00mm_MKS4
+C, Rect series, Radial, pin pitch=15.00mm, , length*width=19*11mm^2, Capacitor, http://www.wima.com/EN/WIMA_MKS_4.pdf
+C Rect series Radial pin pitch 15.00mm  length 19mm width 11mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L24.0mm_W7.0mm_P22.50mm_MKT
+C, Rect series, Radial, pin pitch=22.50mm, , length*width=24*7mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 22.50mm  length 24mm width 7mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L24.0mm_W8.3mm_P22.50mm_MKT
+C, Rect series, Radial, pin pitch=22.50mm, , length*width=24*8.3mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 22.50mm  length 24mm width 8.3mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L24.0mm_W8.6mm_P22.50mm_MKT
+C, Rect series, Radial, pin pitch=22.50mm, , length*width=24*8.6mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 22.50mm  length 24mm width 8.6mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L24.0mm_W10.1mm_P22.50mm_MKT
+C, Rect series, Radial, pin pitch=22.50mm, , length*width=24*10.1mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 22.50mm  length 24mm width 10.1mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L24.0mm_W10.3mm_P22.50mm_MKT
+C, Rect series, Radial, pin pitch=22.50mm, , length*width=24*10.3mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 22.50mm  length 24mm width 10.3mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L24.0mm_W10.9mm_P22.50mm_MKT
+C, Rect series, Radial, pin pitch=22.50mm, , length*width=24*10.9mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 22.50mm  length 24mm width 10.9mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L24.0mm_W12.2mm_P22.50mm_MKT
+C, Rect series, Radial, pin pitch=22.50mm, , length*width=24*12.2mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 22.50mm  length 24mm width 12.2mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L24.0mm_W12.6mm_P22.50mm_MKT
+C, Rect series, Radial, pin pitch=22.50mm, , length*width=24*12.6mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 22.50mm  length 24mm width 12.6mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L24.0mm_W12.8mm_P22.50mm_MKT
+C, Rect series, Radial, pin pitch=22.50mm, , length*width=24*12.8mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 22.50mm  length 24mm width 12.8mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L26.5mm_W5.0mm_P22.50mm_MKS4
+C, Rect series, Radial, pin pitch=22.50mm, , length*width=26.5*5mm^2, Capacitor, http://www.wima.com/EN/WIMA_MKS_4.pdf
+C Rect series Radial pin pitch 22.50mm  length 26.5mm width 5mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L26.5mm_W6.0mm_P22.50mm_MKS4
+C, Rect series, Radial, pin pitch=22.50mm, , length*width=26.5*6mm^2, Capacitor, http://www.wima.com/EN/WIMA_MKS_4.pdf
+C Rect series Radial pin pitch 22.50mm  length 26.5mm width 6mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L26.5mm_W7.0mm_P22.50mm_MKS4
+C, Rect series, Radial, pin pitch=22.50mm, , length*width=26.5*7mm^2, Capacitor, http://www.wima.com/EN/WIMA_MKS_4.pdf
+C Rect series Radial pin pitch 22.50mm  length 26.5mm width 7mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L26.5mm_W8.5mm_P22.50mm_MKS4
+C, Rect series, Radial, pin pitch=22.50mm, , length*width=26.5*8.5mm^2, Capacitor, http://www.wima.com/EN/WIMA_MKS_4.pdf
+C Rect series Radial pin pitch 22.50mm  length 26.5mm width 8.5mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L26.5mm_W10.5mm_P22.50mm_MKS4
+C, Rect series, Radial, pin pitch=22.50mm, , length*width=26.5*10.5mm^2, Capacitor, http://www.wima.com/EN/WIMA_MKS_4.pdf
+C Rect series Radial pin pitch 22.50mm  length 26.5mm width 10.5mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L26.5mm_W11.5mm_P22.50mm_MKS4
+C, Rect series, Radial, pin pitch=22.50mm, , length*width=26.5*11.5mm^2, Capacitor, http://www.wima.com/EN/WIMA_MKS_4.pdf
+C Rect series Radial pin pitch 22.50mm  length 26.5mm width 11.5mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L27.0mm_W9.0mm_P22.00mm
+C, Rect series, Radial, pin pitch=22.00mm, , length*width=27*9mm^2, Capacitor
+C Rect series Radial pin pitch 22.00mm  length 27mm width 9mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L27.0mm_W9.0mm_P23.00mm
+C, Rect series, Radial, pin pitch=23.00mm, , length*width=27*9mm^2, Capacitor
+C Rect series Radial pin pitch 23.00mm  length 27mm width 9mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L27.0mm_W11.0mm_P22.00mm
+C, Rect series, Radial, pin pitch=22.00mm, , length*width=27*11mm^2, Capacitor
+C Rect series Radial pin pitch 22.00mm  length 27mm width 11mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L28.0mm_W8.0mm_P22.50mm_MKS4
+C, Rect series, Radial, pin pitch=22.50mm, , length*width=28*8mm^2, Capacitor, http://www.wima.com/EN/WIMA_MKS_4.pdf
+C Rect series Radial pin pitch 22.50mm  length 28mm width 8mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L28.0mm_W10.0mm_P22.50mm_MKS4
+C, Rect series, Radial, pin pitch=22.50mm, , length*width=28*10mm^2, Capacitor, http://www.wima.com/EN/WIMA_MKS_4.pdf
+C Rect series Radial pin pitch 22.50mm  length 28mm width 10mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L28.0mm_W12.0mm_P22.50mm_MKS4
+C, Rect series, Radial, pin pitch=22.50mm, , length*width=28*12mm^2, Capacitor, http://www.wima.com/EN/WIMA_MKS_4.pdf
+C Rect series Radial pin pitch 22.50mm  length 28mm width 12mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L29.0mm_W7.6mm_P27.50mm_MKT
+C, Rect series, Radial, pin pitch=27.50mm, , length*width=29*7.6mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 27.50mm  length 29mm width 7.6mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L29.0mm_W7.8mm_P27.50mm_MKT
+C, Rect series, Radial, pin pitch=27.50mm, , length*width=29*7.8mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 27.50mm  length 29mm width 7.8mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L29.0mm_W7.9mm_P27.50mm_MKT
+C, Rect series, Radial, pin pitch=27.50mm, , length*width=29*7.9mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 27.50mm  length 29mm width 7.9mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L29.0mm_W9.1mm_P27.50mm_MKT
+C, Rect series, Radial, pin pitch=27.50mm, , length*width=29*9.1mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 27.50mm  length 29mm width 9.1mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L29.0mm_W9.6mm_P27.50mm_MKT
+C, Rect series, Radial, pin pitch=27.50mm, , length*width=29*9.6mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 27.50mm  length 29mm width 9.6mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L29.0mm_W11.0mm_P27.50mm_MKT
+C, Rect series, Radial, pin pitch=27.50mm, , length*width=29*11mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 27.50mm  length 29mm width 11mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L29.0mm_W11.9mm_P27.50mm_MKT
+C, Rect series, Radial, pin pitch=27.50mm, , length*width=29*11.9mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 27.50mm  length 29mm width 11.9mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L29.0mm_W12.2mm_P27.50mm_MKT
+C, Rect series, Radial, pin pitch=27.50mm, , length*width=29*12.2mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 27.50mm  length 29mm width 12.2mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L29.0mm_W13.0mm_P27.50mm_MKT
+C, Rect series, Radial, pin pitch=27.50mm, , length*width=29*13mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 27.50mm  length 29mm width 13mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L29.0mm_W13.8mm_P27.50mm_MKT
+C, Rect series, Radial, pin pitch=27.50mm, , length*width=29*13.8mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 27.50mm  length 29mm width 13.8mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L29.0mm_W14.2mm_P27.50mm_MKT
+C, Rect series, Radial, pin pitch=27.50mm, , length*width=29*14.2mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 27.50mm  length 29mm width 14.2mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L29.0mm_W16.0mm_P27.50mm_MKT
+C, Rect series, Radial, pin pitch=27.50mm, , length*width=29*16mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
+C Rect series Radial pin pitch 27.50mm  length 29mm width 16mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L31.5mm_W9.0mm_P27.50mm_MKS4
+C, Rect series, Radial, pin pitch=27.50mm, , length*width=31.5*9mm^2, Capacitor, http://www.wima.com/EN/WIMA_MKS_4.pdf
+C Rect series Radial pin pitch 27.50mm  length 31.5mm width 9mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L31.5mm_W11.0mm_P27.50mm_MKS4
+C, Rect series, Radial, pin pitch=27.50mm, , length*width=31.5*11mm^2, Capacitor, http://www.wima.com/EN/WIMA_MKS_4.pdf
+C Rect series Radial pin pitch 27.50mm  length 31.5mm width 11mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L31.5mm_W13.0mm_P27.50mm_MKS4
+C, Rect series, Radial, pin pitch=27.50mm, , length*width=31.5*13mm^2, Capacitor, http://www.wima.com/EN/WIMA_MKS_4.pdf
+C Rect series Radial pin pitch 27.50mm  length 31.5mm width 13mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L31.5mm_W15.0mm_P27.50mm_MKS4
+C, Rect series, Radial, pin pitch=27.50mm, , length*width=31.5*15mm^2, Capacitor, http://www.wima.com/EN/WIMA_MKS_4.pdf
+C Rect series Radial pin pitch 27.50mm  length 31.5mm width 15mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L31.5mm_W17.0mm_P27.50mm_MKS4
+C, Rect series, Radial, pin pitch=27.50mm, , length*width=31.5*17mm^2, Capacitor, http://www.wima.com/EN/WIMA_MKS_4.pdf
+C Rect series Radial pin pitch 27.50mm  length 31.5mm width 17mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L31.5mm_W20.0mm_P27.50mm_MKS4
+C, Rect series, Radial, pin pitch=27.50mm, , length*width=31.5*20mm^2, Capacitor, http://www.wima.com/EN/WIMA_MKS_4.pdf
+C Rect series Radial pin pitch 27.50mm  length 31.5mm width 20mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L32.0mm_W15.0mm_P27.00mm
+C, Rect series, Radial, pin pitch=27.00mm, , length*width=32*15mm^2, Capacitor
+C Rect series Radial pin pitch 27.00mm  length 32mm width 15mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L33.0mm_W13.0mm_P27.50mm_MKS4
+C, Rect series, Radial, pin pitch=27.50mm, , length*width=33*13mm^2, Capacitor, http://www.wima.com/EN/WIMA_MKS_4.pdf
+C Rect series Radial pin pitch 27.50mm  length 33mm width 13mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L33.0mm_W15.0mm_P27.50mm_MKS4
+C, Rect series, Radial, pin pitch=27.50mm, , length*width=33*15mm^2, Capacitor, http://www.wima.com/EN/WIMA_MKS_4.pdf
+C Rect series Radial pin pitch 27.50mm  length 33mm width 15mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L33.0mm_W20.0mm_P27.50mm_MKS4
+C, Rect series, Radial, pin pitch=27.50mm, , length*width=33*20mm^2, Capacitor, http://www.wima.com/EN/WIMA_MKS_4.pdf
+C Rect series Radial pin pitch 27.50mm  length 33mm width 20mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L41.5mm_W9.0mm_P37.50mm_MKS4
+C, Rect series, Radial, pin pitch=37.50mm, , length*width=41.5*9mm^2, Capacitor, http://www.wima.com/EN/WIMA_MKS_4.pdf
+C Rect series Radial pin pitch 37.50mm  length 41.5mm width 9mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L41.5mm_W11.0mm_P37.50mm_MKS4
+C, Rect series, Radial, pin pitch=37.50mm, , length*width=41.5*11mm^2, Capacitor, http://www.wima.com/EN/WIMA_MKS_4.pdf
+C Rect series Radial pin pitch 37.50mm  length 41.5mm width 11mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L41.5mm_W13.0mm_P37.50mm_MKS4
+C, Rect series, Radial, pin pitch=37.50mm, , length*width=41.5*13mm^2, Capacitor, http://www.wima.com/EN/WIMA_MKS_4.pdf
+C Rect series Radial pin pitch 37.50mm  length 41.5mm width 13mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L41.5mm_W15.0mm_P37.50mm_MKS4
+C, Rect series, Radial, pin pitch=37.50mm, , length*width=41.5*15mm^2, Capacitor, http://www.wima.com/EN/WIMA_MKS_4.pdf
+C Rect series Radial pin pitch 37.50mm  length 41.5mm width 15mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L41.5mm_W17.0mm_P37.50mm_MKS4
+C, Rect series, Radial, pin pitch=37.50mm, , length*width=41.5*17mm^2, Capacitor, http://www.wima.com/EN/WIMA_MKS_4.pdf
+C Rect series Radial pin pitch 37.50mm  length 41.5mm width 17mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L41.5mm_W19.0mm_P37.50mm_MKS4
+C, Rect series, Radial, pin pitch=37.50mm, , length*width=41.5*19mm^2, Capacitor, http://www.wima.com/EN/WIMA_MKS_4.pdf
+C Rect series Radial pin pitch 37.50mm  length 41.5mm width 19mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L41.5mm_W20.0mm_P37.50mm_MKS4
+C, Rect series, Radial, pin pitch=37.50mm, , length*width=41.5*20mm^2, Capacitor, http://www.wima.com/EN/WIMA_MKS_4.pdf
+C Rect series Radial pin pitch 37.50mm  length 41.5mm width 20mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L41.5mm_W24.0mm_P37.50mm_MKS4
+C, Rect series, Radial, pin pitch=37.50mm, , length*width=41.5*24mm^2, Capacitor, http://www.wima.com/EN/WIMA_MKS_4.pdf
+C Rect series Radial pin pitch 37.50mm  length 41.5mm width 24mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L41.5mm_W31.0mm_P37.50mm_MKS4
+C, Rect series, Radial, pin pitch=37.50mm, , length*width=41.5*31mm^2, Capacitor, http://www.wima.com/EN/WIMA_MKS_4.pdf
+C Rect series Radial pin pitch 37.50mm  length 41.5mm width 31mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L41.5mm_W35.0mm_P37.50mm_MKS4
+C, Rect series, Radial, pin pitch=37.50mm, , length*width=41.5*35mm^2, Capacitor, http://www.wima.com/EN/WIMA_MKS_4.pdf
+C Rect series Radial pin pitch 37.50mm  length 41.5mm width 35mm Capacitor
+0
+2
+2
+Capacitor_THT
+C_Rect_L41.5mm_W40.0mm_P37.50mm_MKS4
+C, Rect series, Radial, pin pitch=37.50mm, , length*width=41.5*40mm^2, Capacitor, http://www.wima.com/EN/WIMA_MKS_4.pdf
+C Rect series Radial pin pitch 37.50mm  length 41.5mm width 40mm Capacitor
+0
+2
+2
+Capacitor_THT
+DX_5R5HxxxxU_D11.5mm_P10.00mm
+CP, Radial series, Radial, pin pitch=10.00mm, diameter=11.5mm, Supercapacitor, http://www.elna.co.jp/en/capacitor/double_layer/catalog/pdf/dx_e.pdf
+CP Radial series Radial pin pitch 10.00mm diameter 11.5mm supercapacitor
+0
+2
+2
+Capacitor_THT
+DX_5R5VxxxxU_D11.5mm_P5.00mm
+CP, Radial series, Radial, pin pitch=5.00mm, diameter=11.5mm, Supercapacitor, http://www.elna.co.jp/en/capacitor/double_layer/catalog/pdf/dx_e.pdf
+CP Radial series Radial pin pitch 5.00mm diameter 11.5mm supercapacitor
+0
+2
+2
+Capacitor_THT
+DX_5R5VxxxxU_D19.0mm_P5.00mm
+CP, Radial series, Radial, pin pitch=5.00mm, diameter=19mm, Supercapacitor, http://www.elna.co.jp/en/capacitor/double_layer/catalog/pdf/dx_e.pdf
+CP Radial series Radial pin pitch 5.00mm diameter 19mm supercapacitor
+0
+2
+2
