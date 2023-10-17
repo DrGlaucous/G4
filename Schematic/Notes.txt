@@ -1,3 +1,42 @@
 
 
-Potential MOSFET for use with ESP32: IPP030N06NF2SAKMA1 (from Mouser)
+Potential MOSFET for use with ESP32:
+
+From Mouser:
+IPP030N06NF2SAKMA1	3.05mh	3.3v thresh	1.52$	(large package only)
+TK4R3A06PL,S4X	3.3mh	1.5vThresh	disp: 1.616Watt
+TK4R3E06PL	3.3mh	1.5vThresh	disp: 1.616Watt (same as above, but better) 1.45$	(large package only)
+IRFB3306/IRFSL3306PBF 	3.3-4.2mh	2-4vThresh	1.8$	(desirable package not stocked)
+IPP019N06NF2S	1.9mh	3.3vthresh	2.1$	(large package only)
+IRLB3034 ? (1.7mh), but 40vmax	$3.7$
+IRFB3077	3.3mh	2-4vThresh	disp: 0.5925W with lowest (max: 2.4W)	2.2$
+
+
+Pfet driver:
+2N7000: Nfet, several ohm RDSon, but we won't pull much current through it.
+
+P channel:
+IPP120P04P4L03AKSA2	3.1mh	5vthresh	40vmax	$3.61
+
+
+calculate dissipated power: I * I * Rds
+calculate jnctn temp: multiply that by 50/60 degC/watt
+
+at 20 volts on 1.5 ohms (solenoid), 13.33 amps flow
+
+
+Choice:
+IPP030N06NF2SAKMA1- N channel (x10)
+IPP120P04P4L03AKSA2 - P channel (x3)
+870585375004 - Cap, 470 uf (x2) (1mc cubed footprint, 5mm leads)
+
+
+
+
+
+
+
+
+
+
+
