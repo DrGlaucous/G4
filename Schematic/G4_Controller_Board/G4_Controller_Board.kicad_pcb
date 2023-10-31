@@ -1657,7 +1657,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1df2efbe-6ce7-4d81-a710-a7bb6745067e)
     )
-    (fp_text value "Positive BUS" (at 5 5.715) (layer "F.Fab")
+    (fp_text value "Positive BUS" (at 5 5.715) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c10a06a7-a64b-4799-855c-0da41dc07ebf)
     )
@@ -2587,7 +2587,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3cca9286-6947-469e-8a64-86c7b47d0a53)
     )
-    (fp_text value "Negative BUS" (at 5 5.715) (layer "F.Fab")
+    (fp_text value "Negative BUS" (at 5 5.715) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f03fa951-7d8a-4dfc-9122-5b20ad49d479)
     )

@@ -26,6 +26,30 @@ at 20 volts on 1.5 ohms (solenoid), 13.33 amps flow
 
 
 Choice:
+DigiKey electronincs:
+G040P04T - p channel (x5) $1.82/pc || https://www.digikey.com/en/products/detail/goford-semiconductor/G040P04T/19524542
+or
+G75P04T - p channel (x5) $1.18/pc || https://www.digikey.com/en/products/detail/goford-semiconductor/G75P04T/18768879
+or
+G050P03T - p channel (x5) $1.17/pc || https://www.digikey.com/en/products/detail/goford-semiconductor/G050P03T/18087996
+
+
+25WA470MEFCT810X9 capacitor, 25v 470uf (x10) $0.43/pc || https://www.digikey.com/en/products/detail/rubycon/25WA470MEFCT810X9/3566890
+
+
+CSD18532KCS - n channel (x5) $2.31/pc || https://www.digikey.com/en/products/detail/texas-instruments/CSD18532KCS/3661861
+or cheap:
+IRLB8314PBF - n channel (x5) $1.00/pc || https://www.digikey.com/en/products/detail/infineon-technologies/IRLB8314PBF/4807868 **
+or (not as good...)
+IRLB8748PBF 0.0068 - 2.35 - n cnannel (x5) $1.05/pc || https://www.digikey.com/en/products/detail/infineon-technologies/IRLB8748PBF/2127672
+IRL7833PBF 0.0045 - 2.30 - 1.85 || https://www.digikey.com/en/products/detail/infineon-technologies/IRL7833PBF/811242
+
+ordered:
+G75P04T - pch
+25WA470MEFCT810X9 - cap
+IRLB8314PBF - nch
+
+Mouser electronics (bad cap selection):
 IPP030N06NF2SAKMA1- N channel (x10)
 IPP120P04P4L03AKSA2 - P channel (x3)
 870585375004 - Cap, 470 uf (x2) (1mc cubed footprint, 5mm leads)
