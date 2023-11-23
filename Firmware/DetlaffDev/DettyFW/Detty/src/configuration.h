@@ -11,7 +11,7 @@
 //-------------------------------//
 
 //#define SOLENOID 25 // (HIGH=ON)
-#define BUZZER 4 // (HIGH=ON)
+#define BUZZER 13 // (HIGH=ON)
 
 //////////////FLYWHEELS//////////////
 
@@ -30,7 +30,7 @@
 
 //time in milliseconds between 0 and full before the motor is considered "at speed"
 //if ESC_DSHOT_BIDIR is set to true, then this value is ignored
-#define ESC_REV_DELAY 300
+#define ESC_REV_DELAY 1500
 
 //delay in milliseoconds the program should take to decelerate the ESC.
 //it hurts both the battery and the ESC to be dropped right to 0 each time the trigger is let off (many ESCs enforce active motor breaking),
@@ -58,7 +58,7 @@
     //dshot mode
     #define ESC_DSHOT_MODE DSHOT300
     //enables eRPM telemetry
-    #define ESC_DSHOT_BIDIR true
+    #define ESC_DSHOT_BIDIR false
     //number of magnet poles the motor has, important for getting real RPM from eRPM
     #define ESC_DSHOT_MOTOR_POLES 14
 #endif
@@ -103,7 +103,7 @@
 
 //PUSHER_TYPE_SOLENOID
 //the pin that controls the solenoid FET
-#define SO_FET_PIN 25 //use buzzer for testing
+#define SO_FET_PIN 32 //use buzzer for testing
 //time in ms it takes the solenoid to extend
 #define SO_MIN_EXT_TIME 65
 //time in ms it takes the solenoid to retract
@@ -125,11 +125,11 @@
 #define DEBOUNCE_TIME 10
 
 //the pin that this element occupies
-#define TRIGGER_PIN 5
+#define TRIGGER_PIN 17
 //if normally closed, set this to true, if normally open, set to false
 #define TRIGGER_NC false
 
-#define MAG_TRIG_PIN 17
+#define MAG_TRIG_PIN 5
 #define MAG_TRIG_NC false
 
 //do we have a rev trigger in the mix? if yes, we change the way some rev behavior works
@@ -141,30 +141,37 @@
 #endif
 
 //preset buttons
-#define PRESET_A_PIN 14
+#define PRESET_A_PIN 27
 #define PRESET_A_NC false
 
-#define PRESET_B_PIN 27
+#define PRESET_B_PIN 14
 #define PRESET_B_NC false
 
-#define PRESET_C_PIN 26
+#define PRESET_C_PIN 12
 #define PRESET_C_NC false
 
-//encoder pins for the UI interraction
-#define ENCODER_A_PIN 2
-#define ENCODER_B_PIN 15
+//encoder pins for the UI interaction
+#define ENCODER_A_PIN 25
+#define ENCODER_B_PIN 33
 
-#define ENCODER_BUTTON_PIN 13
+#define ENCODER_BUTTON_PIN 26
 #define ENCODER_BUTTON_NC false
 
 
 //////////////ammo counter//////////////
 //voltage+ pin for the reciever diode (not absolutely needed, but saves power as it is only set ON when it is time to read)
-#define IR_REC_POWER 12
+#define IR_REC_POWER 15
 //other side of the diode, measures IR light level
-#define IR_REC_READBACK 11
+#define IR_REC_READBACK 35
 //IR emitter LED, not absolutely needed, but it saves wear on the LED and battery if used
-#define IR_EMITTER 13
+#define IR_EMITTER 2
+
+//value used to trigger the start of a beam break (a dart has entered the detector)
+#define IR_ADC_FALL_VAL 100
+//value used to trigger the end of a beam break (the dart has left)
+//this is larger than the other one to prevent ADC fuzziness
+#define IR_ADC_RISE_VAL 200
+
 
 //voltmeter
 #define VOLTMETER_PIN 34
@@ -181,8 +188,8 @@
 #define ADC_VOLTAGE_REF_2 0.772
 
 //voltages at which the battery is full and empty
-#define BATTERY_FULL_CHARGE 12
-#define BATTERY_EMPTY 7
+#define BATTERY_FULL_CHARGE 16
+#define BATTERY_EMPTY 12
 
 
 //-------------------------------//

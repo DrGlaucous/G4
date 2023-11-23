@@ -82,16 +82,16 @@ class menuHandler
 
 
     //callback settings for the menu
-    callback_datapack_t saveSettingsDP = {this, 1, DISPLAY_NULL};
-    callback_datapack_t bindPresetDP = {this, 0, DISPLAY_BIND_PRESET};
-    callback_datapack_t rpmAutoconfigDP = {this, 2, DISPLAY_NULL};
-    callback_datapack_t pusherSettingChangeDP = {this, 3, DISPLAY_NULL};
-    callback_datapack_t shootPowerDP = {this, 0, DISPLAY_FLYWHEEL_POWER};
-    callback_datapack_t shootRateDP = {this, 0, DISPLAY_PUSH_RATE};
-    callback_datapack_t flywheelRPMDP = {this, 0, DISPLAY_FLYWHEEL_RPM};
-    callback_datapack_t ammoCountDP = {this, 0, DISPLAY_AMMO_COUNT};
-    callback_datapack_t fpsViewDP = {this, 0, DISPLAY_FPS};
-    callback_datapack_t liveSettingsDP = {this, 4, DISPLAY_NULL};
+    const callback_datapack_t saveSettingsDP = {this, 1, DISPLAY_NULL};
+    const callback_datapack_t bindPresetDP = {this, 0, DISPLAY_BIND_PRESET};
+    const callback_datapack_t rpmAutoconfigDP = {this, 2, DISPLAY_NULL};
+    const callback_datapack_t pusherSettingChangeDP = {this, 3, DISPLAY_NULL};
+    const callback_datapack_t shootPowerDP = {this, 0, DISPLAY_FLYWHEEL_POWER};
+    const callback_datapack_t shootRateDP = {this, 0, DISPLAY_PUSH_RATE};
+    const callback_datapack_t flywheelRPMDP = {this, 0, DISPLAY_FLYWHEEL_RPM};
+    const callback_datapack_t ammoCountDP = {this, 0, DISPLAY_AMMO_COUNT};
+    const callback_datapack_t fpsViewDP = {this, 0, DISPLAY_FPS};
+    const callback_datapack_t liveSettingsDP = {this, 4, DISPLAY_NULL};
 
     //list items
     SelectOptionInt fireTypeListOptions[3] =

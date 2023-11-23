@@ -26,6 +26,7 @@ void IRAM_ATTR handleLoop()
 {
     gPins.update_encoder();
     gBuzzer.update();
+	analogRead(IR_REC_READBACK);
 }
 
 
@@ -35,6 +36,9 @@ void setup() {
     //delay(1000);
 
     gMenu.start();
+
+
+	pinMode(IR_REC_READBACK, INPUT);
 
     //create inturrupt
     timer = timerBegin(0, 80, true);
@@ -50,7 +54,7 @@ void setup() {
 void loop() {
     // put your main code here, to run repeatedly:
 
-    gPins.update();
+    //gPins.update();
     gMenu.update();
 
     gConnectome.update();

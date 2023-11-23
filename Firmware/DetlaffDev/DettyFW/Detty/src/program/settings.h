@@ -12,6 +12,7 @@ typedef enum shoot_mode_e
     SHOOT_MODE_FULL_AUTO,
     SHOOT_MODE_SELECT_FIRE,
     SHOOT_MODE_CACHE,
+    SHOOT_MODE_NOPUSH,
 
     SHOOT_MODE_MAX,
 
