@@ -314,7 +314,10 @@ bool menuHandler::handleNav()
 
 			break;
 		}
-		
+		case DISPLAY_FPS: //show FPS counter
+		{
+			someUpdate = true; //always refresh the screen
+		}
 
 	}
 
@@ -324,12 +327,13 @@ bool menuHandler::handleNav()
 	return someUpdate;
 }
 
+//push settings from the menu to the backend (for freeRTOS, we should use a queue here)
 void menuHandler::pushLiveSettings(live_settings_t fromThis, live_settings_t* toThis)
 {
 	memcpy(toThis, &fromThis, sizeof(live_settings_t));
 }
 
-//performa a certain action depending on the menu option pressed
+//perform a certain action depending on the menu option pressed
 void menuHandler::handleCallback(GEMCallbackData inData)
 {
 
@@ -339,22 +343,24 @@ void menuHandler::handleCallback(GEMCallbackData inData)
 	switch(castData->action_no)
 	{
 		default:
-		case 0: //change menu to be drawn
-			change_menu = true;
+		case ACTION_MAX:
+		case ACTION_CHANGE_MENU: //change menu to be drawn
+			change_menu = true; //refreshes the screen
 			break;
-		case 1: //save settings
+		case ACTION_SAVE_SETTINGS: //save settings
 			//todo: this
 			break;
-		case 2: //autoconfig RPM
+		case ACTION_RPM_AUTOCONFIG: //autoconfig RPM
 			//todo: this
 			break;
-		case 3: //process pusher settings
+		case ACTION_PROCESS_PUSHER_SETTINGS: //process pusher settings
 			gSettings.so_max_ret_time = (gSettings.so_max_ext_time / gSettings.so_min_ext_time) * gSettings.so_min_ret_time;
 			break;
-		case 4: //update the preset's settings
+		case ACTION_PUSH_LIVE_SETTINGS: //update the preset's settings
 			//copy the menu's settings to the preset
 			pushLiveSettings(castData->parent->current_live_set, &gSettings.preset_settings[gSettings.selected_preset]);
 			break;
+
 
 
 
@@ -442,7 +448,12 @@ void menuHandler::screenDrawLoop(void)
 				screen_type = DISPLAY_MENU;
 				break;
 			}
-
+		case DISPLAY_FPS:
+			{
+				gBuzzer.beep_single(100000);
+				screen_type = DISPLAY_MENU;
+				break;
+			}
 
 	}
 

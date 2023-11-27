@@ -38,7 +38,6 @@ unsigned long micros_end = 0; //when the dart left
 void IRAM_ATTR timerHandle()
 {
 
-    
     int result = analogRead(IR_REC_READBACK);
 
     //when the dart first enters
@@ -56,56 +55,37 @@ void IRAM_ATTR timerHandle()
 }
 
 
-//set pinmodes and start timer inturrupts
+//set pinmodes and configure timer inturrupts
 chronyHandler::chronyHandler()
 {
-    // //create fast timer and immediately stop it (initialize only)
-    // chron_timer = timerBegin(1, 80, true);
-    // //timerStop(chron_timer);
+    //set pins to the correct mode
+    pinMode(IR_REC_POWER, OUTPUT);
+	pinMode(IR_REC_READBACK, INPUT);
+	pinMode(IR_EMITTER, OUTPUT);
 
-    // //create inturrupt
-    // timerAttachInterrupt(chron_timer, &timerHandle, true);
-    // timerAlarmWrite(chron_timer, 1000, true); // every 10 microseconds
-    // timerAlarmEnable(chron_timer);
 
-    // //set pins to the correct mode
-    // pinMode(IR_REC_POWER, OUTPUT);
-	// pinMode(IR_REC_READBACK, INPUT);
-	// pinMode(IR_EMITTER, OUTPUT);
+    //create fast timer and immediately stop it (initialize only)
+    chron_timer = timerBegin(1, 80, true);
+    timerStop(chron_timer);
+
+    //create inturrupt
+    timerAttachInterrupt(chron_timer, &timerHandle, true);
+    timerAlarmWrite(chron_timer, 100, true); // every 100 microseconds (may need to change...)
+    //timerAlarmEnable(chron_timer);
+
 
 }
 //start the interrupt timer and turn on the LEDs
 void chronyHandler::begin_isr()
 {
 
-
-
-    // //enable LEDs
-    // digitalWrite(IR_REC_POWER, true);
-	// digitalWrite(IR_EMITTER, true);
-
-    // //start ISR callback
-    // //timerStart(chron_timer);
-
-
-
-    //TEST
-
-    //set pins to the correct mode
-    pinMode(IR_REC_POWER, OUTPUT);
-	pinMode(IR_REC_READBACK, INPUT);
-	pinMode(IR_EMITTER, OUTPUT);
+    //enable LEDs
     digitalWrite(IR_REC_POWER, true);
 	digitalWrite(IR_EMITTER, true);
 
-    chron_timer = timerBegin(1, 80, true);
-
-
-    //create inturrupt
-    timerAttachInterrupt(chron_timer, &timerHandle, true);
-    timerAlarmWrite(chron_timer, 1000, true); // every 10 microseconds
+    //start ISR callback
+    timerStart(chron_timer);
     timerAlarmEnable(chron_timer);
-
 
 }
 //stop the timer and turn off the LEDs
@@ -113,7 +93,8 @@ void chronyHandler::end_isr()
 {
 
     //stop ISR callback
-    //timerStop(chron_timer);
+    timerAlarmDisable(chron_timer);
+    timerStop(chron_timer);
 
     //disable LEDs
     digitalWrite(IR_REC_POWER, true);
@@ -124,14 +105,19 @@ void chronyHandler::end_isr()
 void chronyHandler::get_darts(unsigned long * deltaMicros, unsigned int * count)
 {
 
-    //overflow protection
-    if(micros_end < micros_start)
-        *deltaMicros = (0xFFFFFFFF - micros_start) + micros_end;
-    else
-        *deltaMicros = micros_end - micros_start;
+    //do not update values if we're in the middle of a read (will yield a garbage value otherwise)
+    if(!chron_state)
+    {
+        //overflow protection
+        if(micros_end < micros_start)
+            lastDeltaMicros = (0xFFFFFFFF - micros_start) + micros_end;
+        else
+            lastDeltaMicros = micros_end - micros_start;
+    }
 
+
+    *deltaMicros = lastDeltaMicros;
     *count = chron_count;
-
 
 }
 //reset dart count back to 0

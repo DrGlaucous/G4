@@ -116,8 +116,8 @@ void inputHandler::update(void)
     delta_encoder_val = encoder_val/4 - last_encoder_val;
     last_encoder_val = encoder_val / 4;
 
-    //read the raw value from the ADC
-    voltmeter_read = analogRead(VOLTMETER_PIN);
+    //read the raw value from the ADC (weird bug: this conflicts with analogRead from the ISR pin on the LED)
+    //voltmeter_read = analogRead(VOLTMETER_PIN);
 
 }
 

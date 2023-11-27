@@ -50,7 +50,7 @@
 //(can be closely estimated by multiplying kv by voltage)
 //for motors without telemetry, these value can be set to anything with decent resolution (to get a "fake" telemetry gauge)
 #define ESC_RPM_MIN 0 
-#define ESC_RPM_MAX 29800 //27600 
+#define ESC_RPM_MAX 39733 //36800 || //29800 //27600 
 
 
 //only have the option for this if we have the dshot type,
@@ -58,7 +58,7 @@
     //dshot mode
     #define ESC_DSHOT_MODE DSHOT300
     //enables eRPM telemetry
-    #define ESC_DSHOT_BIDIR false
+    #define ESC_DSHOT_BIDIR true
     //number of magnet poles the motor has, important for getting real RPM from eRPM
     #define ESC_DSHOT_MOTOR_POLES 14
 #endif
@@ -105,9 +105,9 @@
 //the pin that controls the solenoid FET
 #define SO_FET_PIN 32 //use buzzer for testing
 //time in ms it takes the solenoid to extend
-#define SO_MIN_EXT_TIME 65
+#define SO_MIN_EXT_TIME 35
 //time in ms it takes the solenoid to retract
-#define SO_MIN_RET_TIME 40
+#define SO_MIN_RET_TIME 35
 //max time the solenoid is allowed to be ON
 #define SO_MAX_EXT_TIME 200
 
@@ -171,6 +171,8 @@
 //value used to trigger the end of a beam break (the dart has left)
 //this is larger than the other one to prevent ADC fuzziness
 #define IR_ADC_RISE_VAL 200
+//we need to know this because we only have one detector. By default, this is the length of a half dart (in mm)
+#define DART_LENGTH 36
 
 
 //voltmeter

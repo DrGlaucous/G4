@@ -38,11 +38,23 @@ class menuHandler
 
     } display_list_t;
 
+    typedef enum action_list_e
+    {
+        ACTION_CHANGE_MENU,
+        ACTION_SAVE_SETTINGS,
+        ACTION_RPM_AUTOCONFIG,
+        ACTION_PROCESS_PUSHER_SETTINGS,
+        ACTION_PUSH_LIVE_SETTINGS,
+
+        ACTION_MAX,
+    } action_list_t;
+
+
     //callback datapacks for the various buttons
     typedef struct callback_datapack_s //for setting a number
     {
         menuHandler* parent;
-        int action_no;
+        action_list_t action_no;
         display_list_t screen_type;
 
     } callback_datapack_t;
@@ -82,16 +94,16 @@ class menuHandler
 
 
     //callback settings for the menu
-    const callback_datapack_t saveSettingsDP = {this, 1, DISPLAY_NULL};
-    const callback_datapack_t bindPresetDP = {this, 0, DISPLAY_BIND_PRESET};
-    const callback_datapack_t rpmAutoconfigDP = {this, 2, DISPLAY_NULL};
-    const callback_datapack_t pusherSettingChangeDP = {this, 3, DISPLAY_NULL};
-    const callback_datapack_t shootPowerDP = {this, 0, DISPLAY_FLYWHEEL_POWER};
-    const callback_datapack_t shootRateDP = {this, 0, DISPLAY_PUSH_RATE};
-    const callback_datapack_t flywheelRPMDP = {this, 0, DISPLAY_FLYWHEEL_RPM};
-    const callback_datapack_t ammoCountDP = {this, 0, DISPLAY_AMMO_COUNT};
-    const callback_datapack_t fpsViewDP = {this, 0, DISPLAY_FPS};
-    const callback_datapack_t liveSettingsDP = {this, 4, DISPLAY_NULL};
+    const callback_datapack_t saveSettingsDP = {this, ACTION_SAVE_SETTINGS, DISPLAY_NULL};
+    const callback_datapack_t bindPresetDP = {this, ACTION_CHANGE_MENU, DISPLAY_BIND_PRESET};
+    const callback_datapack_t rpmAutoconfigDP = {this, ACTION_RPM_AUTOCONFIG, DISPLAY_NULL};
+    const callback_datapack_t pusherSettingChangeDP = {this, ACTION_PROCESS_PUSHER_SETTINGS, DISPLAY_NULL};
+    const callback_datapack_t shootPowerDP = {this, ACTION_CHANGE_MENU, DISPLAY_FLYWHEEL_POWER};
+    const callback_datapack_t shootRateDP = {this, ACTION_CHANGE_MENU, DISPLAY_PUSH_RATE};
+    const callback_datapack_t flywheelRPMDP = {this, ACTION_CHANGE_MENU, DISPLAY_FLYWHEEL_RPM};
+    const callback_datapack_t ammoCountDP = {this, ACTION_CHANGE_MENU, DISPLAY_AMMO_COUNT};
+    const callback_datapack_t fpsViewDP = {this, ACTION_CHANGE_MENU, DISPLAY_FPS};
+    const callback_datapack_t liveSettingsDP = {this, ACTION_PUSH_LIVE_SETTINGS, DISPLAY_NULL};
 
     //list items
     SelectOptionInt fireTypeListOptions[3] =
@@ -157,7 +169,7 @@ class menuHandler
     //sets a flag that corresponds to the menu that should be entered
     static void handleCallback(GEMCallbackData inData);
 
-
+    //copy the settings the menu holds to the master settings index
     static void pushLiveSettings(live_settings_t fromThis, live_settings_t* toThis);
 
     //puts the menu elements onscreen

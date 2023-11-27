@@ -1,7 +1,5 @@
 #pragma once
 
-
-
 #include <Arduino.h>
 #include "configuration.h"
 
@@ -29,6 +27,8 @@ class chronyHandler
         void isr_proc(void);
         void get_darts(unsigned long * deltaMicros, unsigned int * count);
         void reset_darts(void);
+    private:
+        unsigned long lastDeltaMicros = 0;
 
 
 };
