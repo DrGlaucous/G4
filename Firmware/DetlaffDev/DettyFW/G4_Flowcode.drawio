@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-23T03:09:02.955Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="w0bi1K5EnGOSSTHc9DY3" version="22.1.3" type="device" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-11-29T20:20:20.224Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="M9b2VHEZ3_UFefqYmcHf" version="22.1.3" type="device" pages="8">
   <diagram name="Main" id="S1vQzTJ0WQg2u6IEPUsZ">
-    <mxGraphModel dx="819" dy="1581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1103" dy="1747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -65,10 +65,10 @@
           <mxGeometry x="80" y="280" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ufhu8UNwI29cVYtVg4LL-1" value="Needed classes:&lt;br&gt;Flywheel&lt;br&gt;Pusher&lt;br&gt;Menu&lt;br&gt;Settings" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="730" y="10" width="160" height="120" as="geometry" />
+          <mxGeometry x="950" y="10" width="160" height="120" as="geometry" />
         </mxCell>
         <mxCell id="KM-XIaIKcO5ZtKOd6oEz-1" value="We will need to update this code to use multitasking instead of direct loops.&lt;br&gt;The ESP32 comes default with FreeRTOS to make this easy, but it comes at the cost of ATMega328P compatibility. (would still work with STM32s, but memory may be a problem)&lt;br&gt;&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="380" y="-5" width="250" height="150" as="geometry" />
+          <mxGeometry x="380" y="-5" width="570" height="150" as="geometry" />
         </mxCell>
         <mxCell id="KM-XIaIKcO5ZtKOd6oEz-4" value="Single loop layout" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="10" y="10" width="120" height="30" as="geometry" />
@@ -259,6 +259,9 @@
         </mxCell>
         <mxCell id="KM-XIaIKcO5ZtKOd6oEz-60" value="Process Connectome&lt;br&gt;(interval timer)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1560" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LydwTR3mGLWDLADSgF-S-2" value="Things that need fast timing:&lt;br&gt;&lt;ul&gt;&lt;li&gt;Chronograph (when on)&lt;/li&gt;&lt;li&gt;Pusher (when on)&lt;/li&gt;&lt;li&gt;Encoder (maybe? separating the screen from the rest may solve this)&lt;/li&gt;&lt;/ul&gt;&lt;br&gt;Also, the analogRead functions need an interrupt lockout so that we don&#39;t get a race condition if an ISR tries to use the analogRead while a scheduled task is doing the same&lt;br&gt;&lt;br&gt;The connectome and peripheral (flywheels, pusher, buttons, etc.) code will be processed in a single task. At the end of this task, the current state of everything will be written to a single-item queue for the display and other setting-adjusters to pick up and show to the user.&lt;br&gt;&amp;nbsp;&lt;br&gt;The display will push new user settings back to the connectome task in the same manner.&lt;br&gt;The display will load and save settings one-at-a-time, the queue will contain the address where the new settings will be saved." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="-230" width="440" height="290" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

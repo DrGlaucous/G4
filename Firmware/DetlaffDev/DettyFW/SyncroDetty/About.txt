@@ -1,0 +1,1 @@
+This version doesn't use freeRTOS tasks. Everything (including display) is run inline

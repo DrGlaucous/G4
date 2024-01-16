@@ -1,0 +1,2 @@
+Used to test dshot voltage-slope curves
+and other real-world relations for Detty
