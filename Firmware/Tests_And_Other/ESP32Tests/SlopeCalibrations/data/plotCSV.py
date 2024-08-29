@@ -34,11 +34,26 @@ files_new = [("speed_200.csv", "NSpeed: 200"),
          ]
 
 
-all_files = [files_old, files_new]
+#all_files = [files_old, files_new]
+all_files = [files_new,]
+
+
+slope_relations = [[200,
+                   300,
+                   400,
+                   500,
+                   600],
+                   [0.0,
+                   0.0,
+                   0.0,
+                   0.0,
+                   0.0],
+                   ]
+
 
 for i, fileset in enumerate(all_files):
     plt.figure(i)
-    for linn in fileset:
+    for j, linn in enumerate(fileset):
         with open(linn[0]) as FP:
             x = []
             y = []
@@ -56,13 +71,32 @@ for i, fileset in enumerate(all_files):
             print("Plot: {} had r^2 of {}".format(linn[1], rq))
 
             plt.plot(np.unique(x), np.poly1d(np.polyfit(x, y, 1))(np.unique(x)), label = ("{} * Volt + {}".format(linslope, lincept)))
-            #plt.plot(x, np.poly1d(np.polyfit(x,y,1)))
+            
+            #put slopes into slope relation list
+            slope_relations[1][j] = linslope
+
+
     plt.xlabel('Voltage')
     plt.ylabel('RPM')
     plt.legend()
     print("--------------------")
+
+
+
+plt.figure(all_files.__len__())
+plt.scatter(slope_relations[0], slope_relations[1], label = "Wow")
+
+fitvals = np.polyfit(slope_relations[0], slope_relations[1], 1)
+slar_x = np.array(slope_relations[0])
+slar_y = np.poly1d(fitvals)(slar_x)
+
+plt.plot(slar_x, slar_y, label = "wow3")
+
+plt.xlabel('Spin Speed')
+plt.ylabel('Slope of RPM change given Voltage')
+
+print(fitvals)
+
 plt.show()
-
-
 
 

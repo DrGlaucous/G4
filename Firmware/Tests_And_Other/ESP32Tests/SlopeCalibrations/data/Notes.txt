@@ -1,0 +1,48 @@
+Interpret data:
+
+The relation between voltage and RPM at each speed is linear
+
+(if speed is constant, RPM will increase proportionally with voltage)
+
+
+The rate of this proportional change changes with speed
+(the relationship between speed and RPM change is also proportional, is very close to 1:1 (1.0819) )
+
+For every change in DSHOT throttle 'count', the rate of change in RPM per volt also increases by X
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
