@@ -1,2 +1,0 @@
-This version of the firmware uses FreeRTOS tasks with the display in one
-and everything else in the other
