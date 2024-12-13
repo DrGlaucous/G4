@@ -277,7 +277,12 @@ void setup(){
 //     testFileIO(LittleFS, "/test.txt");
 //     deleteFile(LittleFS, "/test.txt");
 
-    readFile(LittleFS, "/test.txt");
+    listDir(LittleFS, "/", 5);
+
+
+
+    readFile(LittleFS, "/settings/settings.json");
+
 	
     Serial.println( "Test complete" );
 }
